@@ -100,7 +100,7 @@ class DexPageState extends State<DexPage> {
                         child: TextFormField(
                           controller: searchController,
                           decoration: InputDecoration(
-                            labelText: "Search",
+                            hintText: "Search",
                             enabledBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(10.0),
                             ),
