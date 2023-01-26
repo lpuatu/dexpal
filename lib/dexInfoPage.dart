@@ -8,12 +8,12 @@ class PokeInfo extends StatelessWidget {
 
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          automaticallyImplyLeading: true,
-          title: Text(detailPoke.dexName),
-          actions: [],
-          centerTitle: true,
-          elevation: 4,
+      appBar: AppBar(
+        automaticallyImplyLeading: true,
+        title: Text(detailPoke.dexName),
+        actions: [],
+        centerTitle: true,
+        elevation: 4,
         ),
         body: Column(children: <Widget>[
           Center(
