@@ -57,6 +57,9 @@ class DexPageState extends State<DexPage> {
   }
 
   void searchFunction(String searchTerm) {
+    setState(() {
+      isLoading = true; // your loader has started to load
+    });
     List<pokeMon> searchDexTable = [];
     if (searchTerm.isEmpty) {
       // if the search field is empty or only contains white-space, we'll display all users
@@ -71,6 +74,7 @@ class DexPageState extends State<DexPage> {
 
     // Refresh the UI
     setState(() {
+      isLoading = false;
       viewDexTable = searchDexTable;
     });
   }
@@ -111,10 +115,10 @@ class DexPageState extends State<DexPage> {
                   height: MediaQuery.of(context).size.height * 0.06,
                   child: TextFormField(
                     controller: searchController,
-                    onChanged: (value) => EasyDebounce.debounce(
+                    onChanged: (_) => EasyDebounce.debounce(
                         'searchController', Duration(milliseconds: 2000),
                         () async {
-                      searchFunction(value);
+                      searchFunction(searchController.text);
                     }),
                     decoration: InputDecoration(
                       hintText: "Search",
@@ -194,21 +198,23 @@ class DexPageState extends State<DexPage> {
                     ),
                   ],
                 ),
-          Container(
-            color: Colors.red,
-            height: MediaQuery.of(context).size.height * 0.05,
-            child: Row(
-              children: [
-                Spacer(),
-                IconButton(
-                  splashRadius: 10,
-                  color: Colors.white,
-                  icon: const Icon(Icons.filter_alt),
-                  onPressed: () {
-                    scaffoldKey.currentState!.openEndDrawer();
-                  },
-                )
-              ],
+          Align(
+            alignment: Alignment.bottomCenter,
+            child: Container(
+              color: Colors.red,
+              height: MediaQuery.of(context).size.height * 0.05,
+              child: Row(
+                children: [
+                  IconButton(
+                    splashRadius: 10,
+                    color: Colors.white,
+                    icon: const Icon(Icons.filter_alt),
+                    onPressed: () {
+                      scaffoldKey.currentState!.openEndDrawer();
+                    },
+                  )
+                ],
+              ),
             ),
           ),
         ],
