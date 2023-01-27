@@ -30,7 +30,6 @@ class DexPageState extends State<DexPage> {
   void initState() {
     super.initState();
     dexLoad();
-    viewDexTable = fullDexTable;
     // On page load action.
   }
 
@@ -50,7 +49,7 @@ class DexPageState extends State<DexPage> {
         i++) //Start at row 1 becuase row 0 is the column names{
       fullDexTable
           .add(pokeMon(dexCsv[i][0], dexCsv[i][1], dexCsv[i][2], dexCsv[i][3]));
-
+    viewDexTable = fullDexTable;
     setState(() {
       isLoading = false; // your loader will stop to finish after the data fetch
     });
@@ -71,7 +70,6 @@ class DexPageState extends State<DexPage> {
           .toList();
       // we use the toLowerCase() method to make it case-insensitive
     }
-
     // Refresh the UI
     setState(() {
       isLoading = false;
@@ -83,6 +81,7 @@ class DexPageState extends State<DexPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: scaffoldKey,
+      resizeToAvoidBottomInset: false,
       appBar: PreferredSize(
         preferredSize:
             Size.fromHeight(MediaQuery.of(context).size.height * 0.05),
@@ -116,14 +115,18 @@ class DexPageState extends State<DexPage> {
                   child: TextFormField(
                     controller: searchController,
                     onChanged: (_) => EasyDebounce.debounce(
-                        'searchController', Duration(milliseconds: 2000),
-                        () async {
+                        //Fix issue that causes the screen to stutter when pulling search results
+                        'searchController',
+                        Duration(milliseconds: 500), () async {
                       searchFunction(searchController.text);
                     }),
                     decoration: InputDecoration(
                       hintText: "Search",
                       suffixIcon: IconButton(
-                        onPressed: searchController.clear,
+                        onPressed: () {
+                          //Fix clear button to reset the dex view
+                          searchController.clear;
+                        },
                         icon: Icon(Icons.clear),
                       ),
                       enabledBorder: OutlineInputBorder(
