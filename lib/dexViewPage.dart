@@ -2,15 +2,37 @@ import 'package:DexPal/dexInfoPage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:csv/csv.dart';
-import 'package:easy_debounce/easy_debounce.dart';
 
 class pokeMon {
   String dexName;
   int dexNum;
   String teamSprite;
   String homeSprite;
-
-  pokeMon(this.dexName, this.dexNum, this.teamSprite, this.homeSprite);
+  int hp;
+  int atk;
+  int def;
+  int spa;
+  int spd;
+  int spe;
+  int total;
+  String type1;
+  String type2;
+  String species;
+  pokeMon(
+      this.dexName,
+      this.dexNum,
+      this.teamSprite,
+      this.homeSprite,
+      this.hp,
+      this.atk,
+      this.def,
+      this.spa,
+      this.spd,
+      this.spe,
+      this.total,
+      this.type1,
+      this.type2,
+      this.species);
 }
 
 class DexPage extends StatefulWidget {
@@ -28,8 +50,8 @@ class DexPageState extends State<DexPage> {
   var searchController = TextEditingController();
 
   void initState() {
-    super.initState();
     dexLoad();
+    super.initState();
     // On page load action.
   }
 
@@ -47,8 +69,21 @@ class DexPageState extends State<DexPage> {
     for (int i = 1;
         i < dexCsv.length;
         i++) //Start at row 1 becuase row 0 is the column names{
-      fullDexTable
-          .add(pokeMon(dexCsv[i][0], dexCsv[i][1], dexCsv[i][2], dexCsv[i][3]));
+      fullDexTable.add(pokeMon(
+          dexCsv[i][0],
+          dexCsv[i][1],
+          dexCsv[i][2],
+          dexCsv[i][3],
+          dexCsv[i][4],
+          dexCsv[i][5],
+          dexCsv[i][6],
+          dexCsv[i][7],
+          dexCsv[i][8],
+          dexCsv[i][9],
+          dexCsv[i][10],
+          dexCsv[i][11],
+          dexCsv[i][12],
+          dexCsv[i][13]));
     viewDexTable = fullDexTable;
     setState(() {
       isLoading = false; // your loader will stop to finish after the data fetch
@@ -183,11 +218,12 @@ class DexPageState extends State<DexPage> {
                                     Text(viewDexTable[index].dexName),
                                     Spacer(),
                                     Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                            0, 0, 10, 0),
-                                        child: Text(viewDexTable[index]
-                                            .dexNum
-                                            .toString()))
+                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                          0, 0, 10, 0),
+                                      child: Text(viewDexTable[index]
+                                          .dexNum
+                                          .toString()),
+                                    )
                                   ]),
                                 ),
                               ),
@@ -200,19 +236,7 @@ class DexPageState extends State<DexPage> {
             alignment: Alignment.bottomCenter,
             child: Container(
               color: Colors.red,
-              height: MediaQuery.of(context).size.height * 0.05,
-              child: Row(
-                children: [
-                  IconButton(
-                    splashRadius: 10,
-                    color: Colors.white,
-                    icon: const Icon(Icons.filter_alt),
-                    onPressed: () {
-                      scaffoldKey.currentState!.openEndDrawer();
-                    },
-                  )
-                ],
-              ),
+              height: MediaQuery.of(context).size.height * 0.09,
             ),
           ),
         ],

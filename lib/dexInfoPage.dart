@@ -7,26 +7,48 @@ class PokeInfo extends StatelessWidget {
   final pokeMon detailPoke;
 
   Widget build(BuildContext context) {
+    precacheImage(
+        AssetImage('pokeSprites/homeSprite/' + detailPoke.homeSprite), context);
     return Scaffold(
-        appBar: AppBar(
+      appBar: PreferredSize(
+        preferredSize:
+            Size.fromHeight(MediaQuery.of(context).size.height * 0.05),
+        // The title text which will be shown on the action bar
+        child: AppBar(
+          backgroundColor: Theme.of(context).primaryColor,
           automaticallyImplyLeading: true,
           title: Text(detailPoke.dexName),
           actions: [],
           centerTitle: true,
           elevation: 4,
         ),
-        body: Column(children: <Widget>[
-          Center(
-            child: Container(
-              width: MediaQuery.of(context).size.width * 0.3,
-              height: MediaQuery.of(context).size.height * 0.3,
-              child: Padding(
+      ),
+      body: Column(
+        children: <Widget>[
+          Row(
+            children: [
+              Padding(
                 padding: EdgeInsetsDirectional.all(10),
-                child: Image.asset(
-                    'pokeSprites/homeSprite/' + detailPoke.homeSprite),
+                child: Container(
+                  width: MediaQuery.of(context).size.width * 0.4,
+                  height: MediaQuery.of(context).size.height * 0.4,
+                  child: Image.asset(
+                      'pokeSprites/homeSprite/' + detailPoke.homeSprite),
+                ),
               ),
-            ),
+              Padding(
+                padding: EdgeInsetsDirectional.all(10),
+                child: Container(
+                  width: MediaQuery.of(context).size.width * 0.1,
+                  height: MediaQuery.of(context).size.height * 0.1,
+                  child: Image.asset(
+                      'pokeSprites/types/' + detailPoke.type1 + '.png'),
+                ),
+              ),
+            ],
           ),
-        ]));
+        ],
+      ),
+    );
   }
 }
