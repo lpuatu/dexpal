@@ -119,7 +119,7 @@ class DexPageState extends State<DexPage> {
                       hintText: "Search",
                       suffixIcon: IconButton(
                         onPressed: () {
-                          //Fix clear button to reset the dex view
+                          //Fix clear button to reset the dex view!!!!
                           searchController.clear;
                         },
                         icon: Icon(Icons.clear),
@@ -140,7 +140,7 @@ class DexPageState extends State<DexPage> {
                   children: <Widget>[
                     Container(
                       width: MediaQuery.of(context).size.width,
-                      height: MediaQuery.of(context).size.height * 0.8,
+                      height: MediaQuery.of(context).size.height * 0.85,
                       child: ListView.builder(
                           physics: const AlwaysScrollableScrollPhysics(),
                           padding: const EdgeInsets.all(3),
@@ -196,22 +196,23 @@ class DexPageState extends State<DexPage> {
                     ),
                   ],
                 ),
-          Align(
-            alignment: Alignment.bottomCenter,
-            child: Container(
-              color: Colors.red,
-              height: MediaQuery.of(context).size.height * 0.05,
-              child: Row(
-                children: [
-                  IconButton(
-                    splashRadius: 10,
-                    color: Colors.white,
-                    icon: const Icon(Icons.filter_alt),
-                    onPressed: () {
-                      scaffoldKey.currentState!.openEndDrawer();
-                    },
-                  )
-                ],
+          Expanded(
+            child: Align(
+              alignment: Alignment.bottomCenter,
+              child: Container(
+                color: Colors.red,
+                child: Row(
+                  children: [
+                    IconButton(
+                      splashRadius: 10,
+                      color: Colors.white,
+                      icon: const Icon(Icons.filter_alt),
+                      onPressed: () {
+                        scaffoldKey.currentState!.openEndDrawer();
+                      },
+                    )
+                  ],
+                ),
               ),
             ),
           ),
