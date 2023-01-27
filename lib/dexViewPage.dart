@@ -114,12 +114,7 @@ class DexPageState extends State<DexPage> {
                   height: MediaQuery.of(context).size.height * 0.06,
                   child: TextFormField(
                     controller: searchController,
-                    onChanged: (_) => EasyDebounce.debounce(
-                        //Fix issue that causes the screen to stutter when pulling search results
-                        'searchController',
-                        Duration(milliseconds: 500), () async {
-                      searchFunction(searchController.text);
-                    }),
+                    onChanged: (_) => searchFunction(searchController.text),
                     decoration: InputDecoration(
                       hintText: "Search",
                       suffixIcon: IconButton(
