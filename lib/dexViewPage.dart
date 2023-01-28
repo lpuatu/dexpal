@@ -47,6 +47,7 @@ class DexPageState extends State<DexPage> {
   bool isLoading = false; // This is initially false where no loading state
   List<pokeMon> fullDexTable = [];
   List<pokeMon> viewDexTable = [];
+  List<String> typeTable = [];
   var searchController = TextEditingController();
 
   void initState() {
@@ -66,9 +67,8 @@ class DexPageState extends State<DexPage> {
     });
     final myData = await rootBundle.loadString("assets/mariadex1.csv");
     List<List<dynamic>> dexCsv = CsvToListConverter().convert(myData);
-    for (int i = 1;
-        i < dexCsv.length;
-        i++) //Start at row 1 becuase row 0 is the column names{
+    for (int i = 1; i < dexCsv.length; i++) {
+      //Start at row 1 becuase row 0 is the column names
       fullDexTable.add(pokeMon(
           dexCsv[i][0],
           dexCsv[i][1],
@@ -84,7 +84,26 @@ class DexPageState extends State<DexPage> {
           dexCsv[i][11],
           dexCsv[i][12],
           dexCsv[i][13]));
+    }
     viewDexTable = fullDexTable;
+    typeTable.add('Grass');
+    typeTable.add('Bug');
+    typeTable.add('Dark');
+    typeTable.add('Dragon');
+    typeTable.add('Electric');
+    typeTable.add('Fairy');
+    typeTable.add('Fighting');
+    typeTable.add('Fire');
+    typeTable.add('Flying');
+    typeTable.add('Ghost');
+    typeTable.add('Ground');
+    typeTable.add('Ice');
+    typeTable.add('Normal');
+    typeTable.add('Poison');
+    typeTable.add('Psychic');
+    typeTable.add('Rock');
+    typeTable.add('Steel');
+    typeTable.add('Water');
     setState(() {
       isLoading = false; // your loader will stop to finish after the data fetch
     });
@@ -132,13 +151,16 @@ class DexPageState extends State<DexPage> {
         ),
       ),
       endDrawer: Drawer(
-        child: ListView(padding: const EdgeInsets.all(8), children: <Widget>[
-          Container(
-            height: 50,
-            color: Colors.amber[600],
-            child: const Center(child: Text('Entry A')),
-          ),
-        ]),
+        child: ListView.builder(
+          physics: const AlwaysScrollableScrollPhysics(),
+          padding: const EdgeInsets.all(3),
+          itemCount: typeTable.length,
+          itemBuilder: (BuildContext context, int index) {
+            return ListTile(
+              title: Text(typeTable[index]),
+            );
+          },
+        ),
       ),
       body: Column(
         children: [

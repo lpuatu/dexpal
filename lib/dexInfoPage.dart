@@ -1,14 +1,42 @@
 import 'package:DexPal/dexViewPage.dart';
 import 'package:flutter/material.dart';
 
-class PokeInfo extends StatelessWidget {
-  const PokeInfo({super.key, required this.detailPoke});
+class PokeInfo extends StatefulWidget {
+  const PokeInfo({Key? key, required this.detailPoke}) : super(key: key);
 
   final pokeMon detailPoke;
 
-  Widget build(BuildContext context) {
+  @override
+  State<PokeInfo> createState() => PokeInfoState();
+}
+
+class PokeInfoState extends State<PokeInfo> {
+  final scaffoldKey = GlobalKey<ScaffoldState>();
+
+  @override
+  void initState() {
+    super.initState();
+
+    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
     precacheImage(
-        AssetImage('pokeSprites/homeSprite/' + detailPoke.homeSprite), context);
+        AssetImage('pokeSprites/homeSprite/' + widget.detailPoke.homeSprite),
+        context);
+  }
+
+  @override
+  void dispose() {
+    super.dispose();
+  }
+
+  Widget build(BuildContext context) {
+    key:
+    scaffoldKey;
+
     return Scaffold(
       appBar: PreferredSize(
         preferredSize:
@@ -17,7 +45,7 @@ class PokeInfo extends StatelessWidget {
         child: AppBar(
           backgroundColor: Theme.of(context).primaryColor,
           automaticallyImplyLeading: true,
-          title: Text(detailPoke.dexName),
+          title: Text(widget.detailPoke.dexName),
           actions: [],
           centerTitle: true,
           elevation: 4,
@@ -27,24 +55,36 @@ class PokeInfo extends StatelessWidget {
         children: <Widget>[
           Row(
             children: [
-              Padding(
-                padding: EdgeInsetsDirectional.all(10),
-                child: Container(
-                  width: MediaQuery.of(context).size.width * 0.4,
-                  height: MediaQuery.of(context).size.height * 0.4,
-                  child: Image.asset(
-                      'pokeSprites/homeSprite/' + detailPoke.homeSprite),
-                ),
+              Container(
+                width: MediaQuery.of(context).size.width * 0.4,
+                height: MediaQuery.of(context).size.height * 0.4,
+                child: Image.asset(
+                    'pokeSprites/homeSprite/' + widget.detailPoke.homeSprite),
               ),
               Padding(
-                padding: EdgeInsetsDirectional.all(10),
-                child: Container(
-                  width: MediaQuery.of(context).size.width * 0.1,
-                  height: MediaQuery.of(context).size.height * 0.1,
-                  child: Image.asset(
-                      'pokeSprites/types/' + detailPoke.type1 + '.png'),
-                ),
-              ),
+                  padding: EdgeInsetsDirectional.all(10),
+                  child: Column(
+                    children: [
+                      Row(
+                        children: [
+                          Container(
+                            width: MediaQuery.of(context).size.width * 0.1,
+                            height: MediaQuery.of(context).size.height * 0.1,
+                            child: Image.asset('pokeSprites/types/' +
+                                widget.detailPoke.type1 +
+                                '.png'),
+                          ),
+                          Container(
+                            width: MediaQuery.of(context).size.width * 0.1,
+                            height: MediaQuery.of(context).size.height * 0.1,
+                            child: Image.asset('pokeSprites/types/' +
+                                widget.detailPoke.type2 +
+                                '.png'),
+                          ),
+                        ],
+                      )
+                    ],
+                  )),
             ],
           ),
         ],
