@@ -254,11 +254,12 @@ class DexPageState extends State<DexPage> {
                     ),
                   ],
                 ),
-          Align(
-            alignment: Alignment.bottomCenter,
-            child: Container(
-              color: Colors.red,
-              height: MediaQuery.of(context).size.height * 0.08,
+          Expanded(
+            child: Align(
+              alignment: Alignment.bottomCenter,
+              child: Container(
+                color: Colors.red,
+              ),
             ),
           ),
         ],
