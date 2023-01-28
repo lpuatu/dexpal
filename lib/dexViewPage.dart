@@ -258,7 +258,7 @@ class DexPageState extends State<DexPage> {
             alignment: Alignment.bottomCenter,
             child: Container(
               color: Colors.red,
-              height: MediaQuery.of(context).size.height * 0.09,
+              height: MediaQuery.of(context).size.height * 0.08,
             ),
           ),
         ],
