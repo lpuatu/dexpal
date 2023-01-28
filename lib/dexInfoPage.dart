@@ -12,11 +12,16 @@ class PokeInfo extends StatefulWidget {
 
 class PokeInfoState extends State<PokeInfo> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
+  bool hastype2 = true;
+
+  void checkType() async {
+    if (widget.detailPoke.type2 == 'xx') hastype2 = false;
+  }
 
   @override
   void initState() {
     super.initState();
-
+    checkType();
     WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
@@ -54,37 +59,44 @@ class PokeInfoState extends State<PokeInfo> {
       body: Column(
         children: <Widget>[
           Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
-                width: MediaQuery.of(context).size.width * 0.4,
-                height: MediaQuery.of(context).size.height * 0.4,
-                child: Image.asset(
-                    'pokeSprites/homeSprite/' + widget.detailPoke.homeSprite),
+                width: MediaQuery.of(context).size.width * 0.3,
+                height: MediaQuery.of(context).size.height * 0.3,
+                child: Align(
+                  alignment: AlignmentDirectional(0, 0),
+                  child: Image.asset(
+                    'pokeSprites/homeSprite/' + widget.detailPoke.homeSprite,
+                    fit: BoxFit.fill,
+                  ),
+                ),
               ),
-              Padding(
-                  padding: EdgeInsetsDirectional.all(10),
-                  child: Column(
-                    children: [
-                      Row(
-                        children: [
-                          Container(
-                            width: MediaQuery.of(context).size.width * 0.1,
-                            height: MediaQuery.of(context).size.height * 0.1,
-                            child: Image.asset('pokeSprites/types/' +
-                                widget.detailPoke.type1 +
-                                '.png'),
-                          ),
-                          Container(
-                            width: MediaQuery.of(context).size.width * 0.1,
-                            height: MediaQuery.of(context).size.height * 0.1,
-                            child: Image.asset('pokeSprites/types/' +
-                                widget.detailPoke.type2 +
-                                '.png'),
-                          ),
-                        ],
-                      )
-                    ],
-                  )),
+            ],
+          ),
+          Column(
+            children: [
+              Row(
+                children: [
+                  Container(
+                    width: MediaQuery.of(context).size.width * 0.1,
+                    height: MediaQuery.of(context).size.height * 0.1,
+                    child: Image.asset('pokeSprites/types/' +
+                        widget.detailPoke.type1 +
+                        '.png'),
+                  ),
+                  hastype2
+                      ? Container(
+                          width: MediaQuery.of(context).size.width * 0.1,
+                          height: MediaQuery.of(context).size.height * 0.1,
+                          child: Image.asset('pokeSprites/types/' +
+                              widget.detailPoke.type2 +
+                              '.png'),
+                        )
+                      : Container(),
+                ],
+              )
             ],
           ),
         ],
