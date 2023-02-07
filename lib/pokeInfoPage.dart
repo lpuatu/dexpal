@@ -41,11 +41,12 @@ class PokeInfoState extends State<PokeInfo> {
   Widget build(BuildContext context) {
     key:
     scaffoldKey;
+    didChangeDependencies();
 
     return Scaffold(
       appBar: PreferredSize(
         preferredSize:
-            Size.fromHeight(MediaQuery.of(context).size.height * 0.05),
+            Size.fromHeight(MediaQuery.of(context).size.height * 0.09),
         // The title text which will be shown on the action bar
         child: AppBar(
           backgroundColor: Theme.of(context).primaryColor,
