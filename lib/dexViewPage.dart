@@ -1,4 +1,4 @@
-import 'package:DexPal/dexInfoPage.dart';
+import 'package:DexPal/pokeInfoPage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:csv/csv.dart';
@@ -132,13 +132,23 @@ class DexPageState extends State<DexPage> {
   }
 
   @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    for (var asset in fullDexTable) {
+      precacheImage(
+          AssetImage('pokeSprites/teamSprite/' + asset.teamSprite), context);
+    }
+  }
+
+  @override
   Widget build(BuildContext context) {
+    didChangeDependencies();
     return Scaffold(
       key: scaffoldKey,
       resizeToAvoidBottomInset: false,
       appBar: PreferredSize(
         preferredSize:
-            Size.fromHeight(MediaQuery.of(context).size.height * 0.05),
+            Size.fromHeight(MediaQuery.of(context).size.height * 0.08),
         // The title text which will be shown on the action bar
         child: AppBar(
           backgroundColor: Theme.of(context).primaryColor,
@@ -150,16 +160,45 @@ class DexPageState extends State<DexPage> {
           elevation: 2,
         ),
       ),
+      /*bottomNavigationBar: SizedBox(
+        height: MediaQuery.of(context).size.height * 0.06,
+        child: BottomNavigationBar(
+          items: const <BottomNavigationBarItem>[
+            BottomNavigationBarItem(
+              icon: Icon(
+                Icons.list,
+                size: 10,
+              ),
+              label: 'PokeDex',
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.camera),
+              label: 'Camera',
+            ),
+          ],
+        ),
+      ),*/
       endDrawer: Drawer(
-        child: ListView.builder(
-          physics: const AlwaysScrollableScrollPhysics(),
-          padding: const EdgeInsets.all(3),
-          itemCount: typeTable.length,
-          itemBuilder: (BuildContext context, int index) {
-            return ListTile(
-              title: Text(typeTable[index]),
-            );
-          },
+        child: Container(
+          width: MediaQuery.of(context).size.width * 0.5,
+          height: MediaQuery.of(context).size.height * 0.5,
+          child: ListView.builder(
+            physics: const AlwaysScrollableScrollPhysics(),
+            padding: const EdgeInsets.all(3),
+            itemCount: typeTable.length,
+            itemBuilder: (BuildContext context, int index) {
+              return Padding(
+                padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
+                child: Align(
+                  alignment: Alignment.center,
+                  child: Container(
+                    child: Image.asset(
+                        'pokeSprites/types/' + typeTable[index] + '.png'),
+                  ),
+                ),
+              );
+            },
+          ),
         ),
       ),
       body: Column(
@@ -229,19 +268,17 @@ class DexPageState extends State<DexPage> {
                                   height:
                                       MediaQuery.of(context).size.height * 0.08,
                                   child: Row(children: [
-                                    Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                            10, 0, 0, 0),
-                                        child: Image.asset(
-                                            'pokeSprites/teamSprite/' +
-                                                viewDexTable[index]
-                                                    .teamSprite)),
+                                    Image.asset('pokeSprites/teamSprite/' +
+                                        viewDexTable[index].teamSprite),
                                     Spacer(),
-                                    Text(viewDexTable[index].dexName),
+                                    Align(
+                                      alignment: AlignmentDirectional(0, 0),
+                                      child: Text(viewDexTable[index].dexName),
+                                    ),
                                     Spacer(),
                                     Padding(
                                       padding: EdgeInsetsDirectional.fromSTEB(
-                                          0, 0, 10, 0),
+                                          10, 0, 10, 0),
                                       child: Text(viewDexTable[index]
                                           .dexNum
                                           .toString()),
@@ -254,13 +291,6 @@ class DexPageState extends State<DexPage> {
                     ),
                   ],
                 ),
-          Align(
-            alignment: Alignment.bottomCenter,
-            child: Container(
-              color: Colors.red,
-              height: MediaQuery.of(context).size.height * 0.09,
-            ),
-          ),
         ],
       ),
     );
