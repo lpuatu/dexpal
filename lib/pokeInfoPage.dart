@@ -79,6 +79,11 @@ class PokeInfoState extends State<PokeInfo> {
           Column(
             children: [
               Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [Text(widget.detailPoke.species)],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
                     width: MediaQuery.of(context).size.width * 0.1,

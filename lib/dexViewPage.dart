@@ -131,18 +131,20 @@ class DexPageState extends State<DexPage> {
     });
   }
 
-  @override
-  void didChangeDependencies() {
-    super.didChangeDependencies();
-    for (var asset in fullDexTable) {
-      precacheImage(
-          AssetImage('pokeSprites/teamSprite/' + asset.teamSprite), context);
-    }
+  void filterFunction(String type) {
+    setState(() {
+      isLoading = true; // your loader has started to load
+    });
+    List<pokeMon> filterDexTable = [];
+
+    setState(() {
+      isLoading = false;
+      viewDexTable = filterDexTable;
+    });
   }
 
   @override
   Widget build(BuildContext context) {
-    didChangeDependencies();
     return Scaffold(
       key: scaffoldKey,
       resizeToAvoidBottomInset: false,
@@ -179,26 +181,33 @@ class DexPageState extends State<DexPage> {
         ),
       ),*/
       endDrawer: Drawer(
-        child: Container(
-          width: MediaQuery.of(context).size.width * 0.5,
-          height: MediaQuery.of(context).size.height * 0.5,
-          child: ListView.builder(
-            physics: const AlwaysScrollableScrollPhysics(),
-            padding: const EdgeInsets.all(3),
-            itemCount: typeTable.length,
-            itemBuilder: (BuildContext context, int index) {
-              return Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
-                child: Align(
-                  alignment: Alignment.center,
-                  child: Container(
-                    child: Image.asset(
-                        'pokeSprites/types/' + typeTable[index] + '.png'),
-                  ),
-                ),
-              );
-            },
-          ),
+        backgroundColor: Colors.grey[200],
+        child: Column(
+          children: [
+            Container(
+              width: MediaQuery.of(context).size.width * 0.5,
+              height: MediaQuery.of(context).size.height * 0.3,
+              child: ListView.builder(
+                physics: const AlwaysScrollableScrollPhysics(),
+                padding: const EdgeInsets.all(3),
+                itemCount: typeTable.length,
+                itemBuilder: (BuildContext context, int index) {
+                  return Padding(
+                    padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
+                    child: Align(
+                      alignment: Alignment.center,
+                      child: Container(
+                          child: ElevatedButton(
+                        onPressed: () {},
+                        child: Image.asset(
+                            'pokeSprites/types/' + typeTable[index] + '.png'),
+                      )),
+                    ),
+                  );
+                },
+              ),
+            ),
+          ],
         ),
       ),
       body: Column(
@@ -262,20 +271,20 @@ class DexPageState extends State<DexPage> {
                                     border: Border.all(
                                       color: Colors.blue[50]!,
                                     ),
-                                    borderRadius:
-                                        BorderRadius.all(Radius.circular(20)),
+                                    borderRadius: const BorderRadius.all(
+                                        Radius.circular(20)),
                                   ),
                                   height:
                                       MediaQuery.of(context).size.height * 0.08,
                                   child: Row(children: [
                                     Image.asset('pokeSprites/teamSprite/' +
                                         viewDexTable[index].teamSprite),
-                                    Spacer(),
+                                    const Spacer(),
                                     Align(
                                       alignment: AlignmentDirectional(0, 0),
                                       child: Text(viewDexTable[index].dexName),
                                     ),
-                                    Spacer(),
+                                    const Spacer(),
                                     Padding(
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           10, 0, 10, 0),
