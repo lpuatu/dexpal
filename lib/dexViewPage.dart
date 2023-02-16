@@ -1,39 +1,8 @@
 import 'package:DexPal/pokeInfoPage.dart';
+import 'package:DexPal/pokeMon.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:csv/csv.dart';
-
-class pokeMon {
-  String dexName;
-  int dexNum;
-  String teamSprite;
-  String homeSprite;
-  int hp;
-  int atk;
-  int def;
-  int spa;
-  int spd;
-  int spe;
-  int total;
-  String type1;
-  String type2;
-  String species;
-  pokeMon(
-      this.dexName,
-      this.dexNum,
-      this.teamSprite,
-      this.homeSprite,
-      this.hp,
-      this.atk,
-      this.def,
-      this.spa,
-      this.spd,
-      this.spe,
-      this.total,
-      this.type1,
-      this.type2,
-      this.species);
-}
 
 class DexPage extends StatefulWidget {
   const DexPage({Key? key}) : super(key: key);
