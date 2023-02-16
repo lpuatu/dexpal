@@ -1,4 +1,6 @@
 import 'package:DexPal/dexViewPage.dart';
+import 'package:DexPal/pokeMon.dart';
+import 'package:DexPal/statChart.dart';
 import 'package:flutter/material.dart';
 
 class PokeInfo extends StatefulWidget {
@@ -60,17 +62,18 @@ class PokeInfoState extends State<PokeInfo> {
       body: Column(
         children: <Widget>[
           Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisSize: MainAxisSize.max,
+            crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
-                width: MediaQuery.of(context).size.width * 0.3,
+                width: MediaQuery.of(context).size.width * 0.6,
                 height: MediaQuery.of(context).size.height * 0.3,
                 child: Align(
                   alignment: AlignmentDirectional(0, 0),
                   child: Image.asset(
                     'pokeSprites/homeSprite/' + widget.detailPoke.homeSprite,
-                    fit: BoxFit.fill,
+                    fit: BoxFit.cover,
                   ),
                 ),
               ),
@@ -79,30 +82,53 @@ class PokeInfoState extends State<PokeInfo> {
           Column(
             children: [
               Row(
+                mainAxisSize: MainAxisSize.max,
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: [Text(widget.detailPoke.species)],
+                children: [
+                  Padding(
+                    padding: EdgeInsetsDirectional.fromSTEB(0, 5, 0, 5),
+                    child: Container(
+                      child: Text(
+                        widget.detailPoke.species,
+                        style: TextStyle(fontSize: 20),
+                      ),
+                    ),
+                  ),
+                ],
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
+                mainAxisSize: MainAxisSize.max,
                 children: [
                   Container(
-                    width: MediaQuery.of(context).size.width * 0.1,
-                    height: MediaQuery.of(context).size.height * 0.1,
-                    child: Image.asset('pokeSprites/types/' +
-                        widget.detailPoke.type1 +
-                        '.png'),
+                    width: MediaQuery.of(context).size.width * 0.15,
+                    height: MediaQuery.of(context).size.height * 0.03,
+                    child: Image.asset(
+                      'pokeSprites/types/' + widget.detailPoke.type1 + '.png',
+                      fit: BoxFit.contain,
+                    ),
                   ),
                   hastype2
                       ? Container(
-                          width: MediaQuery.of(context).size.width * 0.1,
-                          height: MediaQuery.of(context).size.height * 0.1,
-                          child: Image.asset('pokeSprites/types/' +
-                              widget.detailPoke.type2 +
-                              '.png'),
+                          width: MediaQuery.of(context).size.width * 0.15,
+                          height: MediaQuery.of(context).size.height * 0.03,
+                          child: Image.asset(
+                            'pokeSprites/types/' +
+                                widget.detailPoke.type2 +
+                                '.png',
+                            fit: BoxFit.contain,
+                          ),
                         )
                       : Container(),
                 ],
-              )
+              ),
+              Row(children: [
+                Container(
+                  width: MediaQuery.of(context).size.width * 0.6,
+                  height: MediaQuery.of(context).size.height * 0.3,
+                  child: statChart(pokeStat: widget.detailPoke),
+                ),
+              ])
             ],
           ),
         ],
