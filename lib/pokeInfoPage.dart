@@ -59,79 +59,85 @@ class PokeInfoState extends State<PokeInfo> {
           elevation: 4,
         ),
       ),
-      body: Column(
-        children: <Widget>[
-          Row(
-            mainAxisSize: MainAxisSize.max,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Container(
-                width: MediaQuery.of(context).size.width * 0.6,
-                height: MediaQuery.of(context).size.height * 0.3,
-                child: Align(
-                  alignment: AlignmentDirectional(0, 0),
-                  child: Image.asset(
-                    'pokeSprites/homeSprite/' + widget.detailPoke.homeSprite,
-                    fit: BoxFit.cover,
-                  ),
-                ),
-              ),
-            ],
-          ),
-          Column(
-            children: [
-              Row(
-                mainAxisSize: MainAxisSize.max,
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Padding(
-                    padding: EdgeInsetsDirectional.fromSTEB(0, 5, 0, 5),
-                    child: Container(
-                      child: Text(
-                        widget.detailPoke.species,
-                        style: TextStyle(fontSize: 20),
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                mainAxisSize: MainAxisSize.max,
-                children: [
-                  Container(
-                    width: MediaQuery.of(context).size.width * 0.15,
-                    height: MediaQuery.of(context).size.height * 0.03,
-                    child: Image.asset(
-                      'pokeSprites/types/' + widget.detailPoke.type1 + '.png',
-                      fit: BoxFit.contain,
-                    ),
-                  ),
-                  hastype2
-                      ? Container(
-                          width: MediaQuery.of(context).size.width * 0.15,
-                          height: MediaQuery.of(context).size.height * 0.03,
-                          child: Image.asset(
-                            'pokeSprites/types/' +
-                                widget.detailPoke.type2 +
-                                '.png',
-                            fit: BoxFit.contain,
-                          ),
-                        )
-                      : Container(),
-                ],
-              ),
-              Row(children: [
+      body: SingleChildScrollView(
+        child: Column(
+          children: <Widget>[
+            Row(
+              mainAxisSize: MainAxisSize.max,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
                 Container(
                   width: MediaQuery.of(context).size.width * 0.6,
                   height: MediaQuery.of(context).size.height * 0.3,
-                  child: statChart(pokeStat: widget.detailPoke),
+                  child: Align(
+                    alignment: AlignmentDirectional(0, 0),
+                    child: Image.asset(
+                      'pokeSprites/homeSprite/' + widget.detailPoke.homeSprite,
+                      fit: BoxFit.cover,
+                    ),
+                  ),
                 ),
-              ])
-            ],
-          ),
-        ],
+              ],
+            ),
+            Column(
+              children: [
+                Row(
+                  mainAxisSize: MainAxisSize.max,
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: EdgeInsetsDirectional.fromSTEB(0, 5, 0, 5),
+                      child: Container(
+                        child: Text(
+                          widget.detailPoke.species,
+                          style: TextStyle(fontSize: 20),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  mainAxisSize: MainAxisSize.max,
+                  children: [
+                    Container(
+                      width: MediaQuery.of(context).size.width * 0.15,
+                      height: MediaQuery.of(context).size.height * 0.03,
+                      child: Image.asset(
+                        'pokeSprites/types/' + widget.detailPoke.type1 + '.png',
+                        fit: BoxFit.contain,
+                      ),
+                    ),
+                    hastype2
+                        ? Container(
+                            width: MediaQuery.of(context).size.width * 0.15,
+                            height: MediaQuery.of(context).size.height * 0.03,
+                            child: Image.asset(
+                              'pokeSprites/types/' +
+                                  widget.detailPoke.type2 +
+                                  '.png',
+                              fit: BoxFit.contain,
+                            ),
+                          )
+                        : Container(),
+                  ],
+                ),
+                Row(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Container(
+                      width: MediaQuery.of(context).size.width * 0.5,
+                      height: MediaQuery.of(context).size.height * 0.2,
+                      child: statChart(pokeStat: widget.detailPoke),
+                    ),
+                  ],
+                )
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }
