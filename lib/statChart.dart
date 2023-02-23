@@ -55,13 +55,13 @@ class statChart extends StatelessWidget {
     ];
     return charts.BarChart(
       series,
-      animate: false,
+      animate: true,
       vertical: false,
       barRendererDecorator: new charts.BarLabelDecorator<String>(),
       primaryMeasureAxis: charts.NumericAxisSpec(
         renderSpec: charts.NoneRenderSpec(),
         tickProviderSpec:
-            charts.BasicNumericTickProviderSpec(desiredTickCount: 10),
+            charts.BasicNumericTickProviderSpec(desiredTickCount: 5),
         viewport: charts.NumericExtents(0, 200),
       ),
     );

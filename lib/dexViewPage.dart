@@ -54,6 +54,8 @@ class DexPageState extends State<DexPage> {
           dexCsv[i][12],
           dexCsv[i][13]));
     }
+    print('Done');
+
     viewDexTable = fullDexTable;
     typeTable.add('Grass');
     typeTable.add('Bug');
@@ -73,6 +75,7 @@ class DexPageState extends State<DexPage> {
     typeTable.add('Rock');
     typeTable.add('Steel');
     typeTable.add('Water');
+
     setState(() {
       isLoading = false; // your loader will stop to finish after the data fetch
     });

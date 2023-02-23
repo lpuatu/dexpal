@@ -127,11 +127,26 @@ class PokeInfoState extends State<PokeInfo> {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Container(
-                      width: MediaQuery.of(context).size.width * 0.5,
-                      height: MediaQuery.of(context).size.height * 0.2,
-                      child: statChart(pokeStat: widget.detailPoke),
+                    Padding(
+                      padding: EdgeInsetsDirectional.fromSTEB(10, 0, 10, 0),
+                      child: Container(
+                        width: MediaQuery.of(context).size.width * 0.4,
+                        height: MediaQuery.of(context).size.height * 0.25,
+                        child: statChart(pokeStat: widget.detailPoke),
+                      ),
                     ),
+                    Container(
+                      width: MediaQuery.of(context).size.width * 0.3,
+                      height: MediaQuery.of(context).size.height * 0.25,
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text('Abilities:'),
+                          // Text('1:' + widget.detailPoke.ability1),
+                        ],
+                      ),
+                    )
                   ],
                 )
               ],
