@@ -97,31 +97,35 @@ class PokeInfoState extends State<PokeInfo> {
                     ),
                   ],
                 ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  mainAxisSize: MainAxisSize.max,
-                  children: [
-                    Container(
-                      width: MediaQuery.of(context).size.width * 0.15,
-                      height: MediaQuery.of(context).size.height * 0.03,
-                      child: Image.asset(
-                        'pokeSprites/types/' + widget.detailPoke.type1 + '.png',
-                        fit: BoxFit.contain,
+                GestureDetector(
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisSize: MainAxisSize.max,
+                    children: [
+                      Container(
+                        width: MediaQuery.of(context).size.width * 0.15,
+                        height: MediaQuery.of(context).size.height * 0.03,
+                        child: Image.asset(
+                          'pokeSprites/types/' +
+                              widget.detailPoke.type1 +
+                              '.png',
+                          fit: BoxFit.contain,
+                        ),
                       ),
-                    ),
-                    hastype2
-                        ? Container(
-                            width: MediaQuery.of(context).size.width * 0.15,
-                            height: MediaQuery.of(context).size.height * 0.03,
-                            child: Image.asset(
-                              'pokeSprites/types/' +
-                                  widget.detailPoke.type2 +
-                                  '.png',
-                              fit: BoxFit.contain,
-                            ),
-                          )
-                        : Container(),
-                  ],
+                      hastype2
+                          ? Container(
+                              width: MediaQuery.of(context).size.width * 0.15,
+                              height: MediaQuery.of(context).size.height * 0.03,
+                              child: Image.asset(
+                                'pokeSprites/types/' +
+                                    widget.detailPoke.type2 +
+                                    '.png',
+                                fit: BoxFit.contain,
+                              ),
+                            )
+                          : Container(),
+                    ],
+                  ),
                 ),
                 Row(
                   crossAxisAlignment: CrossAxisAlignment.center,
