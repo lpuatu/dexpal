@@ -1,8 +1,7 @@
 import 'package:DexPal/pokeInfoPage.dart';
 import 'package:DexPal/pokeMon.dart';
+import 'package:DexPal/dataload.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
-import 'package:csv/csv.dart';
 
 class DexPage extends StatefulWidget {
   const DexPage({Key? key}) : super(key: key);
@@ -19,12 +18,14 @@ class DexPageState extends State<DexPage> {
   List<String> typeTable = [];
   var searchController = TextEditingController();
 
+  @override
   void initState() {
     dexLoad();
     super.initState();
     // On page load action.
   }
 
+  @override
   void dispose() {
     searchController.dispose();
     super.dispose();
@@ -34,47 +35,13 @@ class DexPageState extends State<DexPage> {
     setState(() {
       isLoading = true; // your loader has started to load
     });
-    final myData = await rootBundle.loadString("assets/mariadex1.csv");
-    List<List<dynamic>> dexCsv = CsvToListConverter().convert(myData);
-    for (int i = 1; i < dexCsv.length; i++) {
-      //Start at row 1 becuase row 0 is the column names
-      fullDexTable.add(pokeMon(
-          dexCsv[i][0],
-          dexCsv[i][1],
-          dexCsv[i][2],
-          dexCsv[i][3],
-          dexCsv[i][4],
-          dexCsv[i][5],
-          dexCsv[i][6],
-          dexCsv[i][7],
-          dexCsv[i][8],
-          dexCsv[i][9],
-          dexCsv[i][10],
-          dexCsv[i][11],
-          dexCsv[i][12],
-          dexCsv[i][13]));
-    }
+
+    fullDexTable = await dexTableLoad();
     viewDexTable = fullDexTable;
-    typeTable.add('Grass');
-    typeTable.add('Bug');
-    typeTable.add('Dark');
-    typeTable.add('Dragon');
-    typeTable.add('Electric');
-    typeTable.add('Fairy');
-    typeTable.add('Fighting');
-    typeTable.add('Fire');
-    typeTable.add('Flying');
-    typeTable.add('Ghost');
-    typeTable.add('Ground');
-    typeTable.add('Ice');
-    typeTable.add('Normal');
-    typeTable.add('Poison');
-    typeTable.add('Psychic');
-    typeTable.add('Rock');
-    typeTable.add('Steel');
-    typeTable.add('Water');
+    typeTable = typeTableLoad();
+
     setState(() {
-      isLoading = false; // your loader will stop to finish after the data fetch
+      isLoading = false;
     });
   }
 
@@ -124,7 +91,7 @@ class DexPageState extends State<DexPage> {
         child: AppBar(
           backgroundColor: Theme.of(context).primaryColor,
           automaticallyImplyLeading: false,
-          title: Text(
+          title: const Text(
             'Pokédex',
           ),
           centerTitle: true,
@@ -162,7 +129,7 @@ class DexPageState extends State<DexPage> {
                 itemCount: typeTable.length,
                 itemBuilder: (BuildContext context, int index) {
                   return Padding(
-                    padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
+                    padding: const EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
                     child: Align(
                       alignment: Alignment.center,
                       child: Container(
@@ -192,11 +159,10 @@ class DexPageState extends State<DexPage> {
                     decoration: InputDecoration(
                       hintText: "Search",
                       suffixIcon: IconButton(
-                        onPressed: () {
-                          //Fix clear button to reset the dex view
-                          searchController.clear;
-                        },
-                        icon: Icon(Icons.clear),
+                        onPressed:
+                            //Fix clear button to reset the dex view
+                            searchController.clear,
+                        icon: const Icon(Icons.clear),
                       ),
                       enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(10.0),
@@ -208,7 +174,7 @@ class DexPageState extends State<DexPage> {
             ],
           ),
           isLoading
-              ? Center(child: CircularProgressIndicator())
+              ? const Center(child: CircularProgressIndicator())
               : Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
