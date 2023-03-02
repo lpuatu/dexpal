@@ -5,7 +5,7 @@ import 'package:DexPal/pokeMon.dart';
 Future<List<pokeMon>> dexTableLoad() async {
   List<pokeMon> loadTable = [];
 
-  final myData = await rootBundle.loadString("assets/mariadex1.csv");
+  final myData = await rootBundle.loadString("assets/mariadex.csv");
   List<List<dynamic>> dexCsv = const CsvToListConverter().convert(myData);
   for (int i = 1; i < dexCsv.length; i++) {
     //Start at row 1 becuase row 0 is the column names
@@ -23,7 +23,13 @@ Future<List<pokeMon>> dexTableLoad() async {
         dexCsv[i][10],
         dexCsv[i][11],
         dexCsv[i][12],
-        dexCsv[i][13]));
+        dexCsv[i][13],
+        dexCsv[i][14],
+        dexCsv[i][15],
+        dexCsv[i][16],
+        dexCsv[i][17],
+        dexCsv[i][18]));
+    print(dexCsv[i][0].toString());
   }
   return loadTable;
 }

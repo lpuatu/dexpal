@@ -47,7 +47,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/missingno.png
-    - assets/mariadex1.csv
+    - assets/mariadex.csv
     - pokeSprites/teamSprite/
     - pokeSprites/types/
     - pokeSprites/homeSprite/
