@@ -147,7 +147,7 @@ class PokeInfoState extends State<PokeInfo> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text('Abilities:'),
-                          Text('1: ' + widget.detailPoke.ability1),
+                          //Text('1: ' + widget.detailPoke.ability1),
                         ],
                       ),
                     )
