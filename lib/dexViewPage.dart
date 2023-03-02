@@ -72,6 +72,8 @@ class DexPageState extends State<DexPage> {
       isLoading = true; // your loader has started to load
     });
     List<pokeMon> filterDexTable = [];
+    filterDexTable =
+        viewDexTable.where((i) => i.type1 == type || i.type2 == type).toList();
 
     setState(() {
       isLoading = false;
@@ -81,6 +83,7 @@ class DexPageState extends State<DexPage> {
 
   @override
   Widget build(BuildContext context) {
+    bool typeCheck = false;
     return Scaffold(
       key: scaffoldKey,
       resizeToAvoidBottomInset: false,
@@ -129,15 +132,20 @@ class DexPageState extends State<DexPage> {
                 itemCount: typeTable.length,
                 itemBuilder: (BuildContext context, int index) {
                   return Padding(
-                    padding: const EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
+                    padding: const EdgeInsetsDirectional.fromSTEB(0, 0, 0, 0),
                     child: Align(
                       alignment: Alignment.center,
-                      child: Container(
-                          child: ElevatedButton(
-                        onPressed: () {},
-                        child: Image.asset(
+                      child: CheckboxListTile(
+                        value: typeCheck,
+                        onChanged: (bool? value) {
+                          filterFunction(typeTable[index]);
+                          setState(() {
+                            typeCheck = !typeCheck;
+                          });
+                        },
+                        secondary: Image.asset(
                             'pokeSprites/types/' + typeTable[index] + '.png'),
-                      )),
+                      ),
                     ),
                   );
                 },
