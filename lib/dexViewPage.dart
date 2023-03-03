@@ -49,10 +49,12 @@ class DexPageState extends State<DexPage> {
     setState(() {
       isLoading = true; // your loader has started to load
     });
+
     List<pokeMon> searchDexTable = [];
+
     if (searchTerm.isEmpty) {
-      // if the search field is empty or only contains white-space, we'll display all users
       searchDexTable = fullDexTable;
+      searchController.clear;
     } else {
       searchDexTable = fullDexTable
           .where((poke) =>
@@ -136,7 +138,7 @@ class DexPageState extends State<DexPage> {
                     child: Align(
                       alignment: Alignment.center,
                       child: CheckboxListTile(
-                        value: typeCheck,
+                        value: typeCheck, //Fix checkbox not checking right
                         onChanged: (bool? value) {
                           filterFunction(typeTable[index]);
                           setState(() {
@@ -167,9 +169,10 @@ class DexPageState extends State<DexPage> {
                     decoration: InputDecoration(
                       hintText: "Search",
                       suffixIcon: IconButton(
-                        onPressed:
-                            //Fix clear button to reset the dex view
-                            searchController.clear,
+                        onPressed: () {
+                          //Fix clear button to reset the dex view
+                          searchFunction('');
+                        },
                         icon: const Icon(Icons.clear),
                       ),
                       enabledBorder: OutlineInputBorder(
@@ -220,8 +223,14 @@ class DexPageState extends State<DexPage> {
                                   height:
                                       MediaQuery.of(context).size.height * 0.08,
                                   child: Row(children: [
-                                    Image.asset('pokeSprites/teamSprite/' +
-                                        viewDexTable[index].teamSprite),
+                                    Image.asset(
+                                      'pokeSprites/teamSprite/' +
+                                          viewDexTable[index].teamSprite,
+                                      height: 50,
+                                      width: 50,
+                                      cacheHeight: 50,
+                                      cacheWidth: 50,
+                                    ),
                                     const Spacer(),
                                     Align(
                                       alignment: AlignmentDirectional(0, 0),

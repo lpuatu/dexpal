@@ -25,8 +25,14 @@ Future<List<pokeMon>> dexTableLoad() async {
         dexCsv[i][12],
         dexCsv[i][13],
         dexCsv[i][14],
-        dexCsv[i][15]));
-    print(dexCsv[i][0].toString());
+        dexCsv[i][15],
+        dexCsv[i][16],
+        dexCsv[i][17],
+        dexCsv[i][18],
+        dexCsv[i][19],
+        dexCsv[i][20],
+        dexCsv[i][21],
+        dexCsv[i][22]));
   }
   return loadTable;
 }
