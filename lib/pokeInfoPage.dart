@@ -15,35 +15,31 @@ class PokeInfo extends StatefulWidget {
 class PokeInfoState extends State<PokeInfo> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
   bool hastype2 = true;
+  bool hasAB2 = true;
+  bool hasHidden = true;
 
   void checkType() async {
-    if (widget.detailPoke.type2 == 'xx') hastype2 = false;
+    if (widget.detailPoke.type2 == 'Null') hastype2 = false;
+    if (widget.detailPoke.ability2 == 'Null') hasAB2 = false;
+    if (widget.detailPoke.hability == 'Null') hasHidden = false;
   }
 
   @override
   void initState() {
-    super.initState();
     checkType();
-    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
+    super.initState();
   }
 
-  @override
   void didChangeDependencies() {
-    super.didChangeDependencies();
     precacheImage(
         AssetImage('pokeSprites/homeSprite/' + widget.detailPoke.homeSprite),
         context);
-  }
-
-  @override
-  void dispose() {
-    super.dispose();
+    super.didChangeDependencies();
   }
 
   Widget build(BuildContext context) {
     key:
     scaffoldKey;
-    didChangeDependencies();
 
     return Scaffold(
       appBar: PreferredSize(
@@ -140,14 +136,20 @@ class PokeInfoState extends State<PokeInfo> {
                       ),
                     ),
                     Container(
-                      width: MediaQuery.of(context).size.width * 0.3,
+                      width: MediaQuery.of(context).size.width * 0.5,
                       height: MediaQuery.of(context).size.height * 0.25,
                       child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text('Abilities:'),
-                          //Text('1: ' + widget.detailPoke.ability1),
+                          Text('1: ' + widget.detailPoke.ability1),
+                          hasAB2
+                              ? Text('2: ' + widget.detailPoke.ability2)
+                              : Container(),
+                          hasHidden
+                              ? Text('Hidden: ' + widget.detailPoke.hability)
+                              : Container(),
                         ],
                       ),
                     )

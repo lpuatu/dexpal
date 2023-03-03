@@ -15,6 +15,13 @@ class pokeMon {
   String species;
   var height;
   var weight;
+  String ability1;
+  String ability2;
+  String hability;
+  var evyield;
+  String egg1;
+  String egg2;
+  var gender;
   pokeMon(
       this.dexName,
       this.dexNum,
@@ -31,5 +38,12 @@ class pokeMon {
       this.type2,
       this.species,
       this.height,
-      this.weight);
+      this.weight,
+      this.ability1,
+      this.ability2,
+      this.hability,
+      this.evyield,
+      this.egg1,
+      this.egg2,
+      this.gender);
 }
