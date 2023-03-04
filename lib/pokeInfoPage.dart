@@ -1,6 +1,6 @@
-import 'package:DexPal/dexViewPage.dart';
 import 'package:DexPal/pokeMon.dart';
 import 'package:DexPal/statChart.dart';
+import 'package:DexPal/pokeWeakness.dart';
 import 'package:flutter/material.dart';
 
 class PokeInfo extends StatefulWidget {
@@ -30,6 +30,7 @@ class PokeInfoState extends State<PokeInfo> {
     super.initState();
   }
 
+  @override
   void didChangeDependencies() {
     precacheImage(
         AssetImage('pokeSprites/homeSprite/' + widget.detailPoke.homeSprite),
@@ -49,7 +50,10 @@ class PokeInfoState extends State<PokeInfo> {
         child: AppBar(
           backgroundColor: Theme.of(context).primaryColor,
           automaticallyImplyLeading: true,
-          title: Text(widget.detailPoke.dexName),
+          title: Text('#' +
+              widget.detailPoke.dexNum.toString() +
+              ' ' +
+              widget.detailPoke.dexName),
           actions: [],
           centerTitle: true,
           elevation: 4,
@@ -83,17 +87,26 @@ class PokeInfoState extends State<PokeInfo> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Padding(
-                      padding: EdgeInsetsDirectional.fromSTEB(0, 5, 0, 5),
+                      padding: const EdgeInsetsDirectional.fromSTEB(0, 5, 0, 5),
                       child: Container(
                         child: Text(
                           widget.detailPoke.species,
-                          style: TextStyle(fontSize: 20),
+                          style: const TextStyle(fontSize: 20),
                         ),
                       ),
                     ),
                   ],
                 ),
                 GestureDetector(
+                  onTap: () async {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (BuildContext context) =>
+                            PokeWeak(detailPoke: widget.detailPoke),
+                      ),
+                    );
+                  },
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     mainAxisSize: MainAxisSize.max,
@@ -128,7 +141,8 @@ class PokeInfoState extends State<PokeInfo> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Padding(
-                      padding: EdgeInsetsDirectional.fromSTEB(10, 0, 10, 0),
+                      padding:
+                          const EdgeInsetsDirectional.fromSTEB(10, 0, 10, 0),
                       child: Container(
                         width: MediaQuery.of(context).size.width * 0.4,
                         height: MediaQuery.of(context).size.height * 0.25,
@@ -142,7 +156,13 @@ class PokeInfoState extends State<PokeInfo> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Text('Abilities:'),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Text('Abilities:'),
+                            ],
+                          ),
+                          const Text(' '),
                           Text('1: ' + widget.detailPoke.ability1),
                           hasAB2
                               ? Text('2: ' + widget.detailPoke.ability2)
