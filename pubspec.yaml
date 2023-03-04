@@ -48,6 +48,7 @@ flutter:
   assets:
     - assets/missingno.png
     - assets/mariadex.csv
+    - assets/typeWeak.csv
     - pokeSprites/teamSprite/
     - pokeSprites/types/
     - pokeSprites/homeSprite/
