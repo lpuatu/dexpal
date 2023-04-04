@@ -64,7 +64,7 @@ class DexPageState extends State<DexPage> {
       searchDexTable = fullDexTable;
       searchController.clear;
     } else {
-      searchDexTable = fullDexTable
+      searchDexTable = viewDexTable
           .where((poke) =>
               poke.dexName.toLowerCase().contains(searchTerm.toLowerCase()))
           .toList();
@@ -80,6 +80,7 @@ class DexPageState extends State<DexPage> {
   void filterFunction(String type) {
     setState(() {
       isLoading = true; // your loader has started to load
+      searchController.clear();
     });
 
     if (filters.contains(type)) {
@@ -90,13 +91,22 @@ class DexPageState extends State<DexPage> {
 
     List<pokeMon> filterDexTable = [];
 
-    fullDexTable.forEach((item) {
-      filters.forEach((filter) {
-        if ((item.type1 == filter || item.type2 == filter)) {
-          filterDexTable.add(item);
-        }
-      });
-    }); //Fix this, filter works by list of types
+    if (filters.isNotEmpty) {
+      fullDexTable.forEach(
+        (item) {
+          if (filters.length == 1) {
+            if ((item.type1 == filters[0] || item.type2 == filters[0])) {
+              filterDexTable.add(item);
+            }
+          } else {
+            if ((item.type1 == filters[0] && item.type2 == filters[1]) ||
+                (item.type1 == filters[1] && item.type2 == filters[0])) {
+              filterDexTable.add(item);
+            }
+          }
+        },
+      );
+    }
 
     setState(() {
       isLoading = false;
