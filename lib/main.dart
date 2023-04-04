@@ -9,8 +9,8 @@ void main() {
         primarySwatch: Colors.red,
         primaryColor: Colors.red,
       ),
-      home: DexPage(),
-      routes: {},
+      home: const DexPage(),
+      routes: const {},
     ),
   );
 }
