@@ -171,40 +171,52 @@ class DexPageState extends State<DexPage> {
       endDrawer: Drawer(
         backgroundColor: Colors.grey[200],
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             SizedBox(
-              width: MediaQuery.of(context).size.width * 0.5,
+              width: MediaQuery.of(context).size.width * 0.6,
               height: MediaQuery.of(context).size.height * 0.3,
-              child: GridView.builder(
-                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 3,
-                ), // 3 buttons in a row
-                itemCount: typeTable.length,
-                itemBuilder: (BuildContext context, int index) {
-                  return GestureDetector(
-                    onTap: () {
-                      filterFunction(typeTable[index]);
-                      setState(() {
-                        isPressed[index] = !isPressed[index];
-                      });
-                    },
-                    child: Stack(
-                      children: [
-                        Image.asset(
-                          'pokeSprites/types/' + typeTable[index] + '.png',
+              child: DecoratedBox(
+                decoration: BoxDecoration(
+                  border: Border.all(
+                    color: Colors.grey,
+                    width: 1,
+                  ),
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: GridView.builder(
+                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 3,
+                    childAspectRatio: (1 / .4),
+                  ), // 3 buttons in a row
+                  itemCount: typeTable.length,
+                  itemBuilder: (BuildContext context, int index) {
+                    return Center(
+                      child: GestureDetector(
+                        onTap: () {
+                          filterFunction(typeTable[index]);
+                          setState(() {
+                            isPressed[index] = !isPressed[index];
+                          });
+                        },
+                        child: Stack(
+                          children: [
+                            Image.asset(
+                              'pokeSprites/types/' + typeTable[index] + '.png',
+                            ),
+                            if (isPressed[index])
+                              Container(
+                                color: Colors.grey.withOpacity(0.4),
+                                width: 50,
+                                height: 20,
+                              )
+                          ],
                         ),
-                        if (isPressed[index])
-                          Container(
-                            color: Colors.grey.withOpacity(0.3),
-                            width: double.infinity,
-                            height: double.infinity,
-                          )
-                      ],
-                    ),
-                  );
-                },
-              ),
-              /*child: ListView.builder(
+                      ),
+                    );
+                  },
+                ),
+                /*child: ListView.builder(
                 physics: const AlwaysScrollableScrollPhysics(),
                 padding: const EdgeInsets.all(3),
                 itemCount: typeTable.length,
@@ -228,6 +240,7 @@ class DexPageState extends State<DexPage> {
                   );
                 },
               ),*/
+              ),
             ),
           ],
         ),
