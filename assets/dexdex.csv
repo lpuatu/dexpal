@@ -1,0 +1,1063 @@
+Pokemon,Nat,teamSprite,homeSprite,HP,Atk,Def,SpA,SpD,Spe,Total,Type_I,Type_II,Species,Height,Weight,Ability_I,Ability_Ii,Hidden_Ability,EV_Yield,Egg_Group_I,Egg_Group_Ii,Gender
+Bulbasaur,1,bulbasaur.png,1.png,45,49,49,65,65,45,318,Grass,Poison,Seed Pokemon,0.7,6.9,Overgrow,null,Chlorophyll,1 SpA,Monster,Plant,87.5
+Ivysaur,2,ivysaur.png,2.png,60,62,63,80,80,60,405,Grass,Poison,Seed Pokemon,1,13,Overgrow,null,Chlorophyll,1 SpA/1 SpD,Plant,Monster,87.5
+Venusaur,3,venusaur.png,3.png,80,82,83,100,100,80,525,Grass,Poison,Seed Pokemon,2,100,Overgrow,null,Chlorophyll,2 SpA/1 SpD,Monster,Plant,87.5
+Charmander,4,charmander.png,4.png,39,52,43,60,50,65,309,Fire,null,Lizard Pokemon,0.6,8.5,Blaze,null,Solar Power,1 Spe,Monster,Dragon,87.5
+Charmeleon,5,charmeleon.png,5.png,58,64,58,80,65,80,405,Fire,null,Flame Pokemon,1.1,19,Blaze,null,Solar Power,1 SpA/1 Spe,Monster,Dragon,87.5
+Charizard,6,charizard.png,6.png,78,84,78,109,85,100,534,Fire,Flying,Flame Pokemon,1.7,90.5,Blaze,null,Solar Power,3 SpA,Monster,Dragon,87.5
+Squirtle,7,squirtle.png,7.png,44,48,65,50,64,43,314,Water,null,Tiny Turtle Pokemon,0.5,9,Torrent,null,Rain Dish,1 Def,Monster,Water1,87.5
+Wartortle,8,wartortle.png,8.png,59,63,80,65,80,58,405,Water,null,Turtle Pokemon,1,22.5,Torrent,null,Rain Dish,1 Def/1 SpD,Monster,Water1,87.5
+Blastoise,9,blastoise.png,9.png,79,83,100,85,105,78,530,Water,null,Shellfish Pokemon,1.6,85.5,Torrent,null,Rain Dish,3 SpD,Monster,Water1,87.5
+Caterpie,10,caterpie.png,10.png,45,30,35,20,20,45,195,Bug,null,Worm Pokemon,0.3,2.9,Shield Dust,null,Run Away,1 HP,Bug,null,50
+Metapod,11,metapod.png,11.png,50,20,55,25,25,30,205,Bug,null,Cocoon Pokemon,0.7,9.9,Shed Skin,null,null,2 Def,Bug,null,50
+Butterfree,12,butterfree.png,12.png,60,45,50,90,80,70,395,Bug,Flying,Butterfly Pokemon,1.1,32,Compound Eyes,null,Tinted Lens,2 SpA/1 SpD,Bug,null,50
+Weedle,13,weedle.png,13.png,40,35,30,20,20,50,195,Bug,Poison,Hairy Bug Pokemon,0.3,3.2,Shield Dust,null,Run Away,1 Spe,Bug,null,50
+Kakuna,14,kakuna.png,14.png,45,25,50,25,25,35,205,Bug,Poison,Cocoon Pokemon,0.6,10,Shed Skin,null,null,2 Def,Bug,null,50
+Beedrill,15,beedrill.png,15.png,65,90,40,45,80,75,395,Bug,Poison,Poison Bee Pokemon,1,29.5,Swarm,null,Sniper,2 Atk/1 SpD,Bug,null,50
+Pidgey,16,pidgey.png,16.png,40,45,40,35,35,56,251,Normal,Flying,Tiny Bird Pokemon,0.3,1.8,Keen Eye,Tangled Feet,Big Pecks,1 Spe,Flying,null,50
+Pidgeotto,17,pidgeotto.png,17.png,63,60,55,50,50,71,349,Normal,Flying,Bird Pokemon,1.1,30,Keen Eye,Tangled Feet,Big Pecks,2 Spe,Flying,null,50
+Pidgeot,18,pidgeot.png,18.png,83,80,75,70,70,101,479,Normal,Flying,Bird Pokemon,1.5,39.5,Keen Eye,Tangled Feet,Big Pecks,3 Spe,Flying,null,50
+Rattata,19,rattata.png,19.png,30,56,35,25,35,72,253,Normal,null,Mouse Pokemon,0.3,3.5,Run Away,Guts,Hustle,1 Spe,Ground,null,50
+Rattata-alola,19,rattata-alola.png,19-alola.png,30,56,35,25,35,72,253,Dark,Normal,Mouse Pokemon,0.3,3.8,Run Away,Guts,Hustle,1 Spe,Ground,null,50
+Raticate,20,raticate.png,20.png,55,81,60,50,70,97,413,Normal,null,Mouse Pokemon,0.7,18.5,Run Away,Guts,Hustle,2 Spe,Ground,null,50
+Raticate-alola,20,raticate-alola.png,20-alola.png,75,71,70,40,80,77,413,Dark,Normal,Mouse Pokemon,0.7,25.5,Run Away,Guts,Hustle,2 Spe,Ground,null,50
+Spearow,21,spearow.png,21.png,40,60,30,31,31,70,262,Normal,Flying,Tiny Bird Pokemon,0.3,2,Keen Eye,null,Sniper,1 Spe,Flying,null,50
+Fearow,22,fearow.png,22.png,65,90,65,61,61,100,442,Normal,Flying,Beak Pokemon,1.2,38,Keen Eye,null,Sniper,2 Spe,Flying,null,50
+Ekans,23,ekans.png,23.png,35,60,44,40,54,55,288,Poison,null,Snake Pokemon,2,6.9,Intimidate,Shed Skin,Unnerve,1 Atk,Ground,Dragon,50
+Arbok,24,arbok.png,24.png,60,95,69,65,79,80,448,Poison,null,Cobra Pokemon,3.5,65,Intimidate,Shed Skin,Unnerve,2 Atk,Ground,Dragon,50
+Pikachu,25,pikachu.png,25.png,35,55,40,50,50,90,320,Electric,null,Mouse Pokemon,0.4,6,Static,null,Lightning Rod,2 Spe,Ground,Fairy,50
+Raichu,26,raichu.png,26.png,60,90,55,90,80,110,485,Electric,null,Mouse Pokemon,0.8,30,Static,null,Lightning Rod,3 Spe,Ground,Fairy,50
+Raichu-alola,26,raichu-alola.png,26-alola.png,60,85,50,95,85,110,485,Electric,Psychic,Mouse Pokemon,0.7,21,Static,null,Lightning Rod,3 Spe,Ground,Fairy,50
+Sandshrew,27,sandshrew.png,27.png,50,75,85,20,30,40,300,Ground,null,Mouse Pokemon,0.6,12,Sand Veil,null,Sand Rush,1 Def,Ground,null,50
+Sandshrew-alola,27,sandshrew-alola.png,27-alola.png,50,75,90,10,35,40,300,Ice,Steel,Mouse Pokemon,0.7,40,Sand Veil,null,Sand Rush,1 Def,Ground,null,50
+Sandslash,28,sandslash.png,28.png,75,100,110,45,55,65,450,Ground,null,Mouse Pokemon,1,29.5,Sand Veil,null,Sand Rush,2 Def,Ground,null,50
+Sandslash-alola,28,sandslash-alola.png,28-alola.png,75,100,120,25,65,65,450,Ice,Steel,Mouse Pokemon,1.2,55,Sand Veil,null,Sand Rush,2 Def,Ground,null,50
+Nidoran ♀,29,nidoran-f.png,29.png,55,47,52,40,40,41,275,Poison,null,Poison Pin Pokemon,0.4,7,Poison Point,Rivalry,Hustle,1 HP,Monster,Ground,0
+Nidorina,30,nidorina.png,30.png,70,62,67,55,55,56,365,Poison,null,Poison Pin Pokemon,0.8,20,Poison Point,Rivalry,Hustle,2 HP,No-Eggs,null,0
+Nidoqueen,31,nidoqueen.png,31.png,90,92,87,75,85,76,505,Poison,Ground,Drill Pokemon,1.3,60,Poison Point,Rivalry,Sheer Force,3 HP,No-Eggs,null,0
+Nidoran♂,32,nidoran-m.png,32.png,46,57,40,40,40,50,273,Poison,null,Poison Pin Pokemon,0.5,9,Poison Point,Rivalry,Hustle,1 Atk,Monster,Ground,100
+Nidorino,33,nidorino.png,33.png,61,72,57,55,55,65,365,Poison,null,Poison Pin Pokemon,0.9,19.5,Poison Point,Rivalry,Hustle,2 Atk,Monster,Ground,100
+Nidoking,34,nidoking.png,34.png,81,102,77,85,75,85,505,Poison,Ground,Drill Pokemon,1.4,62,Poison Point,Rivalry,Sheer Force,3 Atk,Monster,Ground,100
+Clefairy,35,clefairy.png,35.png,70,45,48,60,65,35,323,Fairy,null,Fairy Pokemon,0.6,7.5,Cute Charm,Magic Guard,Friend Guard,2 HP,Fairy,null,25
+Clefable,36,clefable.png,36.png,95,70,73,95,90,60,483,Fairy,null,Fairy Pokemon,1.3,40,Cute Charm,Magic Guard,Unaware,3 HP,Fairy,null,25
+Vulpix,37,vulpix.png,37.png,38,41,40,50,65,65,299,Fire,null,Fox Pokemon,0.6,9.9,Flash Fire,null,Drought,1 Spe,Ground,null,25
+Vulpix-alola,37,vulpix-alola.png,37-alola.png,38,41,40,50,65,65,299,Ice,null,Fox Pokemon,0.6,9.9,Flash Fire,null,Drought,1 Spe,Ground,null,25
+Ninetales,38,ninetales.png,38.png,73,76,75,81,100,100,505,Fire,null,Fox Pokemon,1.1,19.9,Flash Fire,null,Drought,1 SpD/1 Spe,Ground,null,25
+Ninetales-alola,38,ninetales-alola.png,38-alola.png,73,67,75,81,100,109,505,Ice,Fairy,Fox Pokemon,1.1,19.9,Flash Fire,null,Drought,2 Spe,Ground,null,25
+Jigglypuff,39,jigglypuff.png,39.png,115,45,20,45,25,20,270,Normal,Fairy,Balloon Pokemon,0.5,5.5,Cute Charm,Competitive,Friend Guard,2 HP,Fairy,null,25
+Wigglytuff,40,wigglytuff.png,40.png,140,70,45,85,50,45,435,Normal,Fairy,Balloon Pokemon,1,12,Cute Charm,Competitive,Frisk,3 HP,Fairy,null,25
+Zubat,41,zubat.png,41.png,40,45,35,30,40,55,245,Poison,Flying,Bat Pokemon,0.8,7.5,Inner Focus,null,Infiltrator,1 Spe,Flying,null,50
+Golbat,42,golbat.png,42.png,75,80,70,65,75,90,455,Poison,Flying,Bat Pokemon,1.6,55,Inner Focus,null,Infiltrator,2 Spe,Flying,null,50
+Oddish,43,oddish.png,43.png,45,50,55,75,65,30,320,Grass,Poison,Weed Pokemon,0.5,5.4,Chlorophyll,null,Run Away,1 SpA,Plant,null,50
+Gloom,44,gloom.png,44.png,60,65,70,85,75,40,395,Grass,Poison,Weed Pokemon,0.8,8.6,Chlorophyll,null,Stench,2 SpA,Plant,null,50
+Vileplume,45,vileplume.png,45.png,75,80,85,110,90,50,490,Grass,Poison,Flower Pokemon,1.2,18.6,Chlorophyll,null,Effect Spore,3 SpA,Plant,null,50
+Paras,46,paras.png,46.png,35,70,55,45,55,25,285,Bug,Grass,Mushroom Pokemon,0.3,5.4,Effect Spore,Dry Skin,Damp,1 Atk,Bug,Plant,50
+Parasect,47,parasect.png,47.png,60,95,80,60,80,30,405,Bug,Grass,Mushroom Pokemon,1,29.5,Effect Spore,Dry Skin,Damp,2 Atk/1 Def,Bug,Plant,50
+Venonat,48,venonat.png,48.png,60,55,50,40,55,45,305,Bug,Poison,Insect Pokemon,1,30,Compound Eyes,Tinted Lens,Run Away,1 SpD,Bug,null,50
+Venomoth,49,venomoth.png,49.png,70,65,60,90,75,90,450,Bug,Poison,Poison Moth Pokemon,1.5,12.5,Shield Dust,Tinted Lens,Wonder Skin,1 SpA/1 Spe,Bug,null,50
+Diglett,50,diglett.png,50.png,10,55,25,35,45,95,265,Ground,null,Mole Pokemon,0.2,0.8,Sand Veil,Arena Trap,Sand Force,1 Spe,Ground,null,50
+Diglett-alola,50,diglett-alola.png,50-alola.png,10,55,30,35,45,90,265,Ground,Steel,Mole Pokemon,0.2,1,Sand Veil,Arena Trap,Sand Force,1 Spe,Ground,null,50
+Dugtrio,51,dugtrio.png,51.png,35,100,50,50,70,120,425,Ground,null,Mole Pokemon,0.7,33.3,Sand Veil,Arena Trap,Sand Force,2 Spe,Ground,null,50
+Dugtrio-alola,51,dugtrio-alola.png,51-alola.png,35,100,60,50,70,110,425,Ground,Steel,Mole Pokemon,0.7,66.6,Sand Veil,Arena Trap,Sand Force,2 Atk,Ground,null,50
+Meowth,52,meowth.png,52.png,40,45,35,40,40,90,290,Normal,null,Scratch Cat Pokemon,0.4,4.2,Pickup,Technician,Unnerve,1 Spe,Ground,null,50
+Meowth-alola,52,meowth-alola.png,52-alola.png,40,35,35,50,40,90,290,Dark,null,Scratch Cat Pokemon,0.4,4.2,Pickup,Technician,Unnerve,1 Spe,Ground,null,50
+Meowth-galar,52,meowth-galar.png,52-galar.png,50,65,55,40,40,40,290,Steel,null,Scratch Cat Pokemon,0.4,7.5,Pickup,Technician,Unnerve,1 Atk,Ground,null,50
+Persian,53,persian.png,53.png,65,70,60,65,65,115,440,Normal,null,Classy Cat Pokemon,1,32,Limber,Technician,Unnerve,2 Spe,Ground,null,50
+Persian-alola,53,persian-alola.png,53-alola.png,65,60,60,75,65,115,440,Dark,null,Classy Cat Pokemon,1.1,33,Limber,Technician,Unnerve,2 Spe,Ground,null,50
+Psyduck,54,psyduck.png,54.png,50,52,48,65,50,55,320,Water,null,Duck Pokemon,0.8,19.6,Damp,Cloud Nine,Swift Swim,1 SpA,Water1,Ground,50
+Golduck,55,golduck.png,55.png,80,82,78,95,80,85,500,Water,null,Duck Pokemon,1.7,76.6,Damp,Cloud Nine,Swift Swim,2 SpA,Water1,Ground,50
+Mankey,56,mankey.png,56.png,40,80,35,35,45,70,305,Fighting,null,Pig Monkey Pokemon,0.5,28,Vital Spirit,Anger Point,Defiant,1 Atk,Ground,null,50
+Primeape,57,primeape.png,57.png,65,105,60,60,70,95,455,Fighting,null,Pig Monkey Pokemon,1,32,Vital Spirit,Anger Point,Defiant,2 Atk,Ground,null,50
+Growlithe,58,growlithe.png,58.png,55,70,45,70,50,60,350,Fire,null,Puppy Pokemon,0.7,19,Intimidate,Flash Fire,Justified,1 Atk,Ground,null,75
+Growlithe-hisui,58,growlithe-hisui.png,58-hisui.png,60,75,45,65,50,55,350,Fire,Rock,Puppy Pokemon,0.8,22.7,Intimidate,Flash Fire,Justified,1 Atk,Ground,null,75
+Arcanine,59,arcanine.png,59.png,90,110,80,100,80,95,555,Fire,null,Legendary Pokemon,1.9,155,Intimidate,Flash Fire,Justified,2 Atk,Ground,null,75
+Arcanine-hisui,59,arcanine-hisui.png,59-hisui.png,95,115,80,95,80,90,555,Fire,Rock,Legendary Pokemon,2,168,Intimidate,Flash Fire,Justified,2 Atk,Ground,null,75
+Poliwag,60,poliwag.png,60.png,40,50,40,40,40,90,300,Water,null,Tadpole Pokemon,0.6,12.4,Water Absorb,Damp,Swift Swim,1 Spe,Water1,null,50
+Poliwhirl,61,poliwhirl.png,61.png,65,65,65,50,50,90,385,Water,null,Tadpole Pokemon,1,20,Water Absorb,Damp,Swift Swim,2 Spe,Water1,null,50
+Poliwrath,62,poliwrath.png,62.png,90,95,95,70,90,70,510,Water,Fighting,Tadpole Pokemon,1.3,54,Water Absorb,Damp,Swift Swim,3 Def,Water1,null,50
+Abra,63,abra.png,63.png,25,20,15,105,55,90,310,Psychic,null,Psi Pokemon,0.9,19.5,Synchronize,Inner Focus,Magic Guard,1 SpA,Humanshape,null,75
+Kadabra,64,kadabra.png,64.png,40,35,30,120,70,105,400,Psychic,null,Psi Pokemon,1.3,56.5,Synchronize,Inner Focus,Magic Guard,2 SpA,Humanshape,null,75
+Alakazam,65,alakazam.png,65.png,55,50,45,135,95,120,500,Psychic,null,Psi Pokemon,1.5,48,Synchronize,Inner Focus,Magic Guard,3 SpA,Humanshape,null,75
+Machop,66,machop.png,66.png,70,80,50,35,35,35,305,Fighting,null,Superpower Pokemon,0.8,19.5,Guts,No Guard,Steadfast,1 Atk,Humanshape,null,75
+Machoke,67,machoke.png,67.png,80,100,70,50,60,45,405,Fighting,null,Superpower Pokemon,1.5,70.5,Guts,No Guard,Steadfast,2 Atk,Humanshape,null,75
+Machamp,68,machamp.png,68.png,90,130,80,65,85,55,505,Fighting,null,Superpower Pokemon,1.6,130,Guts,No Guard,Steadfast,3 Atk,Humanshape,null,75
+Bellsprout,69,bellsprout.png,69.png,50,75,35,70,30,40,300,Grass,Poison,Flower Pokemon,0.7,4,Chlorophyll,null,Gluttony,1 Atk,Plant,null,50
+Weepinbell,70,weepinbell.png,70.png,65,90,50,85,45,55,390,Grass,Poison,Flycatcher Pokemon,1,6.4,Chlorophyll,null,Gluttony,2 Atk,Plant,null,50
+Victreebel,71,victreebel.png,71.png,80,105,65,100,70,70,490,Grass,Poison,Flycatcher Pokemon,1.7,15.5,Chlorophyll,null,Gluttony,3 Atk,Plant,null,50
+Tentacool,72,tentacool.png,72.png,40,40,35,50,100,70,335,Water,Poison,Jellyfish Pokemon,0.9,45.5,Clear Body,Liquid Ooze,Rain Dish,1 SpD,Water3,null,50
+Tentacruel,73,tentacruel.png,73.png,80,70,65,80,120,100,515,Water,Poison,Jellyfish Pokemon,1.6,55,Clear Body,Liquid Ooze,Rain Dish,2 SpD,Water3,null,50
+Geodude,74,geodude.png,74.png,40,80,100,30,30,20,300,Rock,Ground,Rock Pokemon,0.4,20,Rock Head,Sturdy,Sand Veil,1 Def,Mineral,null,50
+Geodude-alola,74,geodude-alola.png,74-alola.png,40,80,100,30,30,20,300,Rock,Electric,Rock Pokemon,0.4,20.3,Rock Head,Sturdy,Sand Veil,1 Def,Mineral,null,50
+Graveler,75,graveler.png,75.png,55,95,115,45,45,35,390,Rock,Ground,Rock Pokemon,1,105,Rock Head,Sturdy,Sand Veil,2 Def,Mineral,null,50
+Graveler-alola,75,graveler-alola.png,75-alola.png,55,95,115,45,45,35,390,Rock,Electric,Rock Pokemon,1,110,Rock Head,Sturdy,Sand Veil,2 Def,Mineral,null,50
+Golem,76,golem.png,76.png,80,120,130,55,65,45,495,Rock,Ground,Megaton Pokemon,1.4,300,Rock Head,Sturdy,Sand Veil,3 Def,Mineral,null,50
+Golem-alola,76,golem-alola.png,76-alola.png,80,120,130,55,65,45,495,Rock,Electric,Megaton Pokemon,1.7,316,Rock Head,Sturdy,Sand Veil,3 Def,Mineral,null,50
+Ponyta,77,ponyta.png,77.png,50,85,55,65,65,90,410,Fire,null,Fire Horse Pokemon,1,30,Run Away,Flash Fire,Flame Body,1 Spe,Ground,null,50
+Ponyta-galar,77,ponyta-galar.png,77-galar.png,50,85,55,65,65,90,410,Psychic,null,Fire Horse Pokemon,0.8,24,Run Away,Flash Fire,Flame Body,1 Spe,Ground,null,50
+Rapidash,78,rapidash.png,78.png,65,100,70,80,80,105,500,Fire,null,Fire Horse Pokemon,1.7,95,Run Away,Flash Fire,Flame Body,2 Spe,Ground,null,50
+Rapidash-galar,78,rapidash-galar.png,78-galar.png,65,100,70,80,80,105,500,Psychic,Fairy,Fire Horse Pokemon,1.7,80,Run Away,Flash Fire,Flame Body,2 Spe,Ground,null,50
+Slowpoke,79,slowpoke.png,79.png,90,65,65,40,40,15,315,Water,Psychic,Dopey Pokemon,1.2,36,Oblivious,Own Tempo,Regenerator,1 HP,Monster,Water1,50
+Slowpoke-galar,79,slowpoke-galar.png,79-galar.png,90,65,65,40,40,15,315,Psychic,null,Dopey Pokemon,1.2,36,Oblivious,Own Tempo,Regenerator,1 HP,Monster,Water1,50
+Slowbro,80,slowbro.png,80.png,95,75,110,100,80,30,490,Water,Psychic,Hermit Crab Pokemon,1.6,78.5,Oblivious,Own Tempo,Regenerator,2 Def,Monster,Water1,50
+Slowbro-galar,80,slowbro-galar.png,80-galar.png,95,100,95,100,70,30,490,Poison,Psychic,Hermit Crab Pokemon,1.6,70.5,Oblivious,Own Tempo,Regenerator,2 Atk,Monster,Water1,50
+Magnemite,81,magnemite.png,81.png,25,35,70,95,55,45,325,Electric,Steel,Magnet Pokemon,0.3,6,Magnet Pull,Sturdy,Analytic,1 SpA,Mineral,null,null
+Magneton,82,magneton.png,82.png,50,60,95,120,70,70,465,Electric,Steel,Magnet Pokemon,1,60,Magnet Pull,Sturdy,Analytic,2 SpA,Mineral,null,null
+Farfetch'd,83,farfetchd.png,83.png,52,90,55,58,62,60,377,Normal,Flying,Wild Duck Pokemon,0.8,15,Keen Eye,Inner Focus,Defiant,1 Atk,Flying,Ground,50
+Farfetch'd-galar,83,farfetchd-galar.png,83-galar.png,52,95,55,58,62,55,377,Fighting,null,Wild Duck Pokemon,0.8,42,Keen Eye,Inner Focus,Defiant,1 Atk,Flying,Ground,50
+Doduo,84,doduo.png,84.png,35,85,45,35,35,75,310,Normal,Flying,Twin Bird Pokemon,1.4,39.2,Run Away,Early Bird,Tangled Feet,1 Atk,Flying,null,50
+Dodrio,85,dodrio.png,85.png,60,110,70,60,60,110,470,Normal,Flying,Triple Bird Pokemon,1.8,85.2,Run Away,Early Bird,Tangled Feet,2 Atk,Flying,null,50
+Seel,86,seel.png,86.png,65,45,55,45,70,45,325,Water,null,Sea Lion Pokemon,1.1,90,Thick Fat,Hydration,Ice Body,1 SpD,Water1,Ground,50
+Dewgong,87,dewgong.png,87.png,90,70,80,70,95,70,475,Water,Ice,Sea Lion Pokemon,1.7,120,Thick Fat,Hydration,Ice Body,2 SpD,Water1,Ground,50
+Grimer,88,grimer.png,88.png,80,80,50,40,50,25,325,Poison,null,Sludge Pokemon,0.9,30,Stench,Sticky Hold,Poison Touch,1 HP,Indeterminate,null,50
+Grimer-alola,88,grimer-alola.png,88-alola.png,80,80,50,40,50,25,325,Poison,Dark,Sludge Pokemon,0.7,42,Stench,Sticky Hold,Poison Touch,1 HP,Indeterminate,null,50
+Muk,89,muk.png,89.png,105,105,75,65,100,50,500,Poison,null,Sludge Pokemon,1.2,30,Stench,Sticky Hold,Poison Touch,1 HP/1 Atk,Indeterminate,null,50
+Muk-alola,89,muk-alola.png,89-alola.png,105,105,75,65,100,50,500,Poison,Dark,Sludge Pokemon,1,52,Stench,Sticky Hold,Poison Touch,1 HP/1Atk,Indeterminate,null,50
+Shellder,90,shellder.png,90.png,30,65,100,45,25,40,305,Water,null,Bivalve Pokemon,0.3,4,Shell Armor,Skill Link,Overcoat,1 Def,Water3,null,50
+Cloyster,91,cloyster.png,91.png,50,95,180,85,45,70,525,Water,Ice,Bivalve Pokemon,1.5,132.5,Shell Armor,Skill Link,Overcoat,2 Def,Water3,null,50
+Gastly,92,gastly.png,92.png,30,35,30,100,35,80,310,Ghost,Poison,Gas Pokemon,1.3,0.1,Levitate,null,null,1 SpA,Indeterminate,null,50
+Haunter,93,haunter.png,93.png,45,50,45,115,55,95,405,Ghost,Poison,Gas Pokemon,1.6,0.1,Levitate,null,null,2 SpA,Indeterminate,null,50
+Gengar,94,gengar.png,94.png,60,65,60,130,75,110,500,Ghost,Poison,Shadow Pokemon,1.5,40.5,Cursed Body,null,null,3 SpA,Indeterminate,null,50
+Onix,95,onix.png,95.png,35,45,160,30,45,70,385,Rock,Ground,Rock Snake Pokemon,8.8,210,Rock Head,Sturdy,Weak Armor,1 Def,Mineral,null,50
+Drowzee,96,drowzee.png,96.png,60,48,45,43,90,42,328,Psychic,null,Hypnosis Pokemon,1,32.4,Insomnia,Forewarn,Inner Focus,1 SpD,Humanshape,null,50
+Hypno,97,hypno.png,97.png,85,73,70,73,115,67,483,Psychic,null,Hypnosis Pokemon,1.6,75.6,Insomnia,Forewarn,Inner Focus,2 SpD,Humanshape,null,50
+Krabby,98,krabby.png,98.png,30,105,90,25,25,50,325,Water,null,River Crab Pokemon,0.4,6.5,Hyper Cutter,Shell Armor,Sheer Force,1 Atk,Water3,null,50
+Kingler,99,kingler.png,99.png,55,130,115,50,50,75,475,Water,null,Pincer Pokemon,1.3,60,Hyper Cutter,Shell Armor,Sheer Force,2 Atk,Water3,null,50
+Voltorb,100,voltorb.png,100.png,40,30,50,55,55,100,330,Electric,null,Ball Pokemon,0.5,10.4,Soundproof,Static,Aftermath,1 Spe,Mineral,null,null
+Voltorb-hisui,100,voltorb-hisui.png,100-hisui.png,40,30,50,55,55,100,330,Electic,Grass,Ball Pokemon,0.5,13,Soundproof,Static,Aftermath,1 Spe,Mineral,null,null
+Electrode,101,electrode.png,101.png,60,50,70,80,80,150,490,Electric,null,Ball Pokemon,1.2,66.6,Soundproof,Static,Aftermath,2 Spe,Mineral,null,null
+Electrode-hisui,101,electrode-hisui.png,101-hisui.png,60,50,70,80,80,150,490,Electric,Grass,Ball Pokemon,1.2,71,Soundproof,Static,Aftermath,2 Spe,Mineral,null,null
+Exeggcute,102,exeggcute.png,102.png,60,40,80,60,45,40,325,Grass,Psychic,Egg Pokemon,0.4,2.5,Chlorophyll,null,Harvest,1 Def,Plant,null,50
+Exeggutor,103,exeggutor.png,103.png,95,95,85,125,75,55,530,Grass,Psychic,Coconut Pokemon,2,120,Chlorophyll,null,Harvest,2 SpA,Plant,null,50
+Exeggutor-alola,103,exeggutor-alola.png,103-alola.png,95,105,85,125,75,45,530,Grass,Dragon,Coconut Pokemon,10.9,415.6,Chlorophyll,null,Harvest,2 SpA,Plant,null,50
+Cubone,104,cubone.png,104.png,50,50,95,40,50,35,320,Ground,null,Lonely Pokemon,0.4,6.5,Rock Head,Lightning Rod,Battle Armor,1 Def,Monster,null,50
+Marowak,105,marowak.png,105.png,60,80,110,50,80,45,425,Ground,null,Bone Keeper Pokemon,1,45,Rock Head,Lightning Rod,Battle Armor,2 Def,Monster,null,50
+Marowak-alola,105,marowak-alola.png,105-alola.png,60,80,110,50,80,45,425,Fire,Ghost,Bone Keeper Pokemon,1,34,Rock Head,Lightning Rod,Battle Armor,2 Def,Monster,null,50
+Hitmonlee,106,hitmonlee.png,106.png,50,120,53,35,110,87,455,Fighting,null,Kicking Pokemon,1.5,49.8,Limber,Reckless,Unburden,2 Atk,Humanshape,null,100
+Hitmonchan,107,hitmonchan.png,107.png,50,105,79,35,110,76,455,Fighting,null,Punching Pokemon,1.4,50.2,Keen Eye,Iron Fist,Inner Focus,2 SpD,Humanshape,null,100
+Lickitung,108,lickitung.png,108.png,90,55,75,60,75,30,385,Normal,null,Licking Pokemon,1.2,65.5,Own Tempo,Oblivious,Cloud Nine,2 HP,Monster,null,50
+Koffing,109,koffing.png,109.png,40,65,95,60,45,35,340,Poison,null,Poison Gas Pokemon,0.6,1,Levitate,Neutralizing Gas,Stench,1 Def,Indeterminate,null,50
+Weezing,110,weezing.png,110.png,65,90,120,85,70,60,490,Poison,null,Poison Gas Pokemon,1.2,9.5,Levitate,Neutralizing Gas,Stench,2 Def,Indeterminate,null,50
+Weezing-galar,110,weezing-galar.png,110-galar.png,65,90,120,85,70,60,490,Poison,Fairy,Poison Gas Pokemon,3,16,Levitate,Neutralizing Gas,Stench,2 Def,Indeterminate,null,50
+Rhyhorn,111,rhyhorn.png,111.png,80,85,95,30,30,25,345,Ground,Rock,Spikes Pokemon,1,115,Lightning Rod,Rock Head,Reckless,1 Def,Monster,Ground,50
+Rhydon,112,rhydon.png,112.png,105,130,120,45,45,40,485,Ground,Rock,Drill Pokemon,1.9,120,Lightning Rod,Rock Head,Reckless,2 Atk,Monster,Ground,50
+Chansey,113,chansey.png,113.png,250,5,5,35,105,50,450,Normal,null,Egg Pokemon,1.1,34.6,Natural Cure,Serene Grace,Healer,2 HP,Fairy,null,0
+Tangela,114,tangela.png,114.png,65,55,115,100,40,60,435,Grass,null,Vine Pokemon,1,35,Chlorophyll,Leaf Guard,Regenerator,1 Def,Plant,null,50
+Kangaskhan,115,kangaskhan.png,115.png,105,95,80,40,80,90,490,Normal,null,Parent Pokemon,2.2,80,Early Bird,Scrappy,Inner Focus,2 HP,Monster,null,0
+Horsea,116,horsea.png,116.png,30,40,70,70,25,60,295,Water,null,Dragon Pokemon,0.4,8,Swift Swim,Sniper,Damp,1 SpA,Water1,Dragon,50
+Seadra,117,seadra.png,117.png,55,65,95,95,45,85,440,Water,null,Dragon Pokemon,1.2,25,Poison Point,Sniper,Damp,1 Def/1 SpA,Water1,Dragon,50
+Goldeen,118,goldeen.png,118.png,45,67,60,35,50,63,320,Water,null,Goldfish Pokemon,0.6,15,Swift Swim,Water Veil,Lightning Rod,1 Atk,Water2,null,50
+Seaking,119,seaking.png,119.png,80,92,65,65,80,68,450,Water,null,Goldfish Pokemon,1.3,39,Swift Swim,Water Veil,Lightning Rod,2 Atk,Water2,null,50
+Staryu,120,staryu.png,120.png,30,45,55,70,55,85,340,Water,null,Star Shape Pokemon,0.8,34.5,Illuminate,Natural Cure,Analytic,1 Spe,Water3,null,null
+Starmie,121,starmie.png,121.png,60,75,85,100,85,115,520,Water,Psychic,Mysterious Pokemon,1.1,80,Illuminate,Natural Cure,Analytic,2 Spe,Water3,null,null
+Mr. Mime,122,mr-mime.png,122.png,40,45,65,100,120,90,460,Psychic,Fairy,Barrier Pokemon,1.3,54.5,Soundproof,Filter,Technician,2 SpD,Humanshape,null,50
+Mr. Mime-galar,122,mr-mime-galar.png,122-galar.png,50,65,65,90,90,100,460,Ice,Psychic,Barrier Pokemon,1.4,56.8,Soundproof,Filter,Technician,2 Spe,Humanshape,null,50
+Scyther,123,scyther.png,123.png,70,110,80,55,80,105,500,Bug,Flying,Mantis Pokemon,1.5,56,Swarm,Technician,Steadfast,1 Atk,Bug,null,50
+Jynx,124,jynx.png,124.png,65,50,35,115,95,95,455,Ice,Psychic,Human Shape Pokemon,1.4,40.6,Oblivious,Forewarn,Dry Skin,2 SpA,Humanshape,null,0
+Electabuzz,125,electabuzz.png,125.png,65,83,57,95,85,105,490,Electric,null,Electric Pokemon,1.1,30,Static,null,Vital Spirit,2 Spe,Humanshape,null,75
+Magmar,126,magmar.png,126.png,65,95,57,100,85,93,495,Fire,null,Spitfire Pokemon,1.3,44.5,Flame Body,null,Vital Spirit,2 SpA,Humanshape,null,75
+Pinsir,127,pinsir.png,127.png,65,125,100,55,70,85,500,Bug,null,Stag Beetle Pokemon,1.5,55,Hyper Cutter,Mold Breaker,Moxie,2 Atk,Bug,null,50
+Tauros,128,tauros.png,128.png,75,100,95,40,70,110,490,Normal,null,Wild Bull Pokemon,1.4,88.4,Intimidate,Anger Point,Sheer Force,1 Atk/1 Spe,Ground,null,100
+Magikarp,129,magikarp.png,129.png,20,10,55,15,20,80,200,Water,null,Fish Pokemon,0.9,10,Swift Swim,null,Rattled,1 Spe,Water2,Dragon,50
+Gyarados,130,gyarados.png,130.png,95,125,79,60,100,81,540,Water,Flying,Atrocious Pokemon,6.5,235,Intimidate,null,Moxie,2 Atk,Water2,Dragon,50
+Lapras,131,lapras.png,131.png,130,85,80,85,95,60,535,Water,Ice,Transport Pokemon,2.5,220,Water Absorb,Shell Armor,Hydration,2 HP,Water1,Monster,50
+Ditto,132,ditto.png,132.png,48,48,48,48,48,48,288,Normal,null,Transform Pokemon,0.3,4,Limber,null,Imposter,1 HP,Ditto,null,null
+Eevee,133,eevee.png,133.png,55,55,50,45,65,55,325,Normal,null,Evolution Pokemon,0.3,6.5,Run Away,Adaptability,Anticipation,1 SpD,Ground,null,87.5
+Vaporeon,134,vaporeon.png,134.png,130,65,60,110,95,65,525,Water,null,Bubble Jet Pokemon,1,29,Water Absorb,null,Hydration,2 HP,Ground,null,87.5
+Jolteon,135,jolteon.png,135.png,65,65,60,110,95,130,525,Electric,null,Lightning Pokemon,0.8,24.5,Volt Absorb,null,Quick Feet,2 Spe,Ground,null,87.5
+Flareon,136,flareon.png,136.png,65,130,60,95,110,65,525,Fire,null,Flame Pokemon,0.9,25,Flash Fire,null,Guts,2 Atk,Ground,null,87.5
+Porygon,137,porygon.png,137.png,65,60,70,85,75,40,395,Normal,null,Virtual Pokemon,0.8,36.5,Trace,Download,Analytic,1 SpA,Mineral,null,null
+Omanyte,138,omanyte.png,138.png,35,40,100,90,55,35,355,Rock,Water,Spiral Pokemon,0.4,7.5,Swift Swim,Shell Armor,Weak Armor,1 Def,Water1,Water3,87.5
+Omastar,139,omastar.png,139.png,70,60,125,115,70,55,495,Rock,Water,Spiral Pokemon,1,35,Swift Swim,Shell Armor,Weak Armor,2 Def,Water1,Water3,87.5
+Kabuto,140,kabuto.png,140.png,30,80,90,55,45,55,355,Rock,Water,Shellfish Pokemon,0.5,11.5,Swift Swim,Battle Armor,Weak Armor,1 Def,Water1,Water3,87.5
+Kabutops,141,kabutops.png,141.png,60,115,105,65,70,80,495,Rock,Water,Shellfish Pokemon,1.3,40.5,Swift Swim,Battle Armor,Weak Armor,2 Atk,Water1,Water3,87.5
+Aerodactyl,142,aerodactyl.png,142.png,80,105,65,60,75,130,515,Rock,Flying,Fossil Pokemon,1.8,59,Rock Head,Pressure,Unnerve,2 Spe,Flying,null,87.5
+Snorlax,143,snorlax.png,143.png,160,110,65,65,110,30,540,Normal,null,Sleeping Pokemon,2.1,460,Immunity,Thick Fat,Gluttony,2 HP,Monster,null,87.5
+Articuno,144,articuno.png,144.png,90,85,100,95,125,85,580,Ice,Flying,Freeze Pokemon,1.7,55.4,Pressure,null,Snow Cloak,3 SpD,No-Eggs,null,null
+Articuno-galar,144,articuno-galar.png,144-galar.png,90,85,85,125,100,95,580,Psychic,Flying,Freeze Pokemon,1.7,50.9,Pressure,null,Snow Cloak,2 SpA,No-Eggs,null,null
+Zapdos,145,zapdos.png,145.png,90,90,85,125,90,100,580,Electric,Flying,Electric Pokemon,1.6,52.6,Pressure,null,Static,3 SpA,No-Eggs,null,null
+Zapdos-galar,145,zapdos-galar.png,145-galar.png,90,125,90,85,90,100,580,Fighting,Flying,Electric Pokemon,1.6,58.2,Pressure,null,Static,3 Atk,No-Eggs,null,null
+Moltres,146,moltres.png,146.png,90,100,90,125,85,90,580,Fire,Flying,Flame Pokemon,2,60,Pressure,null,Flame Body,3 SpA,No-Eggs,null,null
+Moltres-galar,146,moltres-galar.png,146-galar.png,90,85,90,100,125,90,580,Dark,Flying,Flame Pokemon,2,66,Pressure,null,Flame Body,3 SpD,No-Eggs,null,null
+Dratini,147,dratini.png,147.png,41,64,45,50,50,50,300,Dragon,null,Dragon Pokemon,1.8,3.3,Shed Skin,null,Marvel Scale,1 Atk,Water1,Dragon,50
+Dragonair,148,dragonair.png,148.png,61,84,65,70,70,70,420,Dragon,null,Dragon Pokemon,4,16.5,Shed Skin,null,Marvel Scale,2 Atk,Water1,Dragon,50
+Dragonite,149,dragonite.png,149.png,91,134,95,100,100,80,600,Dragon,Flying,Dragon Pokemon,2.2,210,Inner Focus,null,Multiscale,3 Atk,Water1,Dragon,50
+Mewtwo,150,mewtwo.png,150.png,106,110,90,154,90,130,680,Psychic,null,Genetic Pokemon,2,122,Pressure,null,Unnerve,3 SpA,No-Eggs,null,null
+Mew,151,mew.png,151.png,100,100,100,100,100,100,600,Psychic,null,New Species Pokemon,0.4,4,Synchronize,null,null,3 HP,No-Eggs,null,null
+Chikorita,152,chikorita.png,152.png,45,49,65,49,65,45,318,Grass,null,Leaf Pokemon,null,6.4,Overgrow,null,Leaf Guard,1 SpD,Monster,Plant,null
+Bayleef,153,bayleef.png,153.png,60,62,80,63,80,60,405,Grass,null,Leaf Pokemon,null,15.8,Overgrow,null,Leaf Guard,1 Def/1 SpD,Monster,Plant,null
+Meganium,154,meganium.png,154.png,80,82,100,83,100,80,525,Grass,null,Herb Pokemon,null,100.5,Overgrow,null,Leaf Guard,1 Def/2 SpD,Monster,Plant,null
+Cyndaquil,155,cyndaquil.png,155.png,39,52,43,60,50,65,309,Fire,null,Fire Mouse Pokemon,null,7.9,Blaze,null,Flash Fire,1 Spe,Ground,null,null
+Quilava,156,quilava.png,156.png,58,64,58,80,65,80,405,Fire,null,Volcano Pokemon,null,19,Blaze,null,Flash Fire,1 SpA/1 Spe,Ground,null,null
+Typhlosion,157,typhlosion.png,157.png,78,84,78,109,85,100,534,Fire,null,Volcano Pokemon,null,79.5,Blaze,null,Flash Fire,3 SpA,Ground,null,null
+Typhlosion-hisui,157,typhlosion-hisui.png,157-hisui.png,73,84,78,119,85,95,534,Fire,Ghost,Volcano Pokemon,null,null,Blaze,null,Flash Fire,null,Ground,null,null
+Totodile,158,totodile.png,158.png,50,65,64,44,48,43,314,Water,null,Big Jaw Pokemon,null,9.5,Torrent,null,Sheer Force,1 Atk,Monster,Water1,null
+Croconaw,159,croconaw.png,159.png,65,80,80,59,63,58,405,Water,null,Big Jaw Pokemon,null,25,Torrent,null,Sheer Force,1 Atk/1 Def,Monster,Water1,null
+Feraligatr,160,feraligatr.png,160.png,85,105,100,79,83,78,530,Water,null,Big Jaw Pokemon,null,88.8,Torrent,null,Sheer Force,2 Atk/1 Def,Monster,Water1,null
+Sentret,161,sentret.png,161.png,35,46,34,35,45,20,215,Normal,null,Scout Pokemon,null,6,Run Away,Keen Eye,Frisk,1 Atk,Ground,null,null
+Furret,162,furret.png,162.png,85,76,64,45,55,90,415,Normal,null,Long Body Pokemon,null,32.5,Run Away,Keen Eye,Frisk,2 Spe,Ground,null,null
+Hoothoot,163,hoothoot.png,163.png,60,30,30,36,56,50,262,Normal,Flying,Owl Pokemon,null,21.2,Insomnia,Keen Eye,Tinted Lens,1 HP,Flying,null,null
+Noctowl,164,noctowl.png,164.png,100,50,50,86,96,70,452,Normal,Flying,Owl Pokemon,null,40.8,Insomnia,Keen Eye,Tinted Lens,2 HP,Flying,null,null
+Ledyba,165,ledyba.png,165.png,40,20,30,40,80,55,265,Bug,Flying,Five Star Pokemon,null,10.8,Swarm,Early Bird,Rattled,1 SpD,Bug,null,null
+Ledian,166,ledian.png,166.png,55,35,50,55,110,85,390,Bug,Flying,Five Star Pokemon,null,35.6,Swarm,Early Bird,Iron Fist,2 SpD,Bug,null,null
+Spinarak,167,spinarak.png,167.png,40,60,40,40,40,30,250,Bug,Poison,String Spit Pokemon,null,8.5,Swarm,Insomnia,Sniper,1 Atk,Bug,null,null
+Ariados,168,ariados.png,168.png,70,90,70,60,70,40,400,Bug,Poison,Long Leg Pokemon,null,33.5,Swarm,Insomnia,Sniper,2 Atk,Bug,null,null
+Crobat,169,crobat.png,169.png,85,90,80,70,80,130,535,Poison,Flying,Bat Pokemon,null,75,Inner Focus,null,Infiltrator,3 Spe,Flying,null,null
+Chinchou,170,chinchou.png,170.png,75,38,38,56,56,67,330,Water,Electric,Angler Pokemon,null,12,Volt Absorb,Illuminate,Water Absorb,1 HP,Water2,null,null
+Lanturn,171,lanturn.png,171.png,125,58,58,76,76,67,460,Water,Electric,Light Pokemon,null,22.5,Volt Absorb,Illuminate,Water Absorb,2 HP,Water2,null,null
+Pichu,172,pichu.png,172.png,20,40,15,35,35,60,205,Electric,null,Tiny Mouse Pokemon,null,2,Static,null,Lightning Rod,1 Spe,No-Eggs,null,null
+Cleffa,173,cleffa.png,173.png,50,25,28,45,55,15,218,Fairy,null,Star Shape Pokemon,null,3,Cute Charm,Magic Guard,Friend Guard,2 SpD,No-Eggs,null,null
+Igglybuff,174,igglybuff.png,174.png,90,30,15,40,20,15,210,Normal,Fairy,Balloon Pokemon,null,1,Cute Charm,Competitive,Friend Guard,1 HP,No-Eggs,null,null
+Togepi,175,togepi.png,175.png,35,20,65,40,65,20,245,Fairy,null,Spike Ball Pokemon,null,1.5,Hustle,Serene Grace,Super Luck,1 SpD,No-Eggs,null,null
+Togetic,176,togetic.png,176.png,55,40,85,80,105,40,405,Fairy,Flying,Happiness Pokemon,null,3.2,Hustle,Serene Grace,Super Luck,2 SpD,Flying,Fairy,null
+Natu,177,natu.png,177.png,40,50,45,70,45,70,320,Psychic,Flying,Tiny Bird Pokemon,null,2,Synchronize,Early Bird,Magic Bounce,1 SpA,Flying,null,null
+Xatu,178,xatu.png,178.png,65,75,70,95,70,95,470,Psychic,Flying,Mystic Pokemon,null,15,Synchronize,Early Bird,Magic Bounce,1 SpA/1 Spe,Flying,null,null
+Mareep,179,mareep.png,179.png,55,40,40,65,45,35,280,Electric,null,Wool Pokemon,null,7.8,Static,null,Plus,1 SpA,Monster,Ground,null
+Flaaffy,180,flaaffy.png,180.png,70,55,55,80,60,45,365,Electric,null,Wool Pokemon,null,13.3,Static,null,Plus,2 SpA,Monster,Ground,null
+Ampharos,181,ampharos.png,181.png,90,75,85,115,90,55,510,Electric,null,Light Pokemon,null,61.5,Static,null,Plus,3 SpA,Monster,Ground,null
+Bellossom,182,bellossom.png,182.png,75,80,95,90,100,50,490,Grass,null,Flower Pokemon,null,5.8,Chlorophyll,null,Healer,3 SpD,Plant,null,null
+Marill,183,marill.png,183.png,70,20,50,20,50,40,250,Water,Fairy,Aqua Mouse Pokemon,null,8.5,Thick Fat,Huge Power,Sap Sipper,2 HP,Water1,Fairy,null
+Azumarill,184,azumarill.png,184.png,100,50,80,60,80,50,420,Water,Fairy,Aqua Rabbit Pokemon,null,28.5,Thick Fat,Huge Power,Sap Sipper,3 HP,Water1,Fairy,null
+Sudowoodo,185,sudowoodo.png,185.png,70,100,115,30,65,30,410,Rock,null,Imitation Pokemon,null,38,Sturdy,Rock Head,Rattled,2 Def,Mineral,null,null
+Politoed,186,politoed.png,186.png,90,75,75,90,100,70,500,Water,null,Frog Pokemon,null,33.9,Water Absorb,Damp,Drizzle,3 SpD,Water1,null,null
+Hoppip,187,hoppip.png,187.png,35,35,40,35,55,50,250,Grass,Flying,Cottonweed Pokemon,null,0.5,Chlorophyll,Leaf Guard,Infiltrator,1 SpD,Fairy,Plant,null
+Skiploom,188,skiploom.png,188.png,55,45,50,45,65,80,340,Grass,Flying,Cottonweed Pokemon,null,1,Chlorophyll,Leaf Guard,Infiltrator,2 Spe,Fairy,Plant,null
+Jumpluff,189,jumpluff.png,189.png,75,55,70,55,95,110,460,Grass,Flying,Cottonweed Pokemon,null,3,Chlorophyll,Leaf Guard,Infiltrator,3 Spe,Plant,Fairy,null
+Aipom,190,aipom.png,190.png,55,70,55,40,55,85,360,Normal,null,Long Tail Pokemon,null,11.5,Run Away,Pickup,Skill Link,1 Spe,Ground,null,null
+Sunkern,191,sunkern.png,191.png,30,30,30,30,30,30,180,Grass,null,Seed Pokemon,null,1.8,Chlorophyll,Solar Power,Early Bird,1 SpA,Plant,null,null
+Sunflora,192,sunflora.png,192.png,75,75,55,105,85,30,425,Grass,null,Sun Pokemon,null,8.5,Chlorophyll,Solar Power,Early Bird,2 SpA,Plant,null,null
+Yanma,193,yanma.png,193.png,65,65,45,75,45,95,390,Bug,Flying,Clear Wing Pokemon,null,38,Speed Boost,Compound Eyes,Frisk,2 Spe,Bug,null,null
+Wooper,194,wooper.png,194.png,55,45,45,25,25,15,210,Water,Ground,Water Fish Pokemon,null,8.5,Damp,Water Absorb,Unaware,1 HP,Water1,Ground,null
+Wooper-paldea,194,wooper-paldea.png,194.png,55,45,45,25,25,15,210,Poison,Ground,Water Fish Pokemon,null,null,Damp,Water Absorb,Unaware,null,Water1,Ground,null
+Quagsire,195,quagsire.png,195.png,95,85,85,65,65,35,430,Water,Ground,Water Fish Pokemon,null,75,Damp,Water Absorb,Unaware,2 HP,Water1,Ground,null
+Espeon,196,espeon.png,196.png,65,65,60,130,95,110,525,Psychic,null,Sun Pokemon,null,26.5,Synchronize,null,Magic Bounce,2 SpA,Ground,null,null
+Umbreon,197,umbreon.png,197.png,95,65,110,60,130,65,525,Dark,null,Moonlight Pokemon,null,27,Synchronize,null,Inner Focus,2 SpD,Ground,null,null
+Murkrow,198,murkrow.png,198.png,60,85,42,85,42,91,405,Dark,Flying,Darkness Pokemon,null,2.1,Insomnia,Super Luck,Prankster,1 Spe,Flying,null,null
+Slowking,199,slowking.png,199.png,95,75,80,100,110,30,490,Water,Psychic,Royal Pokemon,null,79.5,Oblivious,Own Tempo,Regenerator,3 SpD,Monster,Water1,null
+Slowking-galar,199,slowking-galar.png,199-galar.png,95,65,80,110,110,30,490,Poison,Psychic,Royal Pokemon,null,null,Oblivious,Own Tempo,Regenerator,null,Monster,Water1,null
+Misdreavus,200,misdreavus.png,200.png,60,60,60,85,85,85,435,Ghost,null,Screech Pokemon,null,1,Levitate,null,null,1 SpD,Indeterminate,null,null
+Unown,201,unown.png,201.png,48,72,48,72,48,48,336,Psychic,null,Symbol Pokemon,null,5,Levitate,null,null,1 Atk/1 SpA,No-Eggs,null,null
+Wobbuffet,202,wobbuffet.png,202.png,190,33,58,33,58,33,405,Psychic,null,Patient Pokemon,null,28.5,Shadow Tag,null,Telepathy,2 HP,Indeterminate,null,null
+Girafarig,203,girafarig.png,203.png,70,80,65,90,65,85,455,Normal,Psychic,Long Neck Pokemon,null,41.5,Inner Focus,Early Bird,Sap Sipper,2 SpA,Ground,null,null
+Pineco,204,pineco.png,204.png,50,65,90,35,35,15,290,Bug,null,Bagworm Pokemon,null,7.2,Sturdy,null,Overcoat,1 Def,Bug,null,null
+Forretress,205,forretress.png,205.png,75,90,140,60,60,40,465,Bug,Steel,Bagworm Pokemon,null,125.8,Sturdy,null,Overcoat,2 Def,Bug,null,null
+Dunsparce,206,dunsparce.png,206.png,100,70,70,65,65,45,415,Normal,null,Land Snake Pokemon,null,14,Serene Grace,Run Away,Rattled,1 HP,Ground,null,null
+Gligar,207,gligar.png,207.png,65,75,105,35,65,85,430,Ground,Flying,Fly Scorpion Pokemon,null,64.8,Hyper Cutter,Sand Veil,Immunity,1 Def,Bug,null,null
+Steelix,208,steelix.png,208.png,75,85,200,55,65,30,510,Steel,Ground,Iron Snake Pokemon,null,400,Rock Head,Sturdy,Sheer Force,2 Def,Mineral,null,null
+Snubbull,209,snubbull.png,209.png,60,80,50,40,40,30,300,Fairy,null,Fairy Pokemon,null,7.8,Intimidate,Run Away,Rattled,1 Atk,Ground,Fairy,null
+Granbull,210,granbull.png,210.png,90,120,75,60,60,45,450,Fairy,null,Fairy Pokemon,null,48.7,Intimidate,Quick Feet,Rattled,2 Atk,Ground,Fairy,null
+Qwilfish,211,qwilfish.png,211.png,65,95,85,55,55,85,440,Water,Poison,Balloon Pokemon,null,3.9,Poison Point,Swift Swim,Intimidate,1 Atk,Water2,null,null
+Qwilfish-hisui,211,qwilfish-hisui.png,211-hisui.png,65,95,85,55,55,85,440,Dark,Poison,Balloon Pokemon,null,null,Poison Point,Swift Swim,Intimidate,null,Water2,null,null
+Scizor,212,scizor.png,212.png,70,130,100,55,80,65,500,Bug,Steel,Pincer Pokemon,null,118,Swarm,Technician,Light Metal,2 Atk,Bug,null,null
+Shuckle,213,shuckle.png,213.png,20,10,230,10,230,5,505,Bug,Rock,Mold Pokemon,null,20.5,Sturdy,Gluttony,Contrary,1 Def/1 SpD,Bug,null,null
+Heracross,214,heracross.png,214.png,80,125,75,40,95,85,500,Bug,Fighting,Single Horn Pokemon,null,54,Swarm,Guts,Moxie,2 Atk,Bug,null,null
+Sneasel,215,sneasel.png,215.png,55,95,55,35,75,115,430,Dark,Ice,Sharp Claw Pokemon,null,28,Inner Focus,Keen Eye,Pickpocket,1 Spe,Ground,null,null
+Sneasel-hisui,215,sneasel-hisui.png,215-hisui.png,55,95,55,35,75,115,430,Fighting,Poison,Sharp Claw Pokemon,null,null,Inner Focus,Keen Eye,Pickpocket,null,Ground,null,null
+Teddiursa,216,teddiursa.png,216.png,60,80,50,50,50,40,330,Normal,null,Little Bear Pokemon,null,8.8,Pickup,Quick Feet,Honey Gather,1 Atk,Ground,null,null
+Ursaring,217,ursaring.png,217.png,90,130,75,75,75,55,500,Normal,null,Hibernator Pokemon,null,125.8,Guts,Quick Feet,Unnerve,2 Atk,Ground,null,null
+Slugma,218,slugma.png,218.png,40,40,40,70,40,20,250,Fire,null,Lava Pokemon,null,35,Magma Armor,Flame Body,Weak Armor,1 SpA,Indeterminate,null,null
+Magcargo,219,magcargo.png,219.png,60,50,120,90,80,30,430,Fire,Rock,Lava Pokemon,null,55,Magma Armor,Flame Body,Weak Armor,2 Def,Indeterminate,null,null
+Swinub,220,swinub.png,220.png,50,50,40,30,30,50,250,Ice,Ground,Pig Pokemon,null,6.5,Oblivious,Snow Cloak,Thick Fat,1 Atk,Ground,null,null
+Piloswine,221,piloswine.png,221.png,100,100,80,60,60,50,450,Ice,Ground,Swine Pokemon,null,55.8,Oblivious,Snow Cloak,Thick Fat,1 HP/1 Atk,Ground,null,null
+Corsola,222,corsola.png,222.png,65,55,95,65,95,35,410,Water,Rock,Coral Pokemon,null,5,Hustle,Natural Cure,Regenerator,1 Def/1 SpD,Water1,Water3,null
+Corsola-galar,222,corsola-galar.png,222-galar.png,60,55,100,65,100,30,410,Ghost,null,Coral Pokemon,null,null,Hustle,Natural Cure,Regenerator,null,Water1,Water3,null
+Remoraid,223,remoraid.png,223.png,35,65,35,65,35,65,300,Water,null,Jet Pokemon,null,12,Hustle,Sniper,Moody,1 SpA,Water1,Water2,null
+Octillery,224,octillery.png,224.png,75,105,75,105,75,45,480,Water,null,Jet Pokemon,null,28.5,Suction Cups,Sniper,Moody,1 Atk/1 SpA,Water1,Water2,null
+Delibird,225,delibird.png,225.png,45,55,45,65,45,75,330,Ice,Flying,Delivery Pokemon,null,16,Vital Spirit,Hustle,Insomnia,1 Spe,Water1,Ground,null
+Mantine,226,mantine.png,226.png,85,40,70,80,140,70,485,Water,Flying,Kite Pokemon,null,220,Swift Swim,Water Absorb,Water Veil,2 SpD,Water1,null,null
+Skarmory,227,skarmory.png,227.png,65,80,140,40,70,70,465,Steel,Flying,Armor Bird Pokemon,null,50.5,Keen Eye,Sturdy,Weak Armor,2 Def,Flying,null,null
+Houndour,228,houndour.png,228.png,45,60,30,80,50,65,330,Dark,Fire,Dark Pokemon,null,10.8,Early Bird,Flash Fire,Unnerve,1 SpA,Ground,null,null
+Houndoom,229,houndoom.png,229.png,75,90,50,110,80,95,500,Dark,Fire,Dark Pokemon,null,35,Early Bird,Flash Fire,Unnerve,2 SpA,Ground,null,null
+Kingdra,230,kingdra.png,230.png,75,95,95,95,95,85,540,Water,Dragon,Dragon Pokemon,null,152,Swift Swim,Sniper,Damp,1 Atk/1 SpA/1 SpD,Water1,Dragon,null
+Phanpy,231,phanpy.png,231.png,90,60,60,40,40,40,330,Ground,null,Long Nose Pokemon,null,33.5,Pickup,null,Sand Veil,1 HP,Ground,null,null
+Donphan,232,donphan.png,232.png,90,120,120,60,60,50,500,Ground,null,Armor Pokemon,null,120,Sturdy,null,Sand Veil,1 Atk/1 Def,Ground,null,null
+Porygon2,233,porygon2.png,233.png,85,80,90,105,95,60,515,Normal,null,Virtual Pokemon,null,32.5,Trace,Download,Analytic,2 SpA,Mineral,null,null
+Stantler,234,stantler.png,234.png,73,95,62,85,65,85,465,Normal,null,Big Horn Pokemon,null,71.2,Intimidate,Frisk,Sap Sipper,1 Atk,Ground,null,null
+Smeargle,235,smeargle.png,235.png,55,20,35,20,45,75,250,Normal,null,Painter Pokemon,null,58,Own Tempo,Technician,Moody,1 Spe,Ground,null,null
+Tyrogue,236,tyrogue.png,236.png,35,35,35,35,35,35,210,Fighting,null,Scuffle Pokemon,null,21,Guts,Steadfast,Vital Spirit,1Atk,No-Eggs,null,null
+Hitmontop,237,hitmontop.png,237.png,50,95,95,35,110,70,455,Fighting,null,Handstand Pokemon,null,48,Intimidate,Technician,Steadfast,2 SpD,Humanshape,null,null
+Smoochum,238,smoochum.png,238.png,45,30,15,85,65,65,305,Ice,Psychic,Kiss Pokemon,null,6,Oblivious,Forewarn,Hydration,1 SpA,No-Eggs,null,null
+Elekid,239,elekid.png,239.png,45,63,37,65,55,95,360,Electric,null,Electric Pokemon,null,23.5,Static,null,Vital Spirit,1 Spe,No-Eggs,null,null
+Magby,240,magby.png,240.png,45,75,37,70,55,83,365,Fire,null,Live Coal Pokemon,null,21.4,Flame Body,null,Vital Spirit,1 Spe,No-Eggs,null,null
+Miltank,241,miltank.png,241.png,95,80,105,40,70,100,490,Normal,null,Milk Cow Pokemon,null,75.5,Thick Fat,Scrappy,Sap Sipper,2 Def,Ground,null,null
+Blissey,242,blissey.png,242.png,255,10,10,75,135,55,540,Normal,null,Happiness Pokemon,null,46.8,Natural Cure,Serene Grace,Healer,3 HP,Fairy,null,null
+Raikou,243,raikou.png,243.png,90,85,75,115,100,115,580,Electric,null,Thunder Pokemon,null,178,Pressure,null,Inner Focus,1 SpA/2 Spe,No-Eggs,null,null
+Entei,244,entei.png,244.png,115,115,85,90,75,100,580,Fire,null,Volcano Pokemon,null,198,Pressure,null,Inner Focus,1 HP/2 Atk,No-Eggs,null,null
+Suicune,245,suicune.png,245.png,100,75,115,90,115,85,580,Water,null,Aurora Pokemon,null,187,Pressure,null,Inner Focus,1 Def/2 SpD,No-Eggs,null,null
+Larvitar,246,larvitar.png,246.png,50,64,50,45,50,41,300,Rock,Ground,Rock Skin Pokemon,null,72,Guts,null,Sand Veil,1 Atk,Monster,null,null
+Pupitar,247,pupitar.png,247.png,70,84,70,65,70,51,410,Rock,Ground,Hard Shell Pokemon,null,152,Shed Skin,null,null,2 Atk,Monster,null,null
+Tyranitar,248,tyranitar.png,248.png,100,134,110,95,100,61,600,Rock,Dark,Armor Pokemon,null,202,Sand Stream,null,Unnerve,3 Atk,Monster,null,null
+Lugia,249,lugia.png,249.png,106,90,130,90,154,110,680,Psychic,Flying,Diving Pokemon,null,216,Pressure,null,Multiscale,3 SpD,No-Eggs,null,null
+Ho-oh,250,ho-oh.png,250.png,106,130,90,110,154,90,680,Fire,Flying,Rainbow Pokemon,null,199,Pressure,null,Regenerator,3 SpD,No-Eggs,null,null
+Celebi,251,celebi.png,251.png,100,100,100,100,100,100,600,Psychic,Grass,Time Travel Pokemon,null,5,Natural Cure,null,null,3 HP,No-Eggs,null,null
+Treecko,252,treecko.png,252.png,40,45,35,65,55,70,310,Grass,null,Wood Gecko Pokemon,null,5,Overgrow,null,Unburden,1 Spe,Monster,Dragon,null
+Grovyle,253,grovyle.png,253.png,50,65,45,85,65,95,405,Grass,null,Wood Gecko Pokemon,null,21.6,Overgrow,null,Unburden,2 Spe,Monster,Dragon,null
+Sceptile,254,sceptile.png,254.png,70,85,65,105,85,120,530,Grass,null,Forest Pokemon,null,52.2,Overgrow,null,Unburden,3 Spe,Monster,Dragon,null
+Torchic,255,torchic.png,255.png,45,60,40,70,50,45,310,Fire,null,Chick Pokemon,null,2.5,Blaze,null,Speed Boost,1 SpA,Ground,null,null
+Combusken,256,combusken.png,256.png,60,85,60,85,60,55,405,Fire,Fighting,Young Fowl Pokemon,null,19.5,Blaze,null,Speed Boost,1 Atk/1 SpA,Ground,null,null
+Blaziken,257,blaziken.png,257.png,80,120,70,110,70,80,530,Fire,Fighting,Blaze Pokemon,null,52,Blaze,null,Speed Boost,3 Atk,Ground,null,null
+Mudkip,258,mudkip.png,258.png,50,70,50,50,50,40,310,Water,null,Mud Fish Pokemon,null,7.6,Torrent,null,Damp,1 Atk,Monster,Water1,null
+Marshtomp,259,marshtomp.png,259.png,70,85,70,60,70,50,405,Water,Ground,Mud Fish Pokemon,null,28,Torrent,null,Damp,2 Atk,Monster,Water1,null
+Swampert,260,swampert.png,260.png,100,110,90,85,90,60,535,Water,Ground,Mud Fish Pokemon,null,81.9,Torrent,null,Damp,3 Atk,Monster,Water1,null
+Poochyena,261,poochyena.png,261.png,35,55,35,30,30,35,220,Dark,null,Bite Pokemon,null,13.6,Run Away,Quick Feet,Rattled,1 Atk,Ground,null,null
+Mightyena,262,mightyena.png,262.png,70,90,70,60,60,70,420,Dark,null,Bite Pokemon,null,37,Intimidate,Quick Feet,Moxie,2 Atk,Ground,null,null
+Zigzagoon,263,zigzagoon.png,263.png,38,30,41,30,41,60,240,Normal,null,Tiny Raccoon Pokemon,null,17.5,Pickup,Gluttony,Quick Feet,1 Spe,Ground,null,null
+Zigzagoon-galar,263,zigzagoon-galar.png,263-galar.png,38,30,41,30,41,60,240,Dark,Normal,Tiny Raccoon Pokemon,null,null,Pickup,Gluttony,Quick Feet,null,Ground,null,null
+Linoone,264,linoone.png,264.png,78,70,61,50,61,100,420,Normal,null,Rushing Pokemon,null,32.5,Pickup,Gluttony,Quick Feet,2 Spe,Ground,null,null
+Linoone-galar,264,linoone-galar.png,264-galar.png,78,70,61,50,61,100,420,Dark,Normal,Rushing Pokemon,null,null,Pickup,Gluttony,Quick Feet,null,Ground,null,null
+Wurmple,265,wurmple.png,265.png,45,45,35,20,30,20,195,Bug,null,Worm Pokemon,null,3.6,Shield Dust,null,Run Away,1 HP,Bug,null,null
+Silcoon,266,silcoon.png,266.png,50,35,55,25,25,15,205,Bug,null,Cocoon Pokemon,null,10,Shed Skin,null,null,2 Def,Bug,null,null
+Beautifly,267,beautifly.png,267.png,60,70,50,100,50,65,395,Bug,Flying,Butterfly Pokemon,null,28.4,Swarm,null,Rivalry,3 SpA,Bug,null,null
+Cascoon,268,cascoon.png,268.png,50,35,55,25,25,15,205,Bug,null,Cocoon Pokemon,null,11.5,Shed Skin,null,null,2 Def,Bug,null,null
+Dustox,269,dustox.png,269.png,60,50,70,50,90,65,385,Bug,Poison,Poison Moth Pokemon,null,31.6,Shield Dust,null,Compound Eyes,3 SpD,Bug,null,null
+Lotad,270,lotad.png,270.png,40,30,30,40,50,30,220,Water,Grass,Water Weed Pokemon,null,2.6,Swift Swim,Rain Dish,Own Tempo,1 SpD,Water1,Plant,null
+Lombre,271,lombre.png,271.png,60,50,50,60,70,50,340,Water,Grass,Jolly Pokemon,null,32.5,Swift Swim,Rain Dish,Own Tempo,2 SpD,Water1,Plant,null
+Ludicolo,272,ludicolo.png,272.png,80,70,70,90,100,70,480,Water,Grass,Carefree Pokemon,null,55,Swift Swim,Rain Dish,Own Tempo,3 SpD,Water1,Plant,null
+Seedot,273,seedot.png,273.png,40,40,50,30,30,30,220,Grass,null,Acorn Pokemon,null,4,Chlorophyll,Early Bird,Pickpocket,1 Def,Ground,Plant,null
+Nuzleaf,274,nuzleaf.png,274.png,70,70,40,60,40,60,340,Grass,Dark,Wily Pokemon,null,28,Chlorophyll,Early Bird,Pickpocket,2 Atk,Ground,Plant,null
+Shiftry,275,shiftry.png,275.png,90,100,60,90,60,80,480,Grass,Dark,Wicked Pokemon,null,59.6,Chlorophyll,Early Bird,Pickpocket,3 Atk,Ground,Plant,null
+Taillow,276,taillow.png,276.png,40,55,30,30,30,85,270,Normal,Flying,Tiny Swallow Pokemon,null,2.3,Guts,null,Scrappy,1 Spe,Flying,null,null
+Swellow,277,swellow.png,277.png,60,85,60,75,50,125,455,Normal,Flying,Swallow Pokemon,null,19.8,Guts,null,Scrappy,2 Spe,Flying,null,null
+Wingull,278,wingull.png,278.png,40,30,30,55,30,85,270,Water,Flying,Seagull Pokemon,null,9.5,Keen Eye,Hydration,Rain Dish,1 Spe,Flying,Water1,null
+Pelipper,279,pelipper.png,279.png,60,50,100,95,70,65,440,Water,Flying,Water Bird Pokemon,null,28,Keen Eye,Drizzle,Rain Dish,2 Def,Water1,Flying,null
+Ralts,280,ralts.png,280.png,28,25,25,45,35,40,198,Psychic,Fairy,Feeling Pokemon,null,6.6,Synchronize,Trace,Telepathy,1 SpA,Humanshape,Indeterminate,null
+Kirlia,281,kirlia.png,281.png,38,35,35,65,55,50,278,Psychic,Fairy,Emotion Pokemon,null,20.2,Synchronize,Trace,Telepathy,2 SpA,Humanshape,Indeterminate,null
+Gardevoir,282,gardevoir.png,282.png,68,65,65,125,115,80,518,Psychic,Fairy,Embrace Pokemon,null,48.4,Synchronize,Trace,Telepathy,3 SpA,Humanshape,Indeterminate,null
+Surskit,283,surskit.png,283.png,40,30,32,50,52,65,269,Bug,Water,Pond Skater Pokemon,null,1.7,Swift Swim,null,Rain Dish,1 Spe,Water1,Bug,null
+Masquerain,284,masquerain.png,284.png,70,60,62,100,82,80,454,Bug,Flying,Eyeball Pokemon,null,3.6,Intimidate,null,Unnerve,1 SpA/1 SpD,Water1,Bug,null
+Shroomish,285,shroomish.png,285.png,60,40,60,40,60,35,295,Grass,null,Mushroom Pokemon,null,4.5,Effect Spore,Poison Heal,Quick Feet,1 HP,Fairy,Plant,null
+Breloom,286,breloom.png,286.png,60,130,80,60,60,70,460,Grass,Fighting,Mushroom Pokemon,null,39.2,Effect Spore,Poison Heal,Technician,2 Atk,Plant,Fairy,null
+Slakoth,287,slakoth.png,287.png,60,60,60,35,35,30,280,Normal,null,Slacker Pokemon,null,24,Truant,null,null,1 HP,Ground,null,null
+Vigoroth,288,vigoroth.png,288.png,80,80,80,55,55,90,440,Normal,null,Wild Monkey Pokemon,null,46.5,Vital Spirit,null,null,2 Spe,Ground,null,null
+Slaking,289,slaking.png,289.png,150,160,100,95,65,100,670,Normal,null,Lazy Pokemon,null,130.5,Truant,null,null,3 HP,Ground,null,null
+Nincada,290,nincada.png,290.png,31,45,90,30,30,40,266,Bug,Ground,Trainee Pokemon,null,5.5,Compound Eyes,null,Run Away,1 Def,Bug,null,null
+Ninjask,291,ninjask.png,291.png,61,90,45,50,50,160,456,Bug,Flying,Ninja Pokemon,null,12,Speed Boost,null,Infiltrator,2 Spe,Bug,null,null
+Shedinja,292,shedinja.png,292.png,1,90,45,30,30,40,236,Bug,Ghost,Shed Pokemon,null,1.2,Wonder Guard,null,null,2 HP,Mineral,null,null
+Whismur,293,whismur.png,293.png,64,51,23,51,23,28,240,Normal,null,Whisper Pokemon,null,16.3,Soundproof,null,Rattled,1 HP,Monster,Ground,null
+Loudred,294,loudred.png,294.png,84,71,43,71,43,48,360,Normal,null,Big Voice Pokemon,null,40.5,Soundproof,null,Scrappy,2 HP,Monster,Ground,null
+Exploud,295,exploud.png,295.png,104,91,63,91,73,68,490,Normal,null,Loud Noise Pokemon,null,84,Soundproof,null,Scrappy,3 HP,Monster,Ground,null
+Makuhita,296,makuhita.png,296.png,72,60,30,20,30,25,237,Fighting,null,Guts Pokemon,null,86.4,Thick Fat,Guts,Sheer Force,1 HP,Humanshape,null,null
+Hariyama,297,hariyama.png,297.png,144,120,60,40,60,50,474,Fighting,null,Arm Thrust Pokemon,null,253.8,Thick Fat,Guts,Sheer Force,2 HP,Humanshape,null,null
+Azurill,298,azurill.png,298.png,50,20,40,20,40,20,190,Normal,Fairy,Polka Dot Pokemon,null,2,Thick Fat,Huge Power,Sap Sipper,1 HP,No-Eggs,null,null
+Nosepass,299,nosepass.png,299.png,30,45,135,45,90,30,375,Rock,null,Compass Pokemon,null,97,Sturdy,Magnet Pull,Sand Force,1 Def,Mineral,null,null
+Skitty,300,skitty.png,300.png,50,45,45,35,35,50,260,Normal,null,Kitten Pokemon,null,11,Cute Charm,Normalize,Wonder Skin,1 Spe,Ground,Fairy,null
+Delcatty,301,delcatty.png,301.png,70,65,65,55,55,90,400,Normal,null,Prim Pokemon,null,32.6,Cute Charm,Normalize,Wonder Skin,1 HP/1 Spe,Ground,Fairy,null
+Sableye,302,sableye.png,302.png,50,75,75,65,65,50,380,Dark,Ghost,Darkness Pokemon,null,11,Keen Eye,Stall,Prankster,1 Atk/1 Def,Humanshape,null,null
+Mawile,303,mawile.png,303.png,50,85,85,55,55,50,380,Steel,Fairy,Deceiver Pokemon,null,11.5,Hyper Cutter,Intimidate,Sheer Force,1 Atk/1 Def,Ground,Fairy,null
+Aron,304,aron.png,304.png,50,70,100,40,40,30,330,Steel,Rock,Iron Armor Pokemon,null,60,Sturdy,Rock Head,Heavy Metal,1 Def,Monster,null,null
+Lairon,305,lairon.png,305.png,60,90,140,50,50,40,430,Steel,Rock,Iron Armor Pokemon,null,120,Sturdy,Rock Head,Heavy Metal,2 Def,Monster,null,null
+Aggron,306,aggron.png,306.png,70,110,180,60,60,50,530,Steel,Rock,Iron Armor Pokemon,null,360,Sturdy,Rock Head,Heavy Metal,3 Def,Monster,null,null
+Meditite,307,meditite.png,307.png,30,40,55,40,55,60,280,Fighting,Psychic,Meditate Pokemon,null,11.2,Pure Power,null,Telepathy,1 Spe,Humanshape,null,null
+Medicham,308,medicham.png,308.png,60,60,75,60,75,80,410,Fighting,Psychic,Meditate Pokemon,null,31.5,Pure Power,null,Telepathy,2 Spe,Humanshape,null,null
+Electrike,309,electrike.png,309.png,40,45,40,65,40,65,295,Electric,null,Lightning Pokemon,null,15.2,Static,Lightning Rod,Minus,1 Spe,Ground,null,null
+Manectric,310,manectric.png,310.png,70,75,60,105,60,105,475,Electric,null,Discharge Pokemon,null,40.2,Static,Lightning Rod,Minus,2 Spe,Ground,null,null
+Plusle,311,plusle.png,311.png,60,50,40,85,75,95,405,Electric,null,Cheering Pokemon,null,4.2,Plus,null,Lightning Rod,1 Spe,Fairy,null,null
+Minun,312,minun.png,312.png,60,40,50,75,85,95,405,Electric,null,Cheering Pokemon,null,4.2,Minus,null,Volt Absorb,1 Spe,Fairy,null,null
+Volbeat,313,volbeat.png,313.png,65,73,75,47,85,85,430,Bug,null,Firefly Pokemon,null,17.7,Illuminate,Swarm,Prankster,1 Spe,Bug,Humanshape,null
+Illumise,314,illumise.png,314.png,65,47,75,73,85,85,430,Bug,null,Firefly Pokemon,null,17.7,Oblivious,Tinted Lens,Prankster,1 Spe,Bug,Humanshape,null
+Roselia,315,roselia.png,315.png,50,60,45,100,80,65,400,Grass,Poison,Thorn Pokemon,null,2,Natural Cure,Poison Point,Leaf Guard,2 SpA,Fairy,Plant,null
+Gulpin,316,gulpin.png,316.png,70,43,53,43,53,40,302,Poison,null,Stomach Pokemon,null,10.3,Liquid Ooze,Sticky Hold,Gluttony,1 HP,Indeterminate,null,null
+Swalot,317,swalot.png,317.png,100,73,83,73,83,55,467,Poison,null,Poison Bag Pokemon,null,80,Liquid Ooze,Sticky Hold,Gluttony,2 HP,Indeterminate,null,null
+Carvanha,318,carvanha.png,318.png,45,90,20,65,20,65,305,Water,Dark,Savage Pokemon,null,20.8,Rough Skin,null,Speed Boost,1 Atk,Water2,null,null
+Sharpedo,319,sharpedo.png,319.png,70,120,40,95,40,95,460,Water,Dark,Brutal Pokemon,null,88.8,Rough Skin,null,Speed Boost,2 Atk,Water2,null,null
+Wailmer,320,wailmer.png,320.png,130,70,35,70,35,60,400,Water,null,Ball Whale Pokemon,null,130,Water Veil,Oblivious,Pressure,1 HP,Ground,Water2,null
+Wailord,321,wailord.png,321.png,170,90,45,90,45,60,500,Water,null,Float Whale Pokemon,null,398,Water Veil,Oblivious,Pressure,2 HP,Ground,Water2,null
+Numel,322,numel.png,322.png,60,60,40,65,45,35,305,Fire,Ground,Numb Pokemon,null,24,Oblivious,Simple,Own Tempo,1 SpA,Ground,null,null
+Camerupt,323,camerupt.png,323.png,70,100,70,105,75,40,460,Fire,Ground,Eruption Pokemon,null,220,Magma Armor,Solid Rock,Anger Point,1 Atk/1 SpA,Ground,null,null
+Torkoal,324,torkoal.png,324.png,70,85,140,85,70,20,470,Fire,null,Coal Pokemon,null,80.4,White Smoke,Drought,Shell Armor,2 Def,Ground,null,null
+Spoink,325,spoink.png,325.png,60,25,35,70,80,60,330,Psychic,null,Bounce Pokemon,null,30.6,Thick Fat,Own Tempo,Gluttony,1 SpD,Ground,null,null
+Grumpig,326,grumpig.png,326.png,80,45,65,90,110,80,470,Psychic,null,Manipulate Pokemon,null,71.5,Thick Fat,Own Tempo,Gluttony,2 SpD,Ground,null,null
+Spinda,327,spinda.png,327.png,60,60,60,60,60,60,360,Normal,null,Spot Panda Pokemon,null,5,Own Tempo,Tangled Feet,Contrary,1 SpA,Ground,Humanshape,null
+Trapinch,328,trapinch.png,328.png,45,100,45,45,45,10,290,Ground,null,Ant Pit Pokemon,null,15,Hyper Cutter,Arena Trap,Sheer Force,1 Atk,Bug,Dragon,null
+Vibrava,329,vibrava.png,329.png,50,70,50,50,50,70,340,Ground,Dragon,Vibration Pokemon,null,15.3,Levitate,null,null,1 Atk/1 Spe,Bug,Dragon,null
+Flygon,330,flygon.png,330.png,80,100,80,80,80,100,520,Ground,Dragon,Mystic Pokemon,null,82,Levitate,null,null,1 Atk/2 Spe,Bug,Dragon,null
+Cacnea,331,cacnea.png,331.png,50,85,40,85,40,35,335,Grass,null,Cactus Pokemon,null,51.3,Sand Veil,null,Water Absorb,1 SpA,Plant,Humanshape,null
+Cacturne,332,cacturne.png,332.png,70,115,60,115,60,55,475,Grass,Dark,Scarecrow Pokemon,null,77.4,Sand Veil,null,Water Absorb,1 Atk/1 SpA,Plant,Humanshape,null
+Swablu,333,swablu.png,333.png,45,40,60,40,75,50,310,Normal,Flying,Cotton Bird Pokemon,null,1.2,Natural Cure,null,Cloud Nine,1 SpD,Flying,Dragon,null
+Altaria,334,altaria.png,334.png,75,70,90,70,105,80,490,Dragon,Flying,Humming Pokemon,null,20.6,Natural Cure,null,Cloud Nine,2 SpD,Flying,Dragon,null
+Zangoose,335,zangoose.png,335.png,73,115,60,60,60,90,458,Normal,null,Cat Ferret Pokemon,null,40.3,Immunity,null,Toxic Boost,2 Atk,Ground,null,null
+Seviper,336,seviper.png,336.png,73,100,60,100,60,65,458,Poison,null,Fang Snake Pokemon,null,52.5,Shed Skin,null,Infiltrator,1 Atk/1 SpA,Ground,Dragon,null
+Lunatone,337,lunatone.png,337.png,90,55,65,95,85,70,460,Rock,Psychic,Meteorite Pokemon,null,168,Levitate,null,null,2 SpA,Mineral,null,null
+Solrock,338,solrock.png,338.png,90,95,85,55,65,70,460,Rock,Psychic,Meteorite Pokemon,null,154,Levitate,null,null,2 Atk,Mineral,null,null
+Barboach,339,barboach.png,339.png,50,48,43,46,41,60,288,Water,Ground,Whiskers Pokemon,null,1.9,Oblivious,Anticipation,Hydration,1 HP,Water2,null,null
+Whiscash,340,whiscash.png,340.png,110,78,73,76,71,60,468,Water,Ground,Whiskers Pokemon,null,23.6,Oblivious,Anticipation,Hydration,2 HP,Water2,null,null
+Corphish,341,corphish.png,341.png,43,80,65,50,35,35,308,Water,null,Ruffian Pokemon,null,11.5,Hyper Cutter,Shell Armor,Adaptability,1 Atk,Water1,Water3,null
+Crawdaunt,342,crawdaunt.png,342.png,63,120,85,90,55,55,468,Water,Dark,Rogue Pokemon,null,32.8,Hyper Cutter,Shell Armor,Adaptability,2 Atk,Water1,Water3,null
+Baltoy,343,baltoy.png,343.png,40,40,55,40,70,55,300,Ground,Psychic,Clay Doll Pokemon,null,21.5,Levitate,null,null,1 SpD,Mineral,null,null
+Claydol,344,claydol.png,344.png,60,70,105,70,120,75,500,Ground,Psychic,Clay Doll Pokemon,null,108,Levitate,null,null,2 SpD,Mineral,null,null
+Lileep,345,lileep.png,345.png,66,41,77,61,87,23,355,Rock,Grass,Sea Lily Pokemon,null,23.8,Suction Cups,null,Storm Drain,1 SpD,Water3,null,null
+Cradily,346,cradily.png,346.png,86,81,97,81,107,43,495,Rock,Grass,Barnacle Pokemon,null,60.4,Suction Cups,null,Storm Drain,2 SpD,Water3,null,null
+Anorith,347,anorith.png,347.png,45,95,50,40,50,75,355,Rock,Bug,Old Shrimp Pokemon,null,12.5,Battle Armor,null,Swift Swim,1 Atk,Water3,null,null
+Armaldo,348,armaldo.png,348.png,75,125,100,70,80,45,495,Rock,Bug,Plate Pokemon,null,68.2,Battle Armor,null,Swift Swim,2 Atk,Water3,null,null
+Feebas,349,feebas.png,349.png,20,15,20,10,55,80,200,Water,null,Fish Pokemon,null,7.4,Swift Swim,Oblivious,Adaptability,1 Spe,Water1,Dragon,null
+Milotic,350,milotic.png,350.png,95,60,79,100,125,81,540,Water,null,Tender Pokemon,null,162,Marvel Scale,Competitive,Cute Charm,2 SpD,Water1,Dragon,null
+Castform,351,castform.png,351.png,70,70,70,70,70,70,420,Normal,null,Weather Pokemon,null,0.8,Forecast,null,null,1 HP,Fairy,Indeterminate,null
+Kecleon,352,kecleon.png,352.png,60,90,70,60,120,40,440,Normal,null,Color Swap Pokemon,null,22,Color Change,null,Protean,1 SpD,Ground,null,null
+Shuppet,353,shuppet.png,353.png,44,75,35,63,33,45,295,Ghost,null,Puppet Pokemon,null,2.3,Insomnia,Frisk,Cursed Body,1 Atk,Indeterminate,null,null
+Banette,354,banette.png,354.png,64,115,65,83,63,65,455,Ghost,null,Marionette Pokemon,null,12.5,Insomnia,Frisk,Cursed Body,2 Atk,Indeterminate,null,null
+Duskull,355,duskull.png,355.png,20,40,90,30,90,25,295,Ghost,null,Requiem Pokemon,null,15,Levitate,null,Frisk,1 SpD,Indeterminate,null,null
+Dusclops,356,dusclops.png,356.png,40,70,130,60,130,25,455,Ghost,null,Beckon Pokemon,null,30.6,Pressure,null,Frisk,1 Def/1 SpD,Indeterminate,null,null
+Tropius,357,tropius.png,357.png,99,68,83,72,87,51,460,Grass,Flying,Fruit Pokemon,null,100,Chlorophyll,Solar Power,Harvest,2 HP,Monster,Plant,null
+Chimecho,358,chimecho.png,358.png,75,50,80,95,90,65,455,Psychic,null,Wind Chime Pokemon,null,1,Levitate,null,null,1 SpA/1 SpD,Indeterminate,null,null
+Absol,359,absol.png,359.png,65,130,60,75,60,75,465,Dark,null,Disaster Pokemon,null,47,Pressure,Super Luck,Justified,2 Atk,Ground,null,null
+Wynaut,360,wynaut.png,360.png,95,23,48,23,48,23,260,Psychic,null,Bright Pokemon,null,14,Shadow Tag,null,Telepathy,1 HP,No-Eggs,null,null
+Snorunt,361,snorunt.png,361.png,50,50,50,50,50,50,300,Ice,null,Snow Hat Pokemon,null,16.8,Inner Focus,Ice Body,Moody,1 HP,Fairy,Mineral,null
+Glalie,362,glalie.png,362.png,80,80,80,80,80,80,480,Ice,null,Face Pokemon,null,256.5,Inner Focus,Ice Body,Moody,2 HP,Fairy,Mineral,null
+Spheal,363,spheal.png,363.png,70,40,50,55,50,25,290,Ice,Water,Clap Pokemon,null,39.5,Thick Fat,Ice Body,Oblivious,1 HP,Water1,Ground,null
+Sealeo,364,sealeo.png,364.png,90,60,70,75,70,45,410,Ice,Water,Ball Roll Pokemon,null,87.6,Thick Fat,Ice Body,Oblivious,2 HP,Water1,Ground,null
+Walrein,365,walrein.png,365.png,110,80,90,95,90,65,530,Ice,Water,Ice Break Pokemon,null,150.6,Thick Fat,Ice Body,Oblivious,3 HP,Water1,Ground,null
+Clamperl,366,clamperl.png,366.png,35,64,85,74,55,32,345,Water,null,Bivalve Pokemon,null,52.5,Shell Armor,null,Rattled,1 Def,Water1,null,null
+Huntail,367,huntail.png,367.png,55,104,105,94,75,52,485,Water,null,Deep Sea Pokemon,null,27,Swift Swim,null,Water Veil,1 Atk/1 Def,Water1,null,null
+Gorebyss,368,gorebyss.png,368.png,55,84,105,114,75,52,485,Water,null,South Sea Pokemon,null,22.6,Swift Swim,null,Hydration,2 SpA,Water1,null,null
+Relicanth,369,relicanth.png,369.png,100,90,130,45,65,55,485,Water,Rock,Longevity Pokemon,null,23.4,Swift Swim,Rock Head,Sturdy,1 HP/1 Def,Water1,Water2,null
+Luvdisc,370,luvdisc.png,370.png,43,30,55,40,65,97,330,Water,null,Rendezvous Pokemon,null,8.7,Swift Swim,null,Hydration,1 Spe,Water2,null,null
+Bagon,371,bagon.png,371.png,45,75,60,40,30,50,300,Dragon,null,Rock Head Pokemon,null,42.1,Rock Head,null,Sheer Force,1 Atk,Dragon,null,null
+Shelgon,372,shelgon.png,372.png,65,95,100,60,50,50,420,Dragon,null,Endurance Pokemon,null,110.5,Rock Head,null,Overcoat,2 Def,Dragon,null,null
+Salamence,373,salamence.png,373.png,95,135,80,110,80,100,600,Dragon,Flying,Dragon Pokemon,null,102.6,Intimidate,null,Moxie,3 Atk,Dragon,null,null
+Beldum,374,beldum.png,374.png,40,55,80,35,60,30,300,Steel,Psychic,Iron Ball Pokemon,null,95.2,Clear Body,null,Light Metal,1 Def,Mineral,null,null
+Metang,375,metang.png,375.png,60,75,100,55,80,50,420,Steel,Psychic,Iron Claw Pokemon,null,202.5,Clear Body,null,Light Metal,2 Def,Mineral,null,null
+Metagross,376,metagross.png,376.png,80,135,130,95,90,70,600,Steel,Psychic,Iron Leg Pokemon,null,550,Clear Body,null,Light Metal,3 Def,Mineral,null,null
+Regirock,377,regirock.png,377.png,80,100,200,50,100,50,580,Rock,null,Rock Peak Pokemon,null,230,Clear Body,null,Sturdy,3 Def,No-Eggs,null,null
+Regice,378,regice.png,378.png,80,50,100,100,200,50,580,Ice,null,Iceberg Pokemon,null,175,Clear Body,null,Ice Body,3 SpD,No-Eggs,null,null
+Registeel,379,registeel.png,379.png,80,75,150,75,150,50,580,Steel,null,Iron Pokemon,null,205,Clear Body,null,Light Metal,2 Def/1 SpD,No-Eggs,null,null
+Latias,380,latias.png,380.png,80,80,90,110,130,110,600,Dragon,Psychic,Eon Pokemon,null,40,Levitate,null,null,3 SpD,No-Eggs,null,null
+Latios,381,latios.png,381.png,80,90,80,130,110,110,600,Dragon,Psychic,Eon Pokemon,null,60,Levitate,null,null,3 SpA,No-Eggs,null,null
+Kyogre,382,kyogre.png,382.png,100,100,90,150,140,90,670,Water,null,Sea Basin Pokemon,null,352,Drizzle,null,null,3 SpA,No-Eggs,null,null
+Groudon,383,groudon.png,383.png,100,150,140,100,90,90,670,Ground,null,Continent Pokemon,null,950,Drought,null,null,3 Atk,No-Eggs,null,null
+Rayquaza,384,rayquaza.png,384.png,105,150,90,150,90,95,680,Dragon,Flying,Sky High Pokemon,null,206.5,Air Lock,null,null,2 Atk/1 SpA,No-Eggs,null,null
+Jirachi,385,jirachi.png,385.png,100,100,100,100,100,100,600,Steel,Psychic,Wish Pokemon,null,1.1,Serene Grace,null,null,3 HP,No-Eggs,null,null
+Deoxys,386,deoxys.png,386.png,50,150,50,150,50,150,600,Psychic,null,DNA Pokemon,null,60.8,Pressure,null,null,1 Atk/1 SpA/1 Spe,No-Eggs,null,null
+Turtwig,387,turtwig.png,387.png,55,68,64,45,55,31,318,Grass,null,Tiny Leaf Pokemon,null,10.2,Overgrow,null,Shell Armor,1 Atk,Monster,Plant,null
+Grotle,388,grotle.png,388.png,75,89,85,55,65,36,405,Grass,null,Grove Pokemon,null,97,Overgrow,null,Shell Armor,1 Atk/1 Def,Monster,Plant,null
+Torterra,389,torterra.png,389.png,95,109,105,75,85,56,525,Grass,Ground,Continent Pokemon,null,310,Overgrow,null,Shell Armor,2 Atk/1 Def,Monster,Plant,null
+Chimchar,390,chimchar.png,390.png,44,58,44,58,44,61,309,Fire,null,Chimp Pokemon,null,6.2,Blaze,null,Iron Fist,1 Spe,Ground,Humanshape,null
+Monferno,391,monferno.png,391.png,64,78,52,78,52,81,405,Fire,Fighting,Playful Pokemon,null,22,Blaze,null,Iron Fist,1 Spe/1 SpA,Ground,Humanshape,null
+Infernape,392,infernape.png,392.png,76,104,71,104,71,108,534,Fire,Fighting,Flame Pokemon,null,55,Blaze,null,Iron Fist,1 Atk/1 SpA/1 Spe,Humanshape,Ground,null
+Piplup,393,piplup.png,393.png,53,51,53,61,56,40,314,Water,null,Penguin Pokemon,null,5.2,Torrent,null,Defiant,1 SpA,Water1,Ground,null
+Prinplup,394,prinplup.png,394.png,64,66,68,81,76,50,405,Water,null,Penguin Pokemon,null,23,Torrent,null,Defiant,2 SpA,Water1,Ground,null
+Empoleon,395,empoleon.png,395.png,84,86,88,111,101,60,530,Water,Steel,Emperor Pokemon,null,84.5,Torrent,null,Defiant,3 SpA,Water1,Ground,null
+Starly,396,starly.png,396.png,40,55,30,30,30,60,245,Normal,Flying,Starling Pokemon,null,2,Keen Eye,null,Reckless,1 Spe,Flying,null,null
+Staravia,397,staravia.png,397.png,55,75,50,40,40,80,340,Normal,Flying,Starling Pokemon,null,15.5,Intimidate,null,Reckless,2 Spe,Flying,null,null
+Staraptor,398,staraptor.png,398.png,85,120,70,50,60,100,485,Normal,Flying,Predator Pokemon,null,24.9,Intimidate,null,Reckless,3 Atk,Flying,null,null
+Bidoof,399,bidoof.png,399.png,59,45,40,35,40,31,250,Normal,null,Plump Mouse Pokemon,null,20,Simple,Unaware,Moody,1 HP,Water1,Ground,null
+Bibarel,400,bibarel.png,400.png,79,85,60,55,60,71,410,Normal,Water,Beaver Pokemon,null,31.5,Simple,Unaware,Moody,2 Atk,Water1,Ground,null
+Kricketot,401,kricketot.png,401.png,37,25,41,25,41,25,194,Bug,null,Cricket Pokemon,null,2.2,Shed Skin,null,Run Away,1 Def,Bug,null,null
+Kricketune,402,kricketune.png,402.png,77,85,51,55,51,65,384,Bug,null,Cricket Pokemon,null,25.5,Swarm,null,Technician,2 Atk,Bug,null,null
+Shinx,403,shinx.png,403.png,45,65,34,40,34,45,263,Electric,null,Flash Pokemon,null,9.5,Rivalry,Intimidate,Guts,1Atk,Ground,null,null
+Luxio,404,luxio.png,404.png,60,85,49,60,49,60,363,Electric,null,Spark Pokemon,null,30.5,Rivalry,Intimidate,Guts,2 Atk,Ground,null,null
+Luxray,405,luxray.png,405.png,80,120,79,95,79,70,523,Electric,null,Gleam Eyes Pokemon,null,42,Rivalry,Intimidate,Guts,3 Atk,Ground,null,null
+Budew,406,budew.png,406.png,40,30,35,50,70,55,280,Grass,Poison,Bud Pokemon,null,1.2,Natural Cure,Poison Point,Leaf Guard,1 SpA,No-Eggs,null,null
+Roserade,407,roserade.png,407.png,60,70,65,125,105,90,515,Grass,Poison,Bouquet Pokemon,null,14.5,Natural Cure,Poison Point,Technician,3 SpA,Fairy,Plant,null
+Cranidos,408,cranidos.png,408.png,67,125,40,30,30,58,350,Rock,null,Head Butt Pokemon,null,31.5,Mold Breaker,null,Sheer Force,1 Atk,Monster,null,null
+Rampardos,409,rampardos.png,409.png,97,165,60,65,50,58,495,Rock,null,Head Butt Pokemon,null,102.5,Mold Breaker,null,Sheer Force,2 Atk,Monster,null,null
+Shieldon,410,shieldon.png,410.png,30,42,118,42,88,30,350,Rock,Steel,Shield Pokemon,null,57,Sturdy,null,Soundproof,1 Def,Monster,null,null
+Bastiodon,411,bastiodon.png,411.png,60,52,168,47,138,30,495,Rock,Steel,Shield Pokemon,null,149.5,Sturdy,null,Soundproof,2 Def,Monster,null,null
+Burmy,412,burmy.png,412.png,40,29,45,29,45,36,224,Bug,null,Bagworm Pokemon,null,3.4,Shed Skin,null,Overcoat,1 SpD,Bug,null,null
+Wormadam,413,wormadam.png,413.png,60,59,85,79,105,36,424,Bug,Grass,Bagworm Pokemon,null,6.5,Anticipation,null,Overcoat,2 SpD,Bug,null,null
+Mothim,414,mothim.png,414.png,70,94,50,94,50,66,424,Bug,Flying,Moth Pokemon,null,23.3,Swarm,null,Tinted Lens,1 Atk/1 SpA,Bug,null,null
+Combee,415,combee.png,415.png,30,30,42,30,42,70,244,Bug,Flying,Tiny Bee Pokemon,null,5.5,Honey Gather,null,Hustle,1 Spe,Bug,null,null
+Vespiquen,416,vespiquen.png,416.png,70,80,102,80,102,40,474,Bug,Flying,Beehive Pokemon,null,38.5,Pressure,null,Unnerve,1 Def/1 SpD,Bug,null,null
+Pachirisu,417,pachirisu.png,417.png,60,45,70,45,90,95,405,Electric,null,EleSquirrel Pokemon,null,3.9,Run Away,Pickup,Volt Absorb,1 Spe,Fairy,Ground,null
+Buizel,418,buizel.png,418.png,55,65,35,60,30,85,330,Water,null,Sea Weasel Pokemon,null,29.5,Swift Swim,null,Water Veil,1 Spe,Water1,Ground,null
+Floatzel,419,floatzel.png,419.png,85,105,55,85,50,115,495,Water,null,Sea Weasel Pokemon,null,33.5,Swift Swim,null,Water Veil,2 Spe,Water1,Ground,null
+Cherubi,420,cherubi.png,420.png,45,35,45,62,53,35,275,Grass,null,Cherry Pokemon,null,3.3,Chlorophyll,null,null,1 SpA,Fairy,Plant,null
+Cherrim,421,cherrim.png,421.png,70,60,70,87,78,85,450,Grass,null,Blossom Pokemon,null,9.3,Flower Gift,null,null,2 SpA,Fairy,Plant,null
+Shellos,422,shellos.png,422.png,76,48,48,57,62,34,325,Water,null,Sea Slug Pokemon,null,6.3,Sticky Hold,Storm Drain,Sand Force,1 HP,Water1,Indeterminate,null
+Gastrodon,423,gastrodon.png,423.png,111,83,68,92,82,39,475,Water,Ground,Sea Slug Pokemon,null,29.9,Sticky Hold,Storm Drain,Sand Force,2 HP,Water1,Indeterminate,null
+Ambipom,424,ambipom.png,424.png,75,100,66,60,66,115,482,Normal,null,Long Tail Pokemon,null,20.3,Technician,Pickup,Skill Link,2 Spe,Ground,null,null
+Drifloon,425,drifloon.png,425.png,90,50,34,60,44,70,348,Ghost,Flying,Balloon Pokemon,null,1.2,Aftermath,Unburden,Flare Boost,1 HP,Indeterminate,null,null
+Drifblim,426,drifblim.png,426.png,150,80,44,90,54,80,498,Ghost,Flying,Blimp Pokemon,null,15,Aftermath,Unburden,Flare Boost,2 HP,Indeterminate,null,null
+Buneary,427,buneary.png,427.png,55,66,44,44,56,85,350,Normal,null,Rabbit Pokemon,null,5.5,Run Away,Klutz,Limber,1 Spe,Ground,Humanshape,null
+Lopunny,428,lopunny.png,428.png,65,76,84,54,96,105,480,Normal,null,Rabbit Pokemon,null,33.3,Cute Charm,Klutz,Limber,2 Spe,Ground,Humanshape,null
+Mismagius,429,mismagius.png,429.png,60,60,60,105,105,105,495,Ghost,null,Magical Pokemon,null,4.4,Levitate,null,null,1 SpA/1 SpD,Indeterminate,null,null
+Honchkrow,430,honchkrow.png,430.png,100,125,52,105,52,71,505,Dark,Flying,Big Boss Pokemon,null,27.3,Insomnia,Super Luck,Moxie,2 Atk,Flying,null,null
+Glameow,431,glameow.png,431.png,49,55,42,42,37,85,310,Normal,null,Catty Pokemon,null,3.9,Limber,Own Tempo,Keen Eye,1 Spe,Ground,null,null
+Purugly,432,purugly.png,432.png,71,82,64,64,59,112,452,Normal,null,Tiger Cat Pokemon,null,43.8,Thick Fat,Own Tempo,Defiant,2 Spe,Ground,null,null
+Chingling,433,chingling.png,433.png,45,30,50,65,50,45,285,Psychic,null,Bell Pokemon,null,0.6,Levitate,null,null,1 SpA,No-Eggs,null,null
+Stunky,434,stunky.png,434.png,63,63,47,41,41,74,329,Poison,Dark,Skunk Pokemon,null,19.2,Stench,Aftermath,Keen Eye,1 Spe,Ground,null,null
+Skuntank,435,skuntank.png,435.png,103,93,67,71,61,84,479,Poison,Dark,Skunk Pokemon,null,38,Stench,Aftermath,Keen Eye,2 HP,Ground,null,null
+Bronzor,436,bronzor.png,436.png,57,24,86,24,86,23,300,Steel,Psychic,Bronze Pokemon,null,60.5,Levitate,Heatproof,Heavy Metal,1 Def,Mineral,null,null
+Bronzong,437,bronzong.png,437.png,67,89,116,79,116,33,500,Steel,Psychic,Bronze Bell Pokemon,null,187,Levitate,Heatproof,Heavy Metal,1 Def/1 SpD,Mineral,null,null
+Bonsly,438,bonsly.png,438.png,50,80,95,10,45,10,290,Rock,null,Bonsai Pokemon,null,15,Sturdy,Rock Head,Rattled,1 Def,No-Eggs,null,null
+Mime Jr.,439,mime-jr.png,439.png,20,25,45,70,90,60,310,Psychic,Fairy,Mime Pokemon,null,13,Soundproof,Filter,Technician,1 SpD,No-Eggs,null,null
+Happiny,440,happiny.png,440.png,100,5,5,15,65,30,220,Normal,null,Playhouse Pokemon,null,24.4,Natural Cure,Serene Grace,Friend Guard,1 HP,No-Eggs,null,null
+Chatot,441,chatot.png,441.png,76,65,45,92,42,91,411,Normal,Flying,Music Note Pokemon,null,1.9,Keen Eye,Tangled Feet,Big Pecks,1 Atk,Flying,null,null
+Spiritomb,442,spiritomb.png,442.png,50,92,108,92,108,35,485,Ghost,Dark,Forbidden Pokemon,null,108,Pressure,null,Infiltrator,1 Def/1 SpD,Indeterminate,null,null
+Gible,443,gible.png,443.png,58,70,45,40,45,42,300,Dragon,Ground,Land Shark Pokemon,null,20.5,Sand Veil,null,Rough Skin,1 Atk,Monster,Dragon,null
+Gabite,444,gabite.png,444.png,68,90,65,50,55,82,410,Dragon,Ground,Cave Pokemon,null,56,Sand Veil,null,Rough Skin,2 Atk,Monster,Dragon,null
+Garchomp,445,garchomp.png,445.png,108,130,95,80,85,102,600,Dragon,Ground,Mach Pokemon,null,95,Sand Veil,null,Rough Skin,3 Atk,Monster,Dragon,null
+Munchlax,446,munchlax.png,446.png,135,85,40,40,85,5,390,Normal,null,Big Eater Pokemon,null,105,Pickup,Thick Fat,Gluttony,1 HP,No-Eggs,null,null
+Riolu,447,riolu.png,447.png,40,70,40,35,40,60,285,Fighting,null,Emanation Pokemon,null,20.2,Steadfast,Inner Focus,Prankster,1 Atk,No-Eggs,null,null
+Lucario,448,lucario.png,448.png,70,110,70,115,70,90,525,Fighting,Steel,Aura Pokemon,null,54,Steadfast,Inner Focus,Justified,1 Atk/1 SpA,Ground,Humanshape,null
+Hippopotas,449,hippopotas.png,449.png,68,72,78,38,42,32,330,Ground,null,Hippo Pokemon,null,49.5,Sand Stream,null,Sand Force,1 Def,Ground,null,null
+Hippowdon,450,hippowdon.png,450.png,108,112,118,68,72,47,525,Ground,null,Heavyweight Pokemon,null,300,Sand Stream,null,Sand Force,2 Def,Ground,null,null
+Skorupi,451,skorupi.png,451.png,40,50,90,30,55,65,330,Poison,Bug,Scorpion Pokemon,null,12,Battle Armor,Sniper,Keen Eye,1 Def,Bug,Water3,null
+Drapion,452,drapion.png,452.png,70,90,110,60,75,95,500,Poison,Dark,Ogre Scorpion Pokemon,null,61.5,Battle Armor,Sniper,Keen Eye,2 Def,Bug,Water3,null
+Croagunk,453,croagunk.png,453.png,48,61,40,61,40,50,300,Poison,Fighting,Toxic Mouth Pokemon,null,23,Anticipation,Dry Skin,Poison Touch,1 Atk,Humanshape,null,null
+Toxicroak,454,toxicroak.png,454.png,83,106,65,86,65,85,490,Poison,Fighting,Toxic Mouth Pokemon,null,44.4,Anticipation,Dry Skin,Poison Touch,2 Atk,Humanshape,null,null
+Carnivine,455,carnivine.png,455.png,74,100,72,90,72,46,454,Grass,null,Bug Catcher Pokemon,null,27,Levitate,null,null,2 Atk,Plant,null,null
+Finneon,456,finneon.png,456.png,49,49,56,49,61,66,330,Water,null,Wing Fish Pokemon,null,7,Swift Swim,Storm Drain,Water Veil,1 Spe,Water2,null,null
+Lumineon,457,lumineon.png,457.png,69,69,76,69,86,91,460,Water,null,Neon Pokemon,null,24,Swift Swim,Storm Drain,Water Veil,2 Spe,Water2,null,null
+Mantyke,458,mantyke.png,458.png,45,20,50,60,120,50,345,Water,Flying,Kite Pokemon,null,65,Swift Swim,Water Absorb,Water Veil,1 SpD,No-Eggs,null,null
+Snover,459,snover.png,459.png,60,62,50,62,60,40,334,Ice,Grass,Frost Tree Pokemon,null,50.5,Snow Warning,null,Soundproof,1 Atk,Monster,Plant,null
+Abomasnow,460,abomasnow.png,460.png,90,92,75,92,85,60,494,Ice,Grass,Frost Tree Pokemon,null,135.5,Snow Warning,null,Soundproof,1 Atk/1 SpA,Monster,Plant,null
+Weavile,461,weavile.png,461.png,70,120,65,45,85,125,510,Dark,Ice,Sharp Claw Pokemon,null,34,Pressure,null,Pickpocket,1 Atk/1 Spe,Ground,null,null
+Magnezone,462,magnezone.png,462.png,70,70,115,130,90,60,535,Electric,Steel,Magnet Area Pokemon,null,180,Magnet Pull,Sturdy,Analytic,3 SpA,Mineral,null,null
+Lickilicky,463,lickilicky.png,463.png,110,85,95,80,95,50,515,Normal,null,Licking Pokemon,null,140,Own Tempo,Oblivious,Cloud Nine,3 HP,Monster,null,null
+Rhyperior,464,rhyperior.png,464.png,115,140,130,55,55,40,535,Ground,Rock,Drill Pokemon,null,282.8,Lightning Rod,Solid Rock,Reckless,3 Atk,Ground,Monster,null
+Tangrowth,465,tangrowth.png,465.png,100,100,125,110,50,50,535,Grass,null,Vine Pokemon,null,128.6,Chlorophyll,Leaf Guard,Regenerator,2 Def,Plant,null,null
+Electivire,466,electivire.png,466.png,75,123,67,95,85,95,540,Electric,null,Thunderbolt Pokemon,null,138.6,Motor Drive,null,Vital Spirit,3 Atk,Humanshape,null,null
+Magmortar,467,magmortar.png,467.png,75,95,67,125,95,83,540,Fire,null,Blast Pokemon,null,68,Flame Body,null,Vital Spirit,3 SpA,Humanshape,null,null
+Togekiss,468,togekiss.png,468.png,85,50,95,120,115,80,545,Fairy,Flying,Jubilee Pokemon,null,38,Hustle,Serene Grace,Super Luck,2 SpA/1 SpD,Flying,Fairy,null
+Yanmega,469,yanmega.png,469.png,86,76,86,116,56,95,515,Bug,Flying,Ogre Darner Pokemon,null,51.5,Speed Boost,Tinted Lens,Frisk,2 Atk,Bug,null,null
+Leafeon,470,leafeon.png,470.png,65,110,130,60,65,95,525,Grass,null,Verdant Pokemon,null,25.5,Leaf Guard,null,Chlorophyll,2 Def,Ground,null,null
+Glaceon,471,glaceon.png,471.png,65,60,110,130,95,65,525,Ice,null,Fresh Snow Pokemon,null,25.9,Snow Cloak,null,Ice Body,2 SpA,Ground,null,null
+Gliscor,472,gliscor.png,472.png,75,95,125,45,75,95,510,Ground,Flying,Fang Scorpion Pokemon,null,42.5,Hyper Cutter,Sand Veil,Poison Heal,2 Def,Bug,null,null
+Mamoswine,473,mamoswine.png,473.png,110,130,80,70,60,80,530,Ice,Ground,Twin Tusk Pokemon,null,291,Oblivious,Snow Cloak,Thick Fat,3 Atk,Ground,null,null
+Porygon-Z,474,porygon-z.png,474.png,85,80,70,135,75,90,535,Normal,null,Virtual Pokemon,null,34,Adaptability,Download,Analytic,3 SpA,Mineral,null,null
+Gallade,475,gallade.png,475.png,68,125,65,65,115,80,518,Psychic,Fighting,Blade Pokemon,null,52,Steadfast,null,Justified,3 Atk,Humanshape,Indeterminate,null
+Probopass,476,probopass.png,476.png,60,55,145,75,150,40,525,Rock,Steel,Compass Pokemon,null,340,Sturdy,Magnet Pull,Sand Force,1 Def/2 SpD,Mineral,null,null
+Dusknoir,477,dusknoir.png,477.png,45,100,135,65,135,45,525,Ghost,null,Gripper Pokemon,null,106.6,Pressure,null,Frisk,1 Def/2 SpD,Indeterminate,null,null
+Froslass,478,froslass.png,478.png,70,80,70,80,70,110,480,Ice,Ghost,Snow Land Pokemon,null,26.6,Snow Cloak,null,Cursed Body,2 Spe,Fairy,Mineral,null
+Rotom,479,rotom.png,479.png,50,50,77,95,77,91,440,Electric,Ghost,Plasma Pokemon,null,0.3,Levitate,null,null,1 SpA/1 Spe,Indeterminate,null,null
+Uxie,480,uxie.png,480.png,75,75,130,75,130,95,580,Psychic,null,Knowledge Pokemon,null,0.3,Levitate,null,null,2 Def/1 SpD,No-Eggs,null,null
+Mesprit,481,mesprit.png,481.png,80,105,105,105,105,80,580,Psychic,null,Emotion Pokemon,null,0.3,Levitate,null,null,1 Atk/1 SpA/1 SpD,No-Eggs,null,null
+Azelf,482,azelf.png,482.png,75,125,70,125,70,115,580,Psychic,null,Willpower Pokemon,null,0.3,Levitate,null,null,2 Atk/1 SpA,No-Eggs,null,null
+Dialga,483,dialga.png,483.png,100,120,120,150,100,90,680,Steel,Dragon,Temporal Pokemon,null,683,Pressure,null,Telepathy,3 SpA,No-Eggs,null,null
+Palkia,484,palkia.png,484.png,90,120,100,150,120,100,680,Water,Dragon,Spatial Pokemon,null,336,Pressure,null,Telepathy,3 SpA,No-Eggs,null,null
+Heatran,485,heatran.png,485.png,91,90,106,130,106,77,600,Fire,Steel,Lava Dome Pokemon,null,430,Flash Fire,null,Flame Body,3 SpA,No-Eggs,null,null
+Regigigas,486,regigigas.png,486.png,110,160,110,80,110,100,670,Normal,null,Colossal Pokemon,null,420,Slow Start,null,null,3 Atk,No-Eggs,null,null
+Giratina,487,giratina.png,487.png,150,100,120,100,120,90,680,Ghost,Dragon,Renegade Pokemon,null,750,Pressure,null,Telepathy,3 HP,No-Eggs,null,null
+Cresselia,488,cresselia.png,488.png,120,70,110,75,120,85,580,Psychic,null,Lunar Pokemon,null,85.6,Levitate,null,null,3 SpD,No-Eggs,null,null
+Phione,489,phione.png,489.png,80,80,80,80,80,80,480,Water,null,Sea Drifter Pokemon,null,3.1,Hydration,null,null,1 HP,Water1,Fairy,null
+Manaphy,490,manaphy.png,490.png,100,100,100,100,100,100,600,Water,null,Seafaring Pokemon,null,1.4,Hydration,null,null,3 HP,Water1,Fairy,null
+Darkrai,491,darkrai.png,491.png,70,90,90,135,90,125,600,Dark,null,Pitch-Black Pokemon,null,50.5,Bad Dreams,null,null,1 Spe/2 SpA,No-Eggs,null,null
+Shaymin,492,shaymin.png,492.png,100,100,100,100,100,100,600,Grass,null,Gratitude Pokemon,null,2.1,Natural Cure,null,null,3 HP,No-Eggs,null,null
+Arceus,493,arceus.png,493.png,120,120,120,120,120,120,720,Normal,null,Alpha Pokemon,null,320,Multitype,null,null,3 HP,No-Eggs,null,null
+Victini,494,victini.png,494.png,100,100,100,100,100,100,600,Psychic,Fire,Victory Pokemon,null,4,Victory Star,null,null,3 HP,No-Eggs,null,null
+Snivy,495,snivy.png,495.png,45,45,55,45,55,63,308,Grass,null,Grass Snake Pokemon,null,8.1,Overgrow,null,Contrary,1 Spe,Ground,Plant,null
+Servine,496,servine.png,496.png,60,60,75,60,75,83,413,Grass,null,Grass Snake Pokemon,null,16,Overgrow,null,Contrary,2 Spe,Ground,Plant,null
+Serperior,497,serperior.png,497.png,75,75,95,75,95,113,528,Grass,null,Regal Pokemon,null,63,Overgrow,null,Contrary,3 Spe,Ground,Plant,null
+Tepig,498,tepig.png,498.png,65,63,45,45,45,45,308,Fire,null,Fire Pig Pokemon,null,9.9,Blaze,null,Thick Fat,1 HP,Ground,null,null
+Pignite,499,pignite.png,499.png,90,93,55,70,55,55,418,Fire,Fighting,Fire Pig Pokemon,null,55.5,Blaze,null,Thick Fat,2 Atk,Ground,null,null
+Emboar,500,emboar.png,500.png,110,123,65,100,65,65,528,Fire,Fighting,Mega Fire Pig Pokemon,null,150,Blaze,null,Reckless,3 Atk,Ground,null,null
+Oshawott,501,oshawott.png,501.png,55,55,45,63,45,45,308,Water,null,Sea Otter Pokemon,null,5.9,Torrent,null,Shell Armor,1 SpA,Ground,null,null
+Dewott,502,dewott.png,502.png,75,75,60,83,60,60,413,Water,null,Discipline Pokemon,null,24.5,Torrent,null,Shell Armor,2 SpA,Ground,null,null
+Samurott,503,samurott.png,503.png,95,100,85,108,70,70,528,Water,null,Formidable Pokemon,null,94.6,Torrent,null,Shell Armor,3 SpA,Ground,null,null
+Samurott-hisui,503,samurott-hisui.png,503-hisui.png,90,108,80,100,65,85,528,Water,Dark,Formidable Pokemon,null,null,Torrent,null,Shell Armor,null,Ground,null,null
+Patrat,504,patrat.png,504.png,45,55,39,35,39,42,255,Normal,null,Scout Pokemon,null,11.6,Run Away,Keen Eye,Analytic,1 Atk,Ground,null,null
+Watchog,505,watchog.png,505.png,60,85,69,60,69,77,420,Normal,null,Lookout Pokemon,null,27,Illuminate,Keen Eye,Analytic,1 Atk,Ground,null,null
+Lillipup,506,lillipup.png,506.png,45,60,45,25,45,55,275,Normal,null,Puppy Pokemon,null,4.1,Vital Spirit,Pickup,Run Away,1 Atk,Ground,null,null
+Herdier,507,herdier.png,507.png,65,80,65,35,65,60,370,Normal,null,Loyal Dog Pokemon,null,14.7,Intimidate,Sand Rush,Scrappy,2 Atk,Ground,null,null
+Stoutland,508,stoutland.png,508.png,85,110,90,45,90,80,500,Normal,null,Big-Hearted Pokemon,null,61,Intimidate,Sand Rush,Scrappy,3 Atk,Ground,null,null
+Purrloin,509,purrloin.png,509.png,41,50,37,50,37,66,281,Dark,null,Devious Pokemon,null,10.1,Limber,Unburden,Prankster,1 Spe,Ground,null,null
+Liepard,510,liepard.png,510.png,64,88,50,88,50,106,446,Dark,null,Cruel Pokemon,null,37.5,Limber,Unburden,Prankster,2 Spe,Ground,null,null
+Pansage,511,pansage.png,511.png,50,53,48,53,48,64,316,Grass,null,Grass Monkey Pokemon,null,10.5,Gluttony,null,Overgrow,1 Spe,Ground,null,null
+Simisage,512,simisage.png,512.png,75,98,63,98,63,101,498,Grass,null,Thorn Monkey Pokemon,null,30.5,Gluttony,null,Overgrow,2 Spe,Ground,null,null
+Pansear,513,pansear.png,513.png,50,53,48,53,48,64,316,Fire,null,High Temp Pokemon,null,11,Gluttony,null,Blaze,1 Spe,Ground,null,null
+Simisear,514,simisear.png,514.png,75,98,63,98,63,101,498,Fire,null,Ember Pokemon,null,28,Gluttony,null,Blaze,2 Spe,Ground,null,null
+Panpour,515,panpour.png,515.png,50,53,48,53,48,64,316,Water,null,Spray Pokemon,null,13.5,Gluttony,null,Torrent,1 Spe,Ground,null,null
+Simipour,516,simipour.png,516.png,75,98,63,98,63,101,498,Water,null,Geyser Pokemon,null,29,Gluttony,null,Torrent,2 Spe,Ground,null,null
+Munna,517,munna.png,517.png,76,25,45,67,55,24,292,Psychic,null,Dream Eater Pokemon,null,23.3,Forewarn,Synchronize,Telepathy,1 HP,Ground,null,null
+Musharna,518,musharna.png,518.png,116,55,85,107,95,29,487,Psychic,null,Drowsing Pokemon,null,60.5,Forewarn,Synchronize,Telepathy,2 HP,Ground,null,null
+Pidove,519,pidove.png,519.png,50,55,50,36,30,43,264,Normal,Flying,Tiny Pigeon Pokemon,null,2.1,Big Pecks,Super Luck,Rivalry,1 Atk,Flying,null,null
+Tranquill,520,tranquill.png,520.png,62,77,62,50,42,65,358,Normal,Flying,Wild Pigeon Pokemon,null,15,Big Pecks,Super Luck,Rivalry,2 Atk,Flying,null,null
+Unfezant,521,unfezant.png,521.png,80,115,80,65,55,93,488,Normal,Flying,Proud Pokemon,null,29,Big Pecks,Super Luck,Rivalry,3 Atk,Flying,null,null
+Blitzle,522,blitzle.png,522.png,45,60,32,50,32,76,295,Electric,null,Electrified Pokemon,null,29.8,Lightning Rod,Motor Drive,Sap Sipper,1 Spe,Ground,null,null
+Zebstrika,523,zebstrika.png,523.png,75,100,63,80,63,116,497,Electric,null,Thunderbolt Pokemon,null,79.5,Lightning Rod,Motor Drive,Sap Sipper,2 Spe,Ground,null,null
+Roggenrola,524,roggenrola.png,524.png,55,75,85,25,25,15,280,Rock,null,Mantle Pokemon,null,18,Sturdy,Weak Armor,Sand Force,1 Def,Mineral,null,null
+Boldore,525,boldore.png,525.png,70,105,105,50,40,20,390,Rock,null,Ore Pokemon,null,102,Sturdy,Weak Armor,Sand Force,1 Atk/1 Def,Mineral,null,null
+Gigalith,526,gigalith.png,526.png,85,135,130,60,80,25,515,Rock,null,Compressed Pokemon,null,260,Sturdy,Sand Stream,Sand Force,3 Atk,Mineral,null,null
+Woobat,527,woobat.png,527.png,65,45,43,55,43,72,323,Psychic,Flying,Bat Pokemon,null,2.1,Unaware,Klutz,Simple,1 Spe,Flying,Ground,null
+Swoobat,528,swoobat.png,528.png,67,57,55,77,55,114,425,Psychic,Flying,Courting Pokemon,null,10.5,Unaware,Klutz,Simple,2 Spe,Flying,Ground,null
+Drilbur,529,drilbur.png,529.png,60,85,40,30,45,68,328,Ground,null,Mole Pokemon,null,8.5,Sand Rush,Sand Force,Mold Breaker,1 Atk,Ground,null,null
+Excadrill,530,excadrill.png,530.png,110,135,60,50,65,88,508,Ground,Steel,Subterrene Pokemon,null,40.4,Sand Rush,Sand Force,Mold Breaker,2 Atk,Ground,null,null
+Audino,531,audino.png,531.png,103,60,86,60,86,50,445,Normal,null,Hearing Pokemon,null,31,Healer,Regenerator,Klutz,2 HP,Fairy,null,null
+Timburr,532,timburr.png,532.png,75,80,55,25,35,35,305,Fighting,null,Muscular Pokemon,null,12.5,Guts,Sheer Force,Iron Fist,1 Atk,Humanshape,null,null
+Gurdurr,533,gurdurr.png,533.png,85,105,85,40,50,40,405,Fighting,null,Muscular Pokemon,null,40,Guts,Sheer Force,Iron Fist,2 Atk,Humanshape,null,null
+Conkeldurr,534,conkeldurr.png,534.png,105,140,95,55,65,45,505,Fighting,null,Muscular Pokemon,null,87,Guts,Sheer Force,Iron Fist,3 Atk,Humanshape,null,null
+Tympole,535,tympole.png,535.png,50,50,40,50,40,64,294,Water,null,Tadpole Pokemon,null,4.5,Swift Swim,Hydration,Water Absorb,1 Spe,Water1,null,null
+Palpitoad,536,palpitoad.png,536.png,75,65,55,65,55,69,384,Water,Ground,Vibration Pokemon,null,17,Swift Swim,Hydration,Water Absorb,2 HP,Water1,null,null
+Seismitoad,537,seismitoad.png,537.png,105,95,75,85,75,74,509,Water,Ground,Vibration Pokemon,null,62,Swift Swim,Poison Touch,Water Absorb,3 HP,Water1,null,null
+Throh,538,throh.png,538.png,120,100,85,30,85,45,465,Fighting,null,Judo Pokemon,null,55.5,Guts,Inner Focus,Mold Breaker,2 HP,Humanshape,null,null
+Sawk,539,sawk.png,539.png,75,125,75,30,75,85,465,Fighting,null,Karate Pokemon,null,51,Sturdy,Inner Focus,Mold Breaker,2 Atk,Humanshape,null,null
+Sewaddle,540,sewaddle.png,540.png,45,53,70,40,60,42,310,Bug,Grass,Sewing Pokemon,null,2.5,Swarm,Chlorophyll,Overcoat,1 Def,Bug,null,null
+Swadloon,541,swadloon.png,541.png,55,63,90,50,80,42,380,Bug,Grass,Leaf-Wrapped Pokemon,null,7.3,Leaf Guard,Chlorophyll,Overcoat,2 Def,Bug,null,null
+Leavanny,542,leavanny.png,542.png,75,103,80,70,80,92,500,Bug,Grass,Nurturing Pokemon,null,20.5,Swarm,Chlorophyll,Overcoat,3 Atk,Bug,null,null
+Venipede,543,venipede.png,543.png,30,45,59,30,39,57,260,Bug,Poison,Centipede Pokemon,null,5.3,Poison Point,Swarm,Speed Boost,1 Def,Bug,null,null
+Whirlipede,544,whirlipede.png,544.png,40,55,99,40,79,47,360,Bug,Poison,Curlipede Pokemon,null,58.5,Poison Point,Swarm,Speed Boost,2 Def,Bug,null,null
+Scolipede,545,scolipede.png,545.png,60,100,89,55,69,112,485,Bug,Poison,Megapede Pokemon,null,200.5,Poison Point,Swarm,Speed Boost,3 Spe,Bug,null,null
+Cottonee,546,cottonee.png,546.png,40,27,60,37,50,66,280,Grass,Fairy,Cotton Puff Pokemon,null,0.6,Prankster,Infiltrator,Chlorophyll,1 Spe,Fairy,Plant,null
+Whimsicott,547,whimsicott.png,547.png,60,67,85,77,75,116,480,Grass,Fairy,Windveiled Pokemon,null,6.6,Prankster,Infiltrator,Chlorophyll,2 Spe,Fairy,Plant,null
+Petilil,548,petilil.png,548.png,45,35,50,70,50,30,280,Grass,null,Bulb Pokemon,null,6.6,Chlorophyll,Own Tempo,Leaf Guard,1 SpA,Plant,null,null
+Lilligant,549,lilligant.png,549.png,70,60,75,110,75,90,480,Grass,null,Flowering Pokemon,null,16.3,Chlorophyll,Own Tempo,Leaf Guard,2 SpA,Plant,null,null
+Lilligant-hisui,549,lilligant-hisui.png,549-hisui.png,70,105,75,50,75,105,480,Grass,Fighting,Flowering Pokemon,null,null,Chlorophyll,Own Tempo,Leaf Guard,null,Plant,null,null
+Basculin,550,basculin.png,550.png,70,92,65,80,55,98,460,Water,null,Hostile Pokemon,null,18,Reckless,Adaptability,Mold Breaker,2 Spe,Water2,null,null
+Sandile,551,sandile.png,551.png,50,72,35,35,35,65,292,Ground,Dark,Desert Croc Pokemon,null,15.2,Intimidate,Moxie,Anger Point,1 Atk,Ground,null,null
+Krokorok,552,krokorok.png,552.png,60,82,45,45,45,74,351,Ground,Dark,Desert Croc Pokemon,null,33.4,Intimidate,Moxie,Anger Point,2 Atk,Ground,null,null
+Krookodile,553,krookodile.png,553.png,95,117,80,65,70,92,519,Ground,Dark,Intimidation Pokemon,null,96.3,Intimidate,Moxie,Anger Point,3 Atk,Ground,null,null
+Darumaka,554,darumaka.png,554.png,70,90,45,15,45,50,315,Fire,null,Zen Charm Pokemon,null,37.5,Hustle,null,Inner Focus,1 Atk,Ground,null,null
+Darumaka-galar,554,darumaka-galar.png,554-galar.png,70,90,45,15,45,50,315,Ice,null,Zen Charm Pokemon,null,null,Hustle,null,Inner Focus,null,Ground,null,null
+Darmanitan,555,darmanitan.png,555.png,105,140,55,30,55,95,480,Fire,null,Blazing Pokemon,null,92.9,Sheer Force,null,Zen Mode,2 Atk,Ground,null,null
+Darmanitan-galar,555,darmanitan-galar.png,555-galar.png,105,140,55,30,55,95,480,Ice,null,Blazing Pokemon,null,92.9,Sheer Force,null,Zen Mode,2 Atk,Ground,null,null
+Maractus,556,maractus.png,556.png,75,86,67,106,67,60,461,Grass,null,Cactus Pokemon,null,28,Water Absorb,Chlorophyll,Storm Drain,2 SpA,Plant,null,null
+Dwebble,557,dwebble.png,557.png,50,65,85,35,35,55,325,Bug,Rock,Rock Inn Pokemon,null,14.5,Sturdy,Shell Armor,Weak Armor,1 Def,Bug,Mineral,null
+Crustle,558,crustle.png,558.png,70,105,125,65,75,45,485,Bug,Rock,Stone Home Pokemon,null,200,Sturdy,Shell Armor,Weak Armor,2 Def,Bug,Mineral,null
+Scraggy,559,scraggy.png,559.png,50,75,70,35,70,48,348,Dark,Fighting,Shedding Pokemon,null,11.8,Shed Skin,Moxie,Intimidate,1 Atk,Ground,Dragon,null
+Scrafty,560,scrafty.png,560.png,65,90,115,45,115,58,488,Dark,Fighting,Hoodlum Pokemon,null,30,Shed Skin,Moxie,Intimidate,1 Def/1 SpD,Dragon,Ground,null
+Sigilyph,561,sigilyph.png,561.png,72,58,80,103,80,97,490,Psychic,Flying,Avianoid Pokemon,null,14,Wonder Skin,Magic Guard,Tinted Lens,2 SpA,Flying,null,null
+Yamask,562,yamask.png,562.png,38,30,85,55,65,30,303,Ghost,null,Spirit Pokemon,null,1.5,Mummy,null,null,1 Def,Mineral,Indeterminate,null
+Yamask-galar,562,yamask-galar.png,562-galar.png,38,55,85,30,65,30,303,Ground,Ghost,Spirit Pokemon,null,null,Mummy,null,null,null,Mineral,Indeterminate,null
+Cofagrigus,563,cofagrigus.png,563.png,58,50,145,95,105,30,483,Ghost,null,Coffin Pokemon,null,76.5,Mummy,null,null,2 Def,Mineral,Indeterminate,null
+Tirtouga,564,tirtouga.png,564.png,54,78,103,53,45,22,355,Water,Rock,Prototurtle Pokemon,null,16.5,Solid Rock,Sturdy,Swift Swim,1 Def,Water1,Water3,null
+Carracosta,565,carracosta.png,565.png,74,108,133,83,65,32,495,Water,Rock,Prototurtle Pokemon,null,81,Solid Rock,Sturdy,Swift Swim,2 Def,Water1,Water3,null
+Archen,566,archen.png,566.png,55,112,45,74,45,70,401,Rock,Flying,First Bird Pokemon,null,9.5,Defeatist,null,null,1 Atk,Flying,Water3,null
+Archeops,567,archeops.png,567.png,75,140,65,112,65,110,567,Rock,Flying,First Bird Pokemon,null,32,Defeatist,null,null,2 Atk,Flying,Water3,null
+Trubbish,568,trubbish.png,568.png,50,50,62,40,62,65,329,Poison,null,Trash Bag Pokemon,null,31,Stench,Sticky Hold,Aftermath,1 Spe,Mineral,null,null
+Garbodor,569,garbodor.png,569.png,80,95,82,60,82,75,474,Poison,null,Trash Heap Pokemon,null,107.3,Stench,Weak Armor,Aftermath,2 Atk,Mineral,null,null
+Zorua,570,zorua.png,570.png,40,65,40,80,40,65,330,Dark,null,Tricky Fox Pokemon,null,12.5,Illusion,null,null,1 SpA,Ground,null,null
+Zorua-hisui,570,zorua-hisui.png,570-hisui.png,35,60,40,85,40,70,330,Normal,Ghost,Tricky Fox Pokemon,null,null,Illusion,null,null,null,Ground,null,null
+Zoroark,571,zoroark.png,571.png,60,105,60,120,60,105,510,Dark,null,Illusion Fox Pokemon,null,81.1,Illusion,null,null,2 SpA,Ground,null,null
+Zoroark-hisui,571,zoroark-hisui.png,571-hisui.png,60,105,60,120,60,105,510,Normal,Ghost,Illusion Fox Pokemon,null,null,Illusion,null,null,null,Ground,null,null
+Minccino,572,minccino.png,572.png,55,50,40,40,40,75,300,Normal,null,Chinchilla Pokemon,null,5.8,Cute Charm,Technician,Skill Link,1 Spe,Ground,null,null
+Cinccino,573,cinccino.png,573.png,75,95,60,65,60,115,470,Normal,null,Scarf Pokemon,null,7.5,Cute Charm,Technician,Skill Link,2 Spe,Ground,null,null
+Gothita,574,gothita.png,574.png,45,30,50,55,65,45,290,Psychic,null,Fixation Pokemon,null,5.8,Frisk,Competitive,Shadow Tag,1 SpD,Humanshape,null,null
+Gothorita,575,gothorita.png,575.png,60,45,70,75,85,55,390,Psychic,null,Manipulate Pokemon,null,18,Frisk,Competitive,Shadow Tag,2 SpD,Humanshape,null,null
+Gothitelle,576,gothitelle.png,576.png,70,55,95,95,110,65,490,Psychic,null,Astral Body Pokemon,null,44,Frisk,Competitive,Shadow Tag,3 SpD,Humanshape,null,null
+Solosis,577,solosis.png,577.png,45,30,40,105,50,20,290,Psychic,null,Cell Pokemon,null,1,Overcoat,Magic Guard,Regenerator,1 SpA,Indeterminate,null,null
+Duosion,578,duosion.png,578.png,65,40,50,125,60,30,370,Psychic,null,Mitosis Pokemon,null,8,Overcoat,Magic Guard,Regenerator,2 SpA,Indeterminate,null,null
+Reuniclus,579,reuniclus.png,579.png,110,65,75,125,85,30,490,Psychic,null,Multiplying Pokemon,null,20.1,Overcoat,Magic Guard,Regenerator,3 SpA,Indeterminate,null,null
+Ducklett,580,ducklett.png,580.png,62,44,50,44,50,55,305,Water,Flying,Water Bird Pokemon,null,5.5,Keen Eye,Big Pecks,Hydration,1 HP,Water1,Flying,null
+Swanna,581,swanna.png,581.png,75,87,63,87,63,98,473,Water,Flying,White Bird Pokemon,null,24.2,Keen Eye,Big Pecks,Hydration,2 Spe,Water1,Flying,null
+Vanillite,582,vanillite.png,582.png,36,50,50,65,60,44,305,Ice,null,Fresh Snow Pokemon,null,5.7,Ice Body,Snow Cloak,Weak Armor,1 SpA,Mineral,null,null
+Vanillish,583,vanillish.png,583.png,51,65,65,80,75,59,395,Ice,null,Icy Snow Pokemon,null,41,Ice Body,Snow Cloak,Weak Armor,2 SpA,Mineral,null,null
+Vanilluxe,584,vanilluxe.png,584.png,71,95,85,110,95,79,535,Ice,null,Snowstorm Pokemon,null,57.5,Ice Body,Snow Warning,Weak Armor,3 SpA,Mineral,null,null
+Deerling,585,deerling.png,585.png,60,60,50,40,50,75,335,Normal,Grass,Season Pokemon,null,19.5,Chlorophyll,Sap Sipper,Serene Grace,1 Spe,Ground,null,null
+Sawsbuck,586,sawsbuck.png,586.png,80,100,70,60,70,95,475,Normal,Grass,Season Pokemon,null,92.5,Chlorophyll,Sap Sipper,Serene Grace,2 Atk,Ground,null,null
+Emolga,587,emolga.png,587.png,55,75,60,75,60,103,428,Electric,Flying,Sky Squirrel Pokemon,null,5,Static,null,Motor Drive,2 Spe,Ground,null,null
+Karrablast,588,karrablast.png,588.png,50,75,45,40,45,60,315,Bug,null,Clamping Pokemon,null,5.9,Swarm,Shed Skin,No Guard,1 Atk,Bug,null,null
+Escavalier,589,escavalier.png,589.png,70,135,105,60,105,20,495,Bug,Steel,Cavalry Pokemon,null,33,Swarm,Shell Armor,Overcoat,2 Atk,Bug,null,null
+Foongus,590,foongus.png,590.png,69,55,45,55,55,15,294,Grass,Poison,Mushroom Pokemon,null,1,Effect Spore,null,Regenerator,1 HP,Plant,null,null
+Amoonguss,591,amoonguss.png,591.png,114,85,70,85,80,30,464,Grass,Poison,Mushroom Pokemon,null,10.5,Effect Spore,null,Regenerator,2 HP,Plant,null,null
+Frillish,592,frillish.png,592.png,55,40,50,65,85,40,335,Water,Ghost,Floating Pokemon,null,33,Water Absorb,Cursed Body,Damp,1 SpD,Indeterminate,null,null
+Jellicent,593,jellicent.png,593.png,100,60,70,85,105,60,480,Water,Ghost,Floating Pokemon,null,135,Water Absorb,Cursed Body,Damp,2 SpD,Indeterminate,null,null
+Alomomola,594,alomomola.png,594.png,165,75,80,40,45,65,470,Water,null,Caring Pokemon,null,31.6,Healer,Hydration,Regenerator,2 HP,Water1,Water2,null
+Joltik,595,joltik.png,595.png,50,47,50,57,50,65,319,Bug,Electric,Attaching Pokemon,null,0.6,Compound Eyes,Unnerve,Swarm,1 Spe,Bug,null,null
+Galvantula,596,galvantula.png,596.png,70,77,60,97,60,108,472,Bug,Electric,EleSpider Pokemon,null,14.3,Compound Eyes,Unnerve,Swarm,2 Spe,Bug,null,null
+Ferroseed,597,ferroseed.png,597.png,44,50,91,24,86,10,305,Grass,Steel,Thorn Seed Pokemon,null,18.8,Iron Barbs,null,null,1 Def,Plant,Mineral,null
+Ferrothorn,598,ferrothorn.png,598.png,74,94,131,54,116,20,489,Grass,Steel,Thorn Pod Pokemon,null,110,Iron Barbs,null,Anticipation,2 Def,Plant,Mineral,null
+Klink,599,klink.png,599.png,40,55,70,45,60,30,300,Steel,null,Gear Pokemon,null,21,Plus,Minus,Clear Body,1 Def,Mineral,null,null
+Klang,600,klang.png,600.png,60,80,95,70,85,50,440,Steel,null,Gear Pokemon,null,51,Plus,Minus,Clear Body,2 Def,Mineral,null,null
+Klinklang,601,klinklang.png,601.png,60,100,115,70,85,90,520,Steel,null,Gear Pokemon,null,81,Plus,Minus,Clear Body,3 Def,Mineral,null,null
+Tynamo,602,tynamo.png,602.png,35,55,40,45,40,60,275,Electric,null,EleFish Pokemon,null,0.3,Levitate,null,null,1 Spe,Indeterminate,null,null
+Eelektrik,603,eelektrik.png,603.png,65,85,70,75,70,40,405,Electric,null,EleFish Pokemon,null,22,Levitate,null,null,2 Atk,Indeterminate,null,null
+Eelektross,604,eelektross.png,604.png,85,115,80,105,80,50,515,Electric,null,EleFish Pokemon,null,80.5,Levitate,null,null,3 Atk,Indeterminate,null,null
+Elgyem,605,elgyem.png,605.png,55,55,55,85,55,30,335,Psychic,null,Cerebral Pokemon,null,9,Telepathy,Synchronize,Analytic,1 SpA,Humanshape,null,null
+Beheeyem,606,beheeyem.png,606.png,75,75,75,125,95,40,485,Psychic,null,Cerebral Pokemon,null,34.5,Telepathy,Synchronize,Analytic,2 SpA,Humanshape,null,null
+Litwick,607,litwick.png,607.png,50,30,55,65,55,20,275,Ghost,Fire,Candle Pokemon,null,3.1,Flash Fire,Flame Body,Infiltrator,1 SpA,Indeterminate,null,null
+Lampent,608,lampent.png,608.png,60,40,60,95,60,55,370,Ghost,Fire,Lamp Pokemon,null,13,Flash Fire,Flame Body,Infiltrator,2 SpA,Indeterminate,null,null
+Chandelure,609,chandelure.png,609.png,60,55,90,145,90,80,520,Ghost,Fire,Luring Pokemon,null,34.3,Flash Fire,Flame Body,Infiltrator,3 SpA,Indeterminate,null,null
+Axew,610,axew.png,610.png,46,87,60,30,40,57,320,Dragon,null,Tusk Pokemon,null,18,Rivalry,Mold Breaker,Unnerve,1 Atk,Monster,Dragon,null
+Fraxure,611,fraxure.png,611.png,66,117,70,40,50,67,410,Dragon,null,Axe Jaw Pokemon,null,36,Rivalry,Mold Breaker,Unnerve,2 Atk,Dragon,Monster,null
+Haxorus,612,haxorus.png,612.png,76,147,90,60,70,97,540,Dragon,null,Axe Jaw Pokemon,null,105.5,Rivalry,Mold Breaker,Unnerve,3 Atk,Monster,Dragon,null
+Cubchoo,613,cubchoo.png,613.png,55,70,40,60,40,40,305,Ice,null,Chill Pokemon,null,8.5,Snow Cloak,Slush Rush,Rattled,1 Atk,Ground,null,null
+Beartic,614,beartic.png,614.png,95,130,80,70,80,50,505,Ice,null,Freezing Pokemon,null,260,Snow Cloak,Slush Rush,Swift Swim,2 Atk,Ground,null,null
+Cryogonal,615,cryogonal.png,615.png,80,50,50,95,135,105,515,Ice,null,Crystallizing Pokemon,null,148,Levitate,null,null,2 SpD,Mineral,null,null
+Shelmet,616,shelmet.png,616.png,50,40,85,40,65,25,305,Bug,null,Snail Pokemon,null,7.7,Hydration,Shell Armor,Overcoat,1 Def,Bug,null,null
+Accelgor,617,accelgor.png,617.png,80,70,40,100,60,145,495,Bug,null,Shell Out Pokemon,null,25.3,Hydration,Sticky Hold,Unburden,2 Spe,Bug,null,null
+Stunfisk,618,stunfisk.png,618.png,109,66,84,81,99,32,471,Ground,Electric,Trap Pokemon,null,11,Static,Limber,Sand Veil,2 HP,Water1,Indeterminate,null
+Stunfisk-galar,618,stunfisk-galar.png,618-galar.png,109,81,99,66,84,32,471,Ground,Steel,Trap Pokemon,null,null,Static,Limber,Sand Veil,null,Water1,Indeterminate,null
+Mienfoo,619,mienfoo.png,619.png,45,85,50,55,50,65,350,Fighting,null,Martial Arts Pokemon,null,20,Inner Focus,Regenerator,Reckless,1 Atk,Ground,Humanshape,null
+Mienshao,620,mienshao.png,620.png,65,125,60,95,60,105,510,Fighting,null,Martial Arts Pokemon,null,35.5,Inner Focus,Regenerator,Reckless,2 Atk,Ground,Humanshape,null
+Druddigon,621,druddigon.png,621.png,77,120,90,60,90,48,485,Dragon,null,Cave Pokemon,null,139,Rough Skin,Sheer Force,Mold Breaker,2 Atk,Monster,Dragon,null
+Golett,622,golett.png,622.png,59,74,50,35,50,35,303,Ground,Ghost,Automaton Pokemon,null,92,Iron Fist,Klutz,No Guard,1 Atk,Mineral,null,null
+Golurk,623,golurk.png,623.png,89,124,80,55,80,55,483,Ground,Ghost,Automaton Pokemon,null,330,Iron Fist,Klutz,No Guard,2 Atk,Mineral,null,null
+Pawniard,624,pawniard.png,624.png,45,85,70,40,40,60,340,Dark,Steel,Sharp Blade Pokemon,null,10.2,Defiant,Inner Focus,Pressure,1 Atk,Humanshape,null,null
+Bisharp,625,bisharp.png,625.png,65,125,100,60,70,70,490,Dark,Steel,Sword Blade Pokemon,null,70,Defiant,Inner Focus,Pressure,2 Atk,Humanshape,null,null
+Bouffalant,626,bouffalant.png,626.png,95,110,95,40,95,55,490,Normal,null,Bash Buffalo Pokemon,null,94.6,Reckless,Sap Sipper,Soundproof,2 Atk,Ground,null,null
+Rufflet,627,rufflet.png,627.png,70,83,50,37,50,60,350,Normal,Flying,Eaglet Pokemon,null,10.5,Keen Eye,Sheer Force,Hustle,1 Atk,Flying,null,null
+Braviary,628,braviary.png,628.png,100,123,75,57,75,80,510,Normal,Flying,Valiant Pokemon,null,41,Keen Eye,Sheer Force,Defiant,2 Atk,Flying,null,null
+Braviary-hisui,628,braviary-hisui.png,628-hisui.png,110,83,70,112,70,65,510,Psychic,Flying,Valiant Pokemon,null,null,Keen Eye,Sheer Force,Defiant,null,Flying,null,null
+Vullaby,629,vullaby.png,629.png,70,55,75,45,65,60,370,Dark,Flying,Diapered Pokemon,null,9,Big Pecks,Overcoat,Weak Armor,1 Def,Flying,null,null
+Mandibuzz,630,mandibuzz.png,630.png,110,65,105,55,95,80,510,Dark,Flying,Bone Vulture Pokemon,null,39.5,Big Pecks,Overcoat,Weak Armor,2 SpA,Flying,null,null
+Heatmor,631,heatmor.png,631.png,85,97,66,105,66,65,484,Fire,null,Anteater Pokemon,null,58,Gluttony,Flash Fire,White Smoke,2 SpA,Ground,null,null
+Durant,632,durant.png,632.png,58,109,112,48,48,109,484,Bug,Steel,Iron Ant Pokemon,null,33,Swarm,Hustle,Truant,2 Def,Bug,null,null
+Deino,633,deino.png,633.png,52,65,50,45,50,38,300,Dark,Dragon,Irate Pokemon,null,17.3,Hustle,null,null,1 Atk,Dragon,null,null
+Zweilous,634,zweilous.png,634.png,72,85,70,65,70,58,420,Dark,Dragon,Hostile Pokemon,null,50,Hustle,null,null,2 Atk,Dragon,null,null
+Hydreigon,635,hydreigon.png,635.png,92,105,90,125,90,98,600,Dark,Dragon,Brutal Pokemon,null,160,Levitate,null,null,3 SpA,Dragon,null,null
+Larvesta,636,larvesta.png,636.png,55,85,55,50,55,60,360,Bug,Fire,Torch Pokemon,null,28.8,Flame Body,null,Swarm,1 Atk,Bug,null,null
+Volcarona,637,volcarona.png,637.png,85,60,65,135,105,100,550,Bug,Fire,Sun Pokemon,null,46,Flame Body,null,Swarm,3 SpA,Bug,null,null
+Cobalion,638,cobalion.png,638.png,91,90,129,90,72,108,580,Steel,Fighting,Iron Will Pokemon,null,250,Justified,null,null,3 Def,No-Eggs,null,null
+Terrakion,639,terrakion.png,639.png,91,129,90,72,90,108,580,Rock,Fighting,Cavern Pokemon,null,260,Justified,null,null,3 Atk,No-Eggs,null,null
+Virizion,640,virizion.png,640.png,91,90,72,90,129,108,580,Grass,Fighting,Grassland Pokemon,null,200,Justified,null,null,3 SpD,No-Eggs,null,null
+Tornadus,641,tornadus.png,641.png,79,115,70,125,80,111,580,Flying,null,Cyclone Pokemon,null,63,Prankster,null,Defiant,3 Atk,No-Eggs,null,null
+Thundurus,642,thundurus.png,642.png,79,115,70,125,80,111,580,Electric,Flying,Bolt Strike Pokemon,null,61,Prankster,null,Defiant,3 Atk,No-Eggs,null,null
+Reshiram,643,reshiram.png,643.png,100,120,100,150,120,90,680,Dragon,Fire,Vast White Pokemon,null,330,Turboblaze,null,null,3 SpA,No-Eggs,null,null
+Zekrom,644,zekrom.png,644.png,100,150,120,120,100,90,680,Dragon,Electric,Deep Black Pokemon,null,345,Teravolt,null,null,3 Atk,No-Eggs,null,null
+Landorus,645,landorus.png,645.png,89,125,90,115,80,101,600,Ground,Flying,Abundance Pokemon,null,68,Sand Force,null,Sheer Force,3 SpA,No-Eggs,null,null
+Kyurem,646,kyurem.png,646.png,125,130,90,130,90,95,660,Dragon,Ice,Boundary Pokemon,null,325,Pressure,null,null,"1 HP, 1 Atk, 1 SpA",No-Eggs,null,null
+Keldeo,647,keldeo.png,647.png,91,72,90,129,90,108,580,Water,Fighting,Colt Pokemon,null,48.5,Justified,null,null,3 SpA,No-Eggs,null,null
+Meloetta (A),648,meloetta.png,648.png,100,77,77,128,128,90,600,Normal,Psychic,Melody Pokemon,null,6.5,Serene Grace,null,null,"1 Spe, 1 SpA, 1 SpD",No-Eggs,null,null
+Genesect,649,genesect.png,649.png,71,120,95,120,95,99,600,Bug,Steel,Paleozoic Pokemon,null,82.5,Download,null,null,"1 Atk, 1 Spe, 1 SpA",No-Eggs,null,null
+Chespin,650,chespin.png,650.png,56,61,65,48,45,38,313,Grass,null,Spiny Nut Pokemon,null,null,Overgrow,null,Bulletproof,null,Ground,null,null
+Quilladin,651,quilladin.png,651.png,61,78,95,56,58,57,405,Grass,null,Spiny Armor Pokemon,null,null,Overgrow,null,Bulletproof,null,Ground,null,null
+Chesnaught,652,chesnaught.png,652.png,88,107,122,74,75,64,530,Grass,Fighting,Spiny Armor Pokemon,null,null,Overgrow,null,Bulletproof,null,Ground,null,null
+Fennekin,653,fennekin.png,653.png,40,45,40,62,60,60,307,Fire,null,Fox Pokemon,null,null,Blaze,null,Magician,null,Ground,null,null
+Braixen,654,braixen.png,654.png,59,59,58,90,70,73,409,Fire,null,Fox Pokemon,null,null,Blaze,null,Magician,null,Ground,null,null
+Delphox,655,delphox.png,655.png,75,69,72,114,100,104,534,Fire,Psychic,Fox Pokemon,null,null,Blaze,null,Magician,null,Ground,null,null
+Froakie,656,froakie.png,656.png,41,56,40,62,44,71,314,Water,null,Bubble Frog Pokemon,null,null,Torrent,null,Protean,null,Water1,null,null
+Frogadier,657,frogadier.png,657.png,54,63,52,83,56,97,405,Water,null,Bubble Frog Pokemon,null,null,Torrent,null,Protean,null,Water1,null,null
+Greninja,658,greninja.png,658.png,72,95,67,103,71,122,530,Water,Dark,Ninja Pokemon,null,null,Torrent,null,Protean,null,Water1,null,null
+Bunnelby,659,bunnelby.png,659.png,38,36,38,32,36,57,237,Normal,null,Digging Pokemon,null,null,Pickup,Cheek Pouch,Huge Power,null,Ground,null,null
+Diggersby,660,diggersby.png,660.png,85,56,77,50,77,78,423,Normal,Ground,Digging Pokemon,null,null,Pickup,Cheek Pouch,Huge Power,null,Ground,null,null
+Fletchling,661,fletchling.png,661.png,45,50,43,40,38,62,278,Normal,Flying,Tiny Robin Pokemon,null,null,Big Pecks,null,Gale Wings,null,Flying,null,null
+Fletchinder,662,fletchinder.png,662.png,62,73,55,56,52,84,382,Fire,Flying,Ember Pokemon,null,null,Flame Body,null,Gale Wings,null,Flying,null,null
+Talonflame,663,talonflame.png,663.png,78,81,71,74,69,126,499,Fire,Flying,Scorching Pokemon,null,null,Flame Body,null,Gale Wings,null,Flying,null,null
+Scatterbug,664,scatterbug.png,664.png,38,35,40,27,25,35,200,Bug,null,Scatterdust Pokemon,null,null,Shield Dust,Compound Eyes,Friend Guard,null,Bug,null,null
+Spewpa,665,spewpa.png,665.png,45,22,60,27,30,29,213,Bug,null,Scatterdust Pokemon,null,null,Shed Skin,null,Friend Guard,null,Bug,null,null
+Vivillon,666,vivillon.png,666.png,80,52,50,90,50,89,411,Bug,Flying,Scale Pokemon,null,null,Shield Dust,Compound Eyes,Friend Guard,null,Bug,null,null
+Litleo,667,litleo.png,667.png,62,50,58,73,54,72,369,Fire,Normal,Lion Cub Pokemon,null,null,Rivalry,Unnerve,Moxie,null,Ground,null,null
+Pyroar,668,pyroar.png,668.png,86,68,72,109,66,106,507,Fire,Normal,Royal Pokemon,null,null,Rivalry,Unnerve,Moxie,null,Ground,null,null
+Flabebe,669,flabebe.png,669.png,44,38,39,61,79,42,303,Fairy,null,Single Bloom Pokemon,null,null,Flower Veil,null,Symbiosis,null,Fairy,null,null
+Floette,670,floette.png,670.png,54,45,47,75,98,52,371,Fairy,null,Single Bloom Pokemon,null,null,Flower Veil,null,Symbiosis,null,Fairy,null,null
+Florges,671,florges.png,671.png,78,65,68,112,154,75,552,Fairy,null,Garden Pokemon,null,null,Flower Veil,null,Symbiosis,null,Fairy,null,null
+Skiddo,672,skiddo.png,672.png,66,65,48,62,57,52,350,Grass,null,Mount Pokemon,null,null,Sap Sipper,null,Grass Pelt,null,Ground,null,null
+Gogoat,673,gogoat.png,673.png,123,100,62,97,81,68,531,Grass,null,Mount Pokemon,null,null,Sap Sipper,null,Grass Pelt,null,Ground,null,null
+Pancham,674,pancham.png,674.png,67,82,62,46,48,43,348,Fighting,null,Playful Pokemon,null,null,Iron Fist,Mold Breaker,Scrappy,null,Ground,Humanshape,null
+Pangoro,675,pangoro.png,675.png,95,124,78,69,71,58,495,Fighting,Dark,Daunting Pokemon,null,null,Iron Fist,Mold Breaker,Scrappy,null,Ground,Humanshape,null
+Furfrou,676,furfrou.png,676.png,75,80,60,65,90,102,472,Normal,null,Poodle Pokemon,null,null,Fur Coat,null,null,null,Ground,null,null
+Espurr,677,espurr.png,677.png,62,48,54,63,60,68,355,Psychic,null,Restraint Pokemon,null,null,Keen Eye,Infiltrator,Own Tempo,null,Ground,null,null
+Meowstic,678,meowstic.png,678.png,74,48,76,83,81,104,466,Psychic,null,Constraint Pokemon,null,null,Keen Eye,Infiltrator,Prankster,null,Ground,null,null
+Honedge,679,honedge.png,679.png,45,80,100,35,37,28,325,Steel,Ghost,Sword Pokemon,null,null,No Guard,null,null,null,Mineral,null,null
+Doublade,680,doublade.png,680.png,59,110,150,45,49,35,448,Steel,Ghost,Sword Pokemon,null,null,No Guard,null,null,null,Mineral,null,null
+Aegislash,681,aegislash.png,681.png,60,50,140,50,140,60,500,Steel,Ghost,Royal Sword Pokemon,null,null,Stance Change,null,null,null,Mineral,null,null
+Spritzee,682,spritzee.png,682.png,78,52,60,63,65,23,341,Fairy,null,Perfume Pokemon,null,null,Healer,null,Aroma Veil,null,Fairy,null,null
+Aromatisse,683,aromatisse.png,683.png,101,72,72,99,89,29,462,Fairy,null,Fragrance Pokemon,null,null,Healer,null,Aroma Veil,null,Fairy,null,null
+Swirlix,684,swirlix.png,684.png,62,48,66,59,57,49,341,Fairy,null,Cotton Candy Pokemon,null,null,Sweet Veil,null,Unburden,null,Fairy,null,null
+Slurpuff,685,slurpuff.png,685.png,82,80,86,85,75,72,480,Fairy,null,Meringue Pokemon,null,null,Sweet Veil,null,Unburden,null,Fairy,null,null
+Inkay,686,inkay.png,686.png,53,54,53,37,46,45,288,Dark,Psychic,Revolving Pokemon,null,null,Contrary,Suction Cups,Infiltrator,null,Water1,Water2,null
+Malamar,687,malamar.png,687.png,86,92,88,68,75,73,482,Dark,Psychic,Overturning Pokemon,null,null,Contrary,Suction Cups,Infiltrator,null,Water1,Water2,null
+Binacle,688,binacle.png,688.png,42,52,67,39,56,50,306,Rock,Water,Two-Handed Pokemon,null,null,Tough Claws,Sniper,Pickpocket,null,Water3,null,null
+Barbaracle,689,barbaracle.png,689.png,72,105,115,54,86,68,500,Rock,Water,Collective Pokemon,null,null,Tough Claws,Sniper,Pickpocket,null,Water3,null,null
+Skrelp,690,skrelp.png,690.png,50,60,60,60,60,30,320,Poison,Water,Mock Kelp Pokemon,null,null,Poison Point,Poison Touch,Adaptability,null,Water1,Dragon,null
+Dragalge,691,dragalge.png,691.png,65,75,90,97,123,44,494,Poison,Dragon,Mock Kelp Pokemon,null,null,Poison Point,Poison Touch,Adaptability,null,Water1,Dragon,null
+Clauncher,692,clauncher.png,692.png,50,53,62,58,63,44,330,Water,null,Water Gun Pokemon,null,null,Mega Launcher,null,null,null,Water1,Water3,null
+Clawitzer,693,clawitzer.png,693.png,71,73,88,120,89,59,500,Water,null,Howitzer Pokemon,null,null,Mega Launcher,null,null,null,Water1,Water3,null
+Helioptile,694,helioptile.png,694.png,44,38,33,61,43,70,289,Electric,Normal,Generator Pokemon,null,null,Dry Skin,Sand Veil,Solar Power,null,Monster,Dragon,null
+Heliolisk,695,heliolisk.png,695.png,62,55,52,109,94,109,481,Electric,Normal,Generator Pokemon,null,null,Dry Skin,Sand Veil,Solar Power,null,Monster,Dragon,null
+Tyrunt,696,tyrunt.png,696.png,58,89,77,45,45,48,362,Rock,Dragon,Royal Heir Pokemon,null,null,Strong Jaw,null,Sturdy,null,Monster,Dragon,null
+Tyrantrum,697,tyrantrum.png,697.png,82,121,119,69,59,71,521,Rock,Dragon,Despot Pokemon,null,null,Strong Jaw,null,Rock Head,null,Monster,Dragon,null
+Amaura,698,amaura.png,698.png,77,59,50,67,63,46,362,Rock,Ice,Tundra Pokemon,null,null,Refrigerate,null,Snow Warning,null,Monster,null,null
+Aurorus,699,aurorus.png,699.png,123,77,72,99,92,58,521,Rock,Ice,Tundra Pokemon,null,null,Refrigerate,null,Snow Warning,null,Monster,null,null
+Sylveon,700,sylveon.png,700.png,95,65,65,110,130,60,525,Fairy,null,Intertwining Pokemon,null,null,Cute Charm,null,Pixilate,null,Ground,null,null
+Hawlucha,701,hawlucha.png,701.png,78,92,75,74,63,118,500,Fighting,Flying,Wrestling Pokemon,null,null,Limber,Unburden,Mold Breaker,null,Flying,Humanshape,null
+Dedenne,702,dedenne.png,702.png,67,58,57,81,67,101,431,Electric,Fairy,Antenna Pokemon,null,null,Cheek Pouch,Pickup,Plus,null,Ground,Fairy,null
+Carbink,703,carbink.png,703.png,50,50,150,50,150,50,500,Rock,Fairy,Jewel Pokemon,null,null,Clear Body,null,Sturdy,null,Mineral,Fairy,null
+Goomy,704,goomy.png,704.png,45,50,35,55,75,40,300,Dragon,null,Soft Tissue Pokemon,null,null,Sap Sipper,Hydration,Gooey,null,Dragon,null,null
+Sliggoo-hisui,705,sliggoo-hisui.png,705-hisui.png,58,75,83,83,113,40,452,Steel,Dragon,Soft Tissue Pokemon,null,null,Sap Sipper,Hydration,Gooey,null,Dragon,null,null
+Sliggoo,705,sliggoo.png,705.png,68,75,53,83,113,60,452,Dragon,null,Soft Tissue Pokemon,null,null,Sap Sipper,Hydration,Gooey,null,Dragon,null,null
+Goodra-hisui,706,goodra-hisui.png,706-hisui.png,80,100,100,110,150,60,600,Steel,Dragon,Dragon Pokemon,null,null,Sap Sipper,Hydration,Gooey,null,Dragon,null,null
+Goodra,706,goodra.png,706.png,90,100,70,110,150,80,600,Dragon,null,Dragon Pokemon,null,null,Sap Sipper,Hydration,Gooey,null,Dragon,null,null
+Klefki,707,klefki.png,707.png,57,80,91,80,87,75,470,Steel,Fairy,Key Ring Pokemon,null,null,Prankster,null,Magician,null,Mineral,null,null
+Phantump,708,phantump.png,708.png,43,70,48,50,60,38,309,Ghost,Grass,Stump Pokemon,null,null,Natural Cure,Frisk,Harvest,null,Plant,Indeterminate,null
+Trevenant,709,trevenant.png,709.png,85,110,76,65,82,56,474,Ghost,Grass,Elder Tree Pokemon,null,null,Natural Cure,Frisk,Harvest,null,Plant,Indeterminate,null
+Pumpkaboo,710,pumpkaboo.png,710.png,49,66,70,44,55,51,335,Ghost,Grass,Pumpkin Pokemon,null,null,Pickup,Frisk,Insomnia,null,Indeterminate,null,null
+Gourgeist,711,gourgeist.png,711.png,65,90,122,58,75,84,494,Ghost,Grass,Pumpkin Pokemon,null,null,Pickup,Frisk,Insomnia,null,Indeterminate,null,null
+Bergmite,712,bergmite.png,712.png,55,69,85,32,35,28,304,Ice,null,Ice Chunk Pokemon,null,null,Own Tempo,Ice Body,Sturdy,null,Monster,Mineral,null
+Avalugg-hisui,713,avalugg-hisui.png,713-hisui.png,95,127,184,34,36,38,514,Ice,Rock,Iceberg Pokemon,null,null,Own Tempo,Ice Body,Sturdy,null,Monster,Mineral,null
+Avalugg,713,avalugg.png,713.png,95,117,184,44,46,28,514,Ice,null,Iceberg Pokemon,null,null,Own Tempo,Ice Body,Sturdy,null,Monster,Mineral,null
+Noibat,714,noibat.png,714.png,40,30,35,45,40,55,245,Flying,Dragon,Sound Wave Pokemon,null,null,Frisk,Infiltrator,Telepathy,null,Dragon,Flying,null
+Noivern,715,noivern.png,715.png,85,70,80,97,80,123,535,Flying,Dragon,Sound Wave Pokemon,null,null,Frisk,Infiltrator,Telepathy,null,Flying,Dragon,null
+Xerneas,716,xerneas.png,716.png,126,131,95,131,98,99,680,Fairy,null,Life Pokemon,null,null,Fairy Aura,null,null,null,No-Eggs,null,null
+Yveltal,717,yveltal.png,717.png,126,131,95,131,98,99,680,Dark,Flying,Destruction Pokemon,null,null,Dark Aura,null,null,null,No-Eggs,null,null
+Zygarde 50%,718,zygarde.png,718.png,108,100,121,81,95,95,600,Dragon,Ground,Order Pokemon,null,null,Aura Break,null,null,null,No-Eggs,null,null
+Diancie,719,diancie.png,719.png,50,100,150,100,150,50,600,Rock,Fairy,Jewel Pokemon,null,null,Clear Body,null,null,null,No-Eggs,null,null
+Hoopa,720,hoopa.png,720.png,80,110,60,150,130,70,600,Psychic,Ghost,Mischief Pokemon,null,null,Magician,null,null,null,No-Eggs,null,null
+Volcanion,721,volcanion.png,721.png,80,110,120,130,90,70,600,Fire,Water,Steam Pokemon,null,null,Water Absorb,null,null,null,No-Eggs,null,null
+Rowlet,722,rowlet.png,722.png,68,55,55,50,50,42,320,Grass,Flying,Grass Quill Pokemon,null,null,Overgrow,null,Long Reach,null,Flying,null,null
+Dartrix,723,dartrix.png,723.png,78,75,75,70,70,52,420,Grass,Flying,Blade Quill Pokemon,null,null,Overgrow,null,Long Reach,null,Flying,null,null
+Decidueye-hisui,724,decidueye-hisui.png,724-hisui.png,88,112,80,95,95,60,530,Grass,Fighting,Arrow Quill Pokemon,null,null,Overgrow,null,Long Reach,null,Flying,null,null
+Decidueye,724,decidueye.png,724.png,78,107,75,100,100,70,530,Grass,Ghost,Arrow Quill Pokemon,null,null,Overgrow,null,Long Reach,null,Flying,null,null
+Litten,725,litten.png,725.png,45,65,40,60,40,70,320,Fire,null,Fire Cat Pokemon,null,null,Blaze,null,Intimidate,null,Ground,null,null
+Torracat,726,torracat.png,726.png,65,85,50,80,50,90,420,Fire,null,Fire Cat Pokemon,null,null,Blaze,null,Intimidate,null,Ground,null,null
+Incineroar,727,incineroar.png,727.png,95,115,90,80,90,60,530,Fire,Dark,Heel Pokemon,null,null,Blaze,null,Intimidate,null,Ground,null,null
+Popplio,728,popplio.png,728.png,50,54,54,66,56,40,320,Water,null,Sea Lion Pokemon,null,null,Torrent,null,Liquid Voice,null,Ground,Water1,null
+Brionne,729,brionne.png,729.png,60,69,69,91,81,50,420,Water,null,Pop Star Pokemon,null,null,Torrent,null,Liquid Voice,null,Water1,Ground,null
+Primarina,730,primarina.png,730.png,80,74,74,126,116,60,530,Water,Fairy,Soloist Pokemon,null,null,Torrent,null,Liquid Voice,null,Water1,Ground,null
+Pikipek,731,pikipek.png,731.png,35,75,30,30,30,65,265,Normal,Flying,Woodpecker Pokemon,null,null,Keen Eye,Skill Link,Pickup,null,Flying,null,null
+Trumbeak,732,trumbeak.png,732.png,55,85,50,40,50,75,355,Normal,Flying,Bugle Beak Pokemon,null,null,Keen Eye,Skill Link,Pickup,null,Flying,null,null
+Toucannon,733,toucannon.png,733.png,80,120,75,75,75,60,485,Normal,Flying,Cannon Pokemon,null,null,Keen Eye,Skill Link,Sheer Force,null,Flying,null,null
+Yungoos,734,yungoos.png,734.png,48,70,30,30,30,45,253,Normal,null,Loitering Pokemon,null,null,Stakeout,Strong Jaw,Adaptability,null,Ground,null,null
+Gumshoos,735,gumshoos.png,735.png,88,110,60,55,60,45,418,Normal,null,Stakeout Pokemon,null,null,Stakeout,Strong Jaw,Adaptability,null,Ground,null,null
+Grubbin,736,grubbin.png,736.png,47,62,45,55,45,46,300,Bug,null,Larva Pokemon,null,null,Swarm,null,null,null,Bug,null,null
+Charjabug,737,charjabug.png,737.png,57,82,95,55,75,36,400,Bug,Electric,Battery Pokemon,null,null,Battery,null,null,null,Bug,null,null
+Vikavolt,738,vikavolt.png,738.png,77,70,90,145,75,43,500,Bug,Electric,Stag Beetle Pokemon,null,null,Levitate,null,null,null,Bug,null,null
+Crabrawler,739,crabrawler.png,739.png,47,82,57,42,47,63,338,Fighting,null,Boxing Pokemon,null,null,Hyper Cutter,Iron Fist,Anger Point,null,Water3,null,null
+Crabominable,740,crabominable.png,740.png,97,132,77,62,67,43,478,Fighting,Ice,Woolly Crab Pokemon,null,null,Hyper Cutter,Iron Fist,Anger Point,null,Water3,null,null
+Oricorio,741,oricorio.png,741.png,75,70,70,98,70,93,476,Fire,Flying,Dancing Pokemon,null,null,Dancer,null,null,null,Flying,null,null
+Cutiefly,742,cutiefly.png,742.png,40,45,40,55,40,84,304,Bug,Fairy,Bee Fly Pokemon,null,null,Honey Gather,Shield Dust,Sweet Veil,null,Bug,Fairy,null
+Ribombee,743,ribombee.png,743.png,60,55,60,95,70,124,464,Bug,Fairy,Bee Fly Pokemon,null,null,Honey Gather,Shield Dust,Sweet Veil,null,Bug,Fairy,null
+Rockruff,744,rockruff.png,744.png,45,65,40,30,40,60,280,Rock,null,Puppy Pokemon,null,null,Keen Eye,Vital Spirit,Steadfast,null,Ground,null,null
+Lycanroc,745,lycanroc.png,745.png,75,115,65,55,65,112,487,Rock,null,Wolf Pokemon,null,null,Keen Eye,Sand Rush,Steadfast,null,Ground,null,null
+Wishiwashi,746,wishiwashi.png,746.png,45,20,20,25,25,40,175,Water,null,Small Fry Pokemon,null,null,Schooling,null,null,null,Water2,null,null
+Mareanie,747,mareanie.png,747.png,50,53,62,43,52,45,305,Poison,Water,Brutal Star Pokemon,null,null,Merciless,Limber,Regenerator,null,Water1,null,null
+Toxapex,748,toxapex.png,748.png,50,63,152,53,142,35,495,Poison,Water,Brutal Star Pokemon,null,null,Merciless,Limber,Regenerator,null,Water1,null,null
+Mudbray,749,mudbray.png,749.png,70,100,70,45,55,45,385,Ground,null,Donkey Pokemon,null,null,Own Tempo,Stamina,Inner Focus,null,Ground,null,null
+Mudsdale,750,mudsdale.png,750.png,100,125,100,55,85,35,500,Ground,null,Draft Horse Pokemon,null,null,Own Tempo,Stamina,Inner Focus,null,Ground,null,null
+Dewpider,751,dewpider.png,751.png,38,40,52,40,72,27,269,Water,Bug,Water Bubble Pokemon,null,null,Water Bubble,null,Water Absorb,null,Water1,Bug,null
+Araquanid,752,araquanid.png,752.png,68,70,92,50,132,42,454,Water,Bug,Water Bubble Pokemon,null,null,Water Bubble,null,Water Absorb,null,Water1,Bug,null
+Fomantis,753,fomantis.png,753.png,40,55,35,50,35,35,250,Grass,null,Sickle Grass Pokemon,null,null,Leaf Guard,null,Contrary,null,Plant,null,null
+Lurantis,754,lurantis.png,754.png,70,105,90,80,90,45,480,Grass,null,Bloom Sickle Pokemon,null,null,Leaf Guard,null,Contrary,null,Plant,null,null
+Morelull,755,morelull.png,755.png,40,35,55,65,75,15,285,Grass,Fairy,Illuminating Pokemon,null,null,Illuminate,Effect Spore,Rain Dish,null,Plant,null,null
+Shiinotic,756,shiinotic.png,756.png,60,45,80,90,100,30,405,Grass,Fairy,Illuminating Pokemon,null,null,Illuminate,Effect Spore,Rain Dish,null,Plant,null,null
+Salandit,757,salandit.png,757.png,48,44,40,71,40,77,320,Poison,Fire,Toxic Lizard Pokemon,null,null,Corrosion,null,Oblivious,null,Monster,Dragon,null
+Salazzle,758,salazzle.png,758.png,68,64,60,111,60,117,480,Poison,Fire,Toxic Lizard Pokemon,null,null,Corrosion,null,Oblivious,null,Monster,Dragon,null
+Stufful,759,stufful.png,759.png,70,75,50,45,50,50,340,Normal,Fighting,Flailing Pokemon,null,null,Fluffy,Klutz,Cute Charm,null,Ground,null,null
+Bewear,760,bewear.png,760.png,120,125,80,55,60,60,500,Normal,Fighting,Strong Arm Pokemon,null,null,Fluffy,Klutz,Unnerve,null,Ground,null,null
+Bounsweet,761,bounsweet.png,761.png,42,30,38,30,38,32,210,Grass,null,Fruit Pokemon,null,null,Leaf Guard,Oblivious,Sweet Veil,null,Plant,null,null
+Steenee,762,steenee.png,762.png,52,40,48,40,48,62,290,Grass,null,Fruit Pokemon,null,null,Leaf Guard,Oblivious,Sweet Veil,null,Plant,null,null
+Tsareena,763,tsareena.png,763.png,72,120,98,50,98,72,510,Grass,null,Fruit Pokemon,null,null,Leaf Guard,Queenly Majesty,Sweet Veil,null,Plant,null,null
+Comfey,764,comfey.png,764.png,51,52,90,82,110,100,485,Fairy,null,Posy Picker Pokemon,null,null,Flower Veil,Triage,Natural Cure,null,Plant,null,null
+Oranguru,765,oranguru.png,765.png,90,60,80,90,110,60,490,Normal,Psychic,Sage Pokemon,null,null,Inner Focus,Telepathy,Symbiosis,null,Ground,null,null
+Passimian,766,passimian.png,766.png,100,120,90,40,60,80,490,Fighting,null,Teamwork Pokemon,null,null,Receiver,null,Defiant,null,Ground,null,null
+Wimpod,767,wimpod.png,767.png,25,35,40,20,30,80,230,Bug,Water,Turn Tail Pokemon,null,null,Wimp Out,null,null,null,Water3,Bug,null
+Golisopod,768,golisopod.png,768.png,75,125,140,60,90,40,530,Bug,Water,Hard Scale Pokemon,null,null,Emergency Exit,null,null,null,Bug,Water3,null
+Sandygast,769,sandygast.png,769.png,55,55,80,70,45,15,320,Ghost,Ground,Sand Heap Pokemon,null,null,Water Compaction,null,Sand Veil,null,Indeterminate,null,null
+Palossand,770,palossand.png,770.png,85,75,110,100,75,35,480,Ghost,Ground,Sand Castle Pokemon,null,null,Water Compaction,null,Sand Veil,null,Indeterminate,null,null
+Pyukumuku,771,pyukumuku.png,771.png,55,60,130,30,130,5,410,Water,null,Sea Cucumber Pokemon,null,null,Innards Out,null,Unaware,null,Water1,null,null
+Type: Null,772,type-null.png,772.png,95,95,95,95,95,59,534,Normal,null,Synthetic Pokemon,null,null,Battle Armor,null,null,null,No-Eggs,null,null
+Silvally,773,silvally.png,773.png,95,95,95,95,95,95,570,Normal,null,Synthetic Pokemon,null,null,Rks System,null,null,null,No-Eggs,null,null
+Minior,774,minior.png,774.png,60,60,100,60,100,60,440,Rock,Flying,Meteor Pokemon,null,null,Shields Down,null,null,null,Mineral,null,null
+Komala,775,komala.png,775.png,65,115,65,75,95,65,480,Normal,null,Drowsing Pokemon,null,null,Comatose,null,null,null,Ground,null,null
+Turtonator,776,turtonator.png,776.png,60,78,135,91,85,36,485,Fire,Dragon,Blast Turtle Pokemon,null,null,Shell Armor,null,null,null,Monster,Dragon,null
+Togedemaru,777,togedemaru.png,777.png,65,98,63,40,73,96,435,Electric,Steel,Roly-Poly Pokemon,null,null,Iron Barbs,Lightning Rod,Sturdy,null,Ground,Fairy,null
+Mimikyu,778,mimikyu.png,778.png,55,90,80,50,105,96,476,Ghost,Fairy,Disguise Pokemon,null,null,Disguise,null,null,null,Indeterminate,null,null
+Bruxish,779,bruxish.png,779.png,68,105,70,70,70,92,475,Water,Psychic,Gnash Teeth Pokemon,null,null,Dazzling,Strong Jaw,Wonder Skin,null,Water2,null,null
+Drampa,780,drampa.png,780.png,78,60,85,135,91,36,485,Normal,Dragon,Placid Pokemon,null,null,Berserk,Sap Sipper,Cloud Nine,null,Monster,Dragon,null
+Dhelmise,781,dhelmise.png,781.png,70,131,100,86,90,40,517,Ghost,Grass,Sea Creeper Pokemon,null,null,Steelworker,null,null,null,Mineral,null,null
+Jangmo-o,782,jangmo-o.png,782.png,45,55,65,45,45,45,300,Dragon,null,Scaly Pokemon,null,null,Bulletproof,Soundproof,Overcoat,null,Dragon,null,null
+Hakamo-o,783,hakamo-o.png,783.png,55,75,90,65,70,65,420,Dragon,Fighting,Scaly Pokemon,null,null,Bulletproof,Soundproof,Overcoat,null,Dragon,null,null
+Kommo-o,784,kommo-o.png,784.png,75,110,125,100,105,85,600,Dragon,Fighting,Scaly Pokemon,null,null,Bulletproof,Soundproof,Overcoat,null,Dragon,null,null
+Tapu Koko,785,tapu-koko.png,785.png,70,115,85,95,75,130,570,Electric,Fairy,Land Spirit Pokemon,null,null,Electric Surge,null,Telepathy,null,No-Eggs,null,null
+Tapu Lele,786,tapu-lele.png,786.png,70,85,75,130,115,95,570,Psychic,Fairy,Land Spirit Pokemon,null,null,Psychic Surge,null,Telepathy,null,No-Eggs,null,null
+Tapu Bulu,787,tapu-bulu.png,787.png,70,130,115,85,95,75,570,Grass,Fairy,Land Spirit Pokemon,null,null,Grassy Surge,null,Telepathy,null,No-Eggs,null,null
+Tapu Fini,788,tapu-fini.png,788.png,70,75,115,95,130,85,570,Water,Fairy,Land Spirit Pokemon,null,null,Misty Surge,null,Telepathy,null,No-Eggs,null,null
+Cosmog,789,cosmog.png,789.png,43,29,31,29,31,37,200,Psychic,null,Nebula Pokemon,null,null,Unaware,null,null,null,No-Eggs,null,null
+Cosmoem,790,cosmoem.png,790.png,43,29,131,29,131,37,400,Psychic,null,Protostar Pokemon,null,null,Sturdy,null,null,null,No-Eggs,null,null
+Solgaleo,791,solgaleo.png,791.png,137,137,107,113,89,97,680,Psychic,Steel,Sunne Pokemon,null,null,Full Metal Body,null,null,null,No-Eggs,null,null
+Lunala,792,lunala.png,792.png,137,113,89,137,107,97,680,Psychic,Ghost,Moone Pokemon,null,null,Shadow Shield,null,null,null,No-Eggs,null,null
+Nihilego,793,nihilego.png,793.png,109,53,47,127,131,103,570,Rock,Poison,Parasite Pokemon,null,null,Beast Boost,null,null,null,No-Eggs,null,null
+Buzzwole,794,buzzwole.png,794.png,107,139,139,53,53,79,570,Bug,Fighting,Swollen Pokemon,null,null,Beast Boost,null,null,null,No-Eggs,null,null
+Pheromosa,795,pheromosa.png,795.png,71,137,37,137,37,151,570,Bug,Fighting,Lissome Pokemon,null,null,Beast Boost,null,null,null,No-Eggs,null,null
+Xurkitree,796,xurkitree.png,796.png,83,89,71,173,71,83,570,Electric,null,Glowing Pokemon,null,null,Beast Boost,null,null,null,No-Eggs,null,null
+Celesteela,797,celesteela.png,797.png,97,101,103,107,101,61,570,Steel,Flying,Launch Pokemon,null,null,Beast Boost,null,null,null,No-Eggs,null,null
+Kartana,798,kartana.png,798.png,59,181,131,59,31,109,570,Grass,Steel,Drawn Sword Pokemon,null,null,Beast Boost,null,null,null,No-Eggs,null,null
+Guzzlord,799,guzzlord.png,799.png,223,101,53,97,53,43,570,Dark,Dragon,Junkivore Pokemon,null,null,Beast Boost,null,null,null,No-Eggs,null,null
+Necrozma,800,necrozma.png,800.png,97,107,101,127,89,79,600,Psychic,null,Prism Pokemon,null,null,Prism Armor,null,null,null,No-Eggs,null,null
+Magearna,801,magearna.png,801.png,80,95,115,130,115,65,600,Steel,Fairy,Artificial Pokemon,null,null,Soul Heart,null,null,null,No-Eggs,null,null
+Marshadow,802,marshadow.png,802.png,90,125,80,90,90,125,600,Fighting,Ghost,Gloomdweller Pokemon,null,null,Technician,null,null,null,No-Eggs,null,null
+Poipole,803,poipole.png,803.png,67,73,67,73,67,73,420,Poison,null,Poison Pin Pokemon,null,null,Beast Boost,null,null,null,No-Eggs,null,null
+Naganadel,804,naganadel.png,804.png,73,73,73,127,73,121,540,Poison,Dragon,Poison Pin Pokemon,null,null,Beast Boost,null,null,null,No-Eggs,null,null
+Stakataka,805,stakataka.png,805.png,61,131,211,53,101,13,570,Rock,Steel,Rampart Pokemon,null,null,Beast Boost,null,null,null,No-Eggs,null,null
+Blacephalon,806,blacephalon.png,806.png,53,127,53,151,79,107,570,Fire,Ghost,Fireworks Pokemon,null,null,Beast Boost,null,null,null,No-Eggs,null,null
+Zeraora,807,zeraora.png,807.png,88,112,75,102,80,143,600,Electric,null,Thunderclap Pokemon,null,null,Volt Absorb,null,null,null,No-Eggs,null,null
+Meltan,808,meltan.png,808.png,46,65,65,55,35,34,300,Steel,null,Hex Nut Pokemon,null,null,Magnet Pull,null,null,null,No-Eggs,null,null
+Melmetal,809,melmetal.png,809.png,135,143,143,80,65,34,600,Steel,null,Hex Nut Pokemon,null,null,Iron Fist,null,null,null,No-Eggs,null,null
+Grookey,810,grookey.png,810.png,50,65,50,40,40,65,310,Grass,null,Chimp Pokemon,null,null,Overgrow,null,Grassy Surge,null,Plant,Ground,null
+Thwackey,811,thwackey.png,811.png,70,85,70,55,60,80,420,Grass,null,Beat Pokemon,null,null,Overgrow,null,Grassy Surge,null,Ground,Plant,null
+Rillaboom,812,rillaboom.png,812.png,100,125,90,60,70,85,530,Grass,null,Drummer Pokemon,null,null,Overgrow,null,Grassy Surge,null,Ground,Plant,null
+Scorbunny,813,scorbunny.png,813.png,50,71,40,40,40,69,310,Fire,null,Rabbit Pokemon,null,null,Blaze,null,Libero,null,Ground,Humanshape,null
+Raboot,814,raboot.png,814.png,65,86,60,55,60,94,420,Fire,null,Rabbit Pokemon,null,null,Blaze,null,Libero,null,Ground,Humanshape,null
+Cinderace,815,cinderace.png,815.png,80,116,75,65,75,119,530,Fire,null,Striker Pokemon,null,null,Blaze,null,Libero,null,Ground,Humanshape,null
+Sobble,816,sobble.png,816.png,50,40,40,70,40,70,310,Water,null,Water Lizard Pokemon,null,null,Torrent,null,Sniper,null,Water1,Ground,null
+Drizzile,817,drizzile.png,817.png,65,60,55,95,55,90,420,Water,null,Water Lizard Pokemon,null,null,Torrent,null,Sniper,null,Water1,Ground,null
+Inteleon,818,inteleon.png,818.png,70,85,65,125,65,120,530,Water,null,Secret Agent Pokemon,null,null,Torrent,null,Sniper,null,Ground,Water1,null
+Skwovet,819,skwovet.png,819.png,70,55,55,35,35,25,275,Normal,null,Cheeky Pokemon,null,null,Cheek Pouch,null,Gluttony,null,Ground,null,null
+Greedent,820,greedent.png,820.png,120,95,95,55,75,20,460,Normal,null,Greedy Pokemon,null,null,Cheek Pouch,null,Gluttony,null,Ground,null,null
+Rookidee,821,rookidee.png,821.png,38,47,35,33,35,57,245,Flying,null,Tiny Bird Pokemon,null,null,Keen Eye,Unnerve,Big Pecks,null,Flying,null,null
+Corvisquire,822,corvisquire.png,822.png,68,67,55,43,55,77,365,Flying,null,Raven Pokemon,null,null,Keen Eye,Unnerve,Big Pecks,null,Flying,null,null
+Corviknight,823,corviknight.png,823.png,98,87,105,53,85,67,495,Flying,Steel,Raven Pokemon,null,null,Pressure,Unnerve,Mirror Armor,null,Flying,null,null
+Blipbug,824,blipbug.png,824.png,25,20,20,25,45,45,180,Bug,null,Larva Pokemon,null,null,Swarm,Compound Eyes,Telepathy,null,Bug,null,null
+Dottler,825,dottler.png,825.png,50,35,80,50,90,30,335,Bug,Psychic,Radome Pokemon,null,null,Swarm,Compound Eyes,Telepathy,null,Bug,null,null
+Orbeetle,826,orbeetle.png,826.png,60,45,110,80,120,90,505,Bug,Psychic,Seven Spot Pokemon,null,null,Swarm,Frisk,Telepathy,null,Bug,null,null
+Nickit,827,nickit.png,827.png,40,28,28,47,52,50,245,Dark,null,Fox Pokemon,null,null,Run Away,Unburden,Stakeout,null,Ground,null,null
+Thievul,828,thievul.png,828.png,70,58,58,87,92,90,455,Dark,null,Fox Pokemon,null,null,Run Away,Unburden,Stakeout,null,Ground,null,null
+Gossifleur,829,gossifleur.png,829.png,40,40,60,40,60,10,250,Grass,null,Flowering Pokemon,null,null,Cotton Down,Regenerator,Effect Spore,null,Plant,null,null
+Eldegoss,830,eldegoss.png,830.png,60,50,90,80,120,60,460,Grass,null,Cotton Bloom Pokemon,null,null,Cotton Down,Regenerator,Effect Spore,null,Plant,null,null
+Wooloo,831,wooloo.png,831.png,42,40,55,40,45,48,270,Normal,null,Sheep Pokemon,null,null,Fluffy,Run Away,Bulletproof,null,Ground,null,null
+Dubwool,832,dubwool.png,832.png,72,80,100,60,90,88,490,Normal,null,Sheep Pokemon,null,null,Fluffy,Steadfast,Bulletproof,null,Ground,null,null
+Chewtle,833,chewtle.png,833.png,50,64,50,38,38,44,284,Water,null,Snapping Pokemon,null,null,Strong Jaw,Shell Armor,Swift Swim,null,Water1,Monster,null
+Drednaw,834,drednaw.png,834.png,90,115,90,48,68,74,485,Water,Rock,Bite Pokemon,null,null,Strong Jaw,Shell Armor,Swift Swim,null,Monster,Water1,null
+Yamper,835,yamper.png,835.png,59,45,50,40,50,26,270,Electric,null,Puppy Pokemon,null,null,Ball Fetch,null,Rattled,null,Ground,null,null
+Boltund,836,boltund.png,836.png,69,90,60,90,60,121,490,Electric,null,Dog Pokemon,null,null,Strong Jaw,null,Competitive,null,Ground,null,null
+Rolycoly,837,rolycoly.png,837.png,30,40,50,40,50,30,240,Rock,null,Coal Pokemon,null,null,Steam Engine,Heatproof,Flash Fire,null,Mineral,null,null
+Carkol,838,carkol.png,838.png,80,60,90,60,70,50,410,Rock,Fire,Coal Pokemon,null,null,Steam Engine,Flame Body,Flash Fire,null,Mineral,null,null
+Coalossal,839,coalossal.png,839.png,110,80,120,80,90,30,510,Rock,Fire,Coal Pokemon,null,null,Steam Engine,Flame Body,Flash Fire,null,Mineral,null,null
+Applin,840,applin.png,840.png,40,40,80,40,40,20,260,Grass,Dragon,Apple Core Pokemon,null,null,Ripen,Gluttony,Bulletproof,null,Plant,Dragon,null
+Flapple,841,flapple.png,841.png,70,110,80,95,60,70,485,Grass,Dragon,Apple Wing Pokemon,null,null,Ripen,Gluttony,Hustle,null,Plant,Dragon,null
+Appletun,842,appletun.png,842.png,110,85,80,100,80,30,485,Grass,Dragon,Apple Nectar Pokemon,null,null,Ripen,Gluttony,Thick Fat,null,Plant,Dragon,null
+Silicobra,843,silicobra.png,843.png,52,57,75,35,50,46,315,Ground,null,Sand Snake Pokemon,null,null,Sand Spit,Shed Skin,Sand Veil,null,Ground,Dragon,null
+Sandaconda,844,sandaconda.png,844.png,72,107,125,65,70,71,510,Ground,null,Sand Snake Pokemon,null,null,Sand Spit,Shed Skin,Sand Veil,null,Ground,Dragon,null
+Cramorant,845,cramorant.png,845.png,70,85,55,85,95,85,475,Flying,Water,Gulp Pokemon,null,null,Gulp Missile,null,null,null,Water1,Flying,null
+Arrokuda,846,arrokuda.png,846.png,41,63,40,40,30,66,280,Water,null,Rush Pokemon,null,null,Swift Swim,null,Propeller Tail,null,Water2,null,null
+Barraskewda,847,barraskewda.png,847.png,61,123,60,60,50,136,490,Water,null,Skewer Pokemon,null,null,Swift Swim,null,Propeller Tail,null,Water2,null,null
+Toxel,848,toxel.png,848.png,40,38,35,54,35,40,242,Electric,Poison,Baby Pokemon,null,null,Rattled,Static,Klutz,null,No-Eggs,null,null
+Toxtricity,849,toxtricity.png,849.png,75,98,70,114,70,75,502,Electric,Poison,Punk Pokemon,null,null,Punk Rock,Plus,Technician,null,Humanshape,null,null
+Sizzlipede,850,sizzlipede.png,850.png,50,65,45,50,50,45,305,Fire,Bug,Radiator Pokemon,null,null,Flash Fire,White Smoke,Flame Body,null,Bug,null,null
+Centiskorch,851,centiskorch.png,851.png,100,115,65,90,90,65,525,Fire,Bug,Radiator Pokemon,null,null,Flash Fire,White Smoke,Flame Body,null,Bug,null,null
+Clobbopus,852,clobbopus.png,852.png,50,68,60,50,50,32,310,Fighting,null,Tantrum Pokemon,null,null,Limber,null,Technician,null,Water1,Humanshape,null
+Grapploct,853,grapploct.png,853.png,80,118,90,70,80,42,480,Fighting,null,Jujitsu Pokemon,null,null,Limber,null,Technician,null,Water1,Humanshape,null
+Sinistea,854,sinistea.png,854.png,40,45,45,74,54,50,308,Ghost,null,Black Tea Pokemon,null,null,Weak Armor,null,Cursed Body,null,Mineral,Indeterminate,null
+Polteageist,855,polteageist.png,855.png,60,65,65,134,114,70,508,Ghost,null,Black Tea Pokemon,null,null,Weak Armor,null,Cursed Body,null,Mineral,Indeterminate,null
+Hatenna,856,hatenna.png,856.png,42,30,45,56,53,39,265,Psychic,null,Calm Pokemon,null,null,Healer,Anticipation,Magic Bounce,null,Fairy,null,null
+Hattrem,857,hattrem.png,857.png,57,40,65,86,73,49,370,Psychic,null,Serene Pokemon,null,null,Healer,Anticipation,Magic Bounce,null,Fairy,null,null
+Hatterene,858,hatterene.png,858.png,57,90,95,136,103,29,510,Psychic,Fairy,Silent Pokemon,null,null,Healer,Anticipation,Magic Bounce,null,Fairy,null,null
+Impidimp,859,impidimp.png,859.png,45,45,30,55,40,50,265,Dark,Fairy,Wily Pokemon,null,null,Prankster,Frisk,Pickpocket,null,Fairy,Humanshape,null
+Morgrem,860,morgrem.png,860.png,65,60,45,75,55,70,370,Dark,Fairy,Devious Pokemon,null,null,Prankster,Frisk,Pickpocket,null,Fairy,Humanshape,null
+Grimmsnarl,861,grimmsnarl.png,861.png,95,120,65,95,75,60,510,Dark,Fairy,Bulk Up Pokemon,null,null,Prankster,Frisk,Pickpocket,null,Fairy,Humanshape,null
+Obstagoon,862,obstagoon.png,862.png,93,90,101,60,81,95,520,Dark,Normal,Blocking Pokemon,null,null,Reckless,Guts,Defiant,null,Ground,null,null
+Perrserker,863,perrserker.png,863.png,70,110,100,50,60,50,440,Steel,null,Viking Pokemon,null,null,Battle Armor,Tough Claws,Steely Spirit,null,Ground,null,null
+Cursola,864,cursola.png,864.png,60,95,50,145,130,30,510,Ghost,null,Coral Pokemon,null,null,Weak Armor,null,Perish Body,null,Water1,Water3,null
+Sirfetch'd,865,sirfetchd.png,865.png,62,135,95,68,82,65,507,Fighting,null,Wild Duck Pokemon,null,null,Steadfast,null,Scrappy,null,Ground,Flying,null
+Mr. Rime,866,mr-rime.png,866.png,80,85,75,110,100,70,520,Ice,Psychic,Comedian Pokemon,null,null,Tangled Feet,Screen Cleaner,Ice Body,null,Humanshape,null,null
+Runerigus,867,runerigus.png,867.png,58,95,145,50,105,30,483,Ground,Ghost,Grudge Pokemon,null,null,Wandering Spirit,null,null,null,Mineral,Indeterminate,null
+Milcery,868,milcery.png,868.png,45,40,40,50,61,34,270,Fairy,null,Cream Pokemon,null,null,Sweet Veil,null,Aroma Veil,null,Fairy,Indeterminate,null
+Alcremie,869,alcremie.png,869.png,65,60,75,110,121,64,495,Fairy,null,Cream Pokemon,null,null,Sweet Veil,null,Aroma Veil,null,Fairy,Indeterminate,null
+Falinks,870,falinks.png,870.png,65,100,100,70,60,75,470,Fighting,null,Formation Pokemon,null,null,Battle Armor,null,Defiant,null,Fairy,Mineral,null
+Pincurchin,871,pincurchin.png,871.png,48,101,95,91,85,15,435,Electric,null,Sea Urchin Pokemon,null,null,Lightning Rod,null,Electric Surge,null,Water1,Indeterminate,null
+Snom,872,snom.png,872.png,30,25,35,45,30,20,185,Ice,Bug,Worm Pokemon,null,null,Shield Dust,null,Ice Scales,null,Bug,null,null
+Frosmoth,873,frosmoth.png,873.png,70,65,60,125,90,65,475,Ice,Bug,Frost Moth Pokemon,null,null,Shield Dust,null,Ice Scales,null,Bug,null,null
+Stonjourner,874,stonjourner.png,874.png,100,125,135,20,20,70,470,Rock,null,Big Rock Pokemon,null,null,Power Spot,null,null,null,Mineral,null,null
+Eiscue,875,eiscue.png,875.png,75,80,110,65,90,50,470,Ice,null,Penguin Pokemon,null,null,Ice Face,null,null,null,Ground,Water1,null
+Indeedee,876,indeedee.png,876.png,70,55,65,95,105,85,475,Psychic,Normal,Emotion Pokemon,null,null,Inner Focus,Synchronize,Psychic Surge,null,Fairy,null,null
+Morpeko,877,morpeko.png,877.png,58,95,58,70,58,97,436,Electric,Dark,Two-Sided Pokemon,null,null,Hunger Switch,null,null,null,Ground,Fairy,null
+Cufant,878,cufant.png,878.png,72,80,49,40,49,40,330,Steel,null,Copperderm Pokemon,null,null,Sheer Force,null,Heavy Metal,null,Ground,Mineral,null
+Copperajah,879,copperajah.png,879.png,122,120,69,80,69,30,500,Steel,null,Copperderm Pokemon,null,null,Sheer Force,null,Heavy Metal,null,Ground,Mineral,null
+Dracozolt,880,dracozolt.png,880.png,90,100,90,80,70,75,505,Electric,Dragon,Fossil Pokemon,null,null,Volt Absorb,Hustle,Sand Rush,null,No-Eggs,null,null
+Arctozolt,881,arctozolt.png,881.png,90,100,90,90,80,55,505,Electric,Ice,Fossil Pokemon,null,null,Volt Absorb,Static,Slush Rush,null,No-Eggs,null,null
+Dracovish,882,dracovish.png,882.png,90,90,100,70,80,75,505,Water,Dragon,Fossil Pokemon,null,null,Water Absorb,Strong Jaw,Sand Rush,null,No-Eggs,null,null
+Arctovish,883,arctovish.png,883.png,90,90,100,80,90,55,505,Water,Ice,Fossil Pokemon,null,null,Water Absorb,Ice Body,Slush Rush,null,No-Eggs,null,null
+Duraludon,884,duraludon.png,884.png,70,95,115,120,50,85,535,Steel,Dragon,Alloy Pokemon,null,null,Light Metal,Heavy Metal,Stalwart,null,Mineral,Dragon,null
+Dreepy,885,dreepy.png,885.png,28,60,30,40,30,82,270,Dragon,Ghost,Lingering Pokemon,null,null,Clear Body,Infiltrator,Cursed Body,null,Indeterminate,Dragon,null
+Drakloak,886,drakloak.png,886.png,68,80,50,60,50,102,410,Dragon,Ghost,Caretaker Pokemon,null,null,Clear Body,Infiltrator,Cursed Body,null,Indeterminate,Dragon,null
+Dragapult,887,dragapult.png,887.png,88,120,75,100,75,142,600,Dragon,Ghost,Stealth Pokemon,null,null,Clear Body,Infiltrator,Cursed Body,null,Indeterminate,Dragon,null
+Zacian,888,zacian.png,888.png,92,150,115,80,115,148,700,Fairy,Steel,Warrior Pokemon,null,null,Intrepid Sword,null,null,null,No-Eggs,null,null
+Zamazenta,889,zamazenta.png,889.png,92,120,140,80,140,128,700,Fighting,Steel,Warrior Pokemon,null,null,Dauntless Shield,null,null,null,No-Eggs,null,null
+Eternatus,890,eternatus.png,890.png,140,85,95,145,95,130,690,Poison,Dragon,Gigantic Pokemon,null,null,Pressure,null,null,null,No-Eggs,null,null
+Kubfu,891,kubfu.png,891.png,60,90,60,53,50,72,385,Fighting,null,Wushu Pokemon,null,null,Inner Focus,null,null,null,No-Eggs,null,null
+Urshifu,892,urshifu.png,892.png,100,130,100,63,60,97,550,Fighting,Dark,Wushu Pokemon,null,null,Unseen Fist,null,null,null,No-Eggs,null,null
+Zarude,893,zarude.png,893.png,105,120,105,70,95,105,600,Dark,Grass,Rogue Monkey Pokemon,null,null,Leaf Guard,null,null,null,No-Eggs,null,null
+Regieleki,894,regieleki.png,894.png,80,100,50,100,50,200,580,Electric,null,Electron Pokemon,null,null,Transistor,null,null,null,No-Eggs,null,null
+Regidrago,895,regidrago.png,895.png,200,100,50,100,50,80,580,Dragon,null,Dragon Orb Pokemon,null,null,Dragons Maw,null,null,null,No-Eggs,null,null
+Glastrier,896,glastrier.png,896.png,100,145,130,65,110,30,580,Ice,null,Wild Horse Pokemon,null,null,Chilling Neigh,null,null,null,No-Eggs,null,null
+Spectrier,897,spectrier.png,897.png,100,65,60,145,80,130,580,Ghost,null,Swift Horse Pokemon,null,null,Grim Neigh,null,null,null,No-Eggs,null,null
+Calyrex,898,calyrex.png,898.png,100,80,80,80,80,80,500,Psychic,Grass,King Pokemon,null,null,Unnerve,null,null,null,No-Eggs,null,null
+Wyrdeer,899,wyrdeer.png,899.png,103,105,72,105,75,65,525,Normal,Psychic,null,null,null,null,null,null,null,null,null,null
+Kleavor,900,kleavor.png,900.png,70,130,95,45,75,85,500,Bug,Rock,null,null,null,null,null,null,null,null,null,null
+Ursaluna,901,ursaluna.png,901.png,130,140,105,45,80,50,550,Ground,Normal,null,null,null,null,null,null,null,null,null,null
+Basculegion,902,basculegion.png,902.png,120,112,65,80,75,78,530,Water,Ghost,null,null,null,null,null,null,null,null,null,null
+Sneasler,903,sneasler.png,903.png,80,130,60,40,80,120,510,Poison,Fighting,null,null,null,null,null,null,null,null,null,null
+Overqwil,904,overqwil.png,904.png,85,115,95,65,65,85,510,Dark,Poison,null,null,null,null,null,null,null,null,null,null
+Enamorus,905,enamorus.png,905.png,74,115,70,135,80,106,580,Fairy,Flying,null,null,null,null,null,null,null,null,null,null
+Sprigatito,906,sprigatito.png,906.png,40,61,54,45,45,65,310,Grass,null,null,null,null,null,null,null,null,null,null,null
+Floragato,907,floragato.png,907.png,61,80,63,60,63,83,410,Grass,null,null,null,null,null,null,null,null,null,null,null
+Meowscarada,908,meowscarada.png,908.png,76,110,70,81,70,123,530,Grass,Dark,null,null,null,null,null,null,null,null,null,null
+Fuecoco,909,fuecoco.png,909.png,67,45,59,63,40,36,310,Fire,null,null,null,null,null,null,null,null,null,null,null
+Crocalor,910,crocalor.png,910.png,81,55,78,90,58,49,411,Fire,null,null,null,null,null,null,null,null,null,null,null
+Skeledirge,911,skeledirge.png,911.png,104,75,100,110,75,66,530,Fire,Ghost,null,null,null,null,null,null,null,null,null,null
+Quaxly,912,quaxly.png,912.png,55,65,45,50,45,50,310,Water,null,null,null,null,null,null,null,null,null,null,null
+Quaxwell,913,quaxwell.png,913.png,70,85,65,65,60,65,410,Water,null,null,null,null,null,null,null,null,null,null,null
+Quaquaval,914,quaquaval.png,914.png,85,120,80,85,75,85,530,Water,Fighting,null,null,null,null,null,null,null,null,null,null
+Lechonk,915,lechonk.png,915.png,54,45,40,35,45,35,254,Normal,null,null,null,null,null,null,null,null,null,null,null
+Oinkologne,916,oinkologne.png,916.png,110,100,75,59,80,65,489,Normal,null,null,null,null,null,null,null,null,null,null,null
+Tarountula,917,tarountula.png,917.png,35,41,45,29,40,20,210,Bug,null,null,null,null,null,null,null,null,null,null,null
+Spidops,918,spidops.png,918.png,60,79,92,52,86,35,404,Bug,null,null,null,null,null,null,null,null,null,null,null
+Nymble,919,nymble.png,919.png,33,46,40,21,25,45,210,Bug,null,null,null,null,null,null,null,null,null,null,null
+Lokix,920,lokix.png,920.png,71,102,78,52,55,92,450,Bug,Dark,null,null,null,null,null,null,null,null,null,null
+Pawmi,921,pawmi.png,921.png,45,50,20,40,25,60,240,Electric,null,null,null,null,null,null,null,null,null,null,null
+Pawmo,922,pawmo.png,922.png,60,75,40,50,40,85,350,Electric,Fighting,null,null,null,null,null,null,null,null,null,null
+Pawmot,923,pawmot.png,923.png,70,115,70,70,60,105,490,Electric,Fighting,null,null,null,null,null,null,null,null,null,null
+Tandemaus,924,tandemaus.png,924.png,50,50,45,40,45,75,305,Normal,null,null,null,null,null,null,null,null,null,null,null
+Maushold,925,maushold.png,925.png,74,75,70,65,75,111,470,Normal,null,null,null,null,null,null,null,null,null,null,null
+Fidough,926,fidough.png,926.png,37,55,70,30,55,65,312,Fairy,null,null,null,null,null,null,null,null,null,null,null
+Dachsbun,927,dachsbun.png,927.png,57,80,115,50,80,95,477,Fairy,null,null,null,null,null,null,null,null,null,null,null
+Smoliv,928,smoliv.png,928.png,41,35,45,58,51,30,260,Grass,Normal,null,null,null,null,null,null,null,null,null,null
+Dolliv,929,dolliv.png,929.png,52,53,60,78,78,33,354,Grass,Normal,null,null,null,null,null,null,null,null,null,null
+Arboliva,930,arboliva.png,930.png,78,69,90,125,109,39,510,Grass,Normal,null,null,null,null,null,null,null,null,null,null
+Squawkabilly,931,squawkabilly.png,931.png,82,96,51,45,51,92,417,Normal,Flying,null,null,null,null,null,null,null,null,null,null
+Nacli,932,nacli.png,932.png,55,55,75,35,35,25,280,Rock,null,null,null,null,null,null,null,null,null,null,null
+Naclstack,933,naclstack.png,933.png,60,60,100,35,65,35,355,Rock,null,null,null,null,null,null,null,null,null,null,null
+Garganacl,934,garganacl.png,934.png,100,100,130,45,90,35,500,Rock,null,null,null,null,null,null,null,null,null,null,null
+Charcadet,935,charcadet.png,935.png,40,50,40,50,40,35,255,Fire,null,null,null,null,null,null,null,null,null,null,null
+Armarouge,936,armarouge.png,936.png,85,60,100,125,80,75,525,Fire,Psychic,null,null,null,null,null,null,null,null,null,null
+Ceruledge,937,ceruledge.png,937.png,75,125,80,60,100,85,525,Fire,Ghost,null,null,null,null,null,null,null,null,null,null
+Tadbulb,938,tadbulb.png,938.png,61,31,41,59,35,45,272,Electric,null,null,null,null,null,null,null,null,null,null,null
+Bellibolt,939,bellibolt.png,939.png,109,64,91,103,83,45,495,Electric,null,null,null,null,null,null,null,null,null,null,null
+Wattrel,940,wattrel.png,940.png,40,40,35,55,40,70,280,Electric,Flying,null,null,null,null,null,null,null,null,null,null
+Kilowattrel,941,kilowattrel.png,941.png,70,70,60,105,60,125,490,Electric,Flying,null,null,null,null,null,null,null,null,null,null
+Machiff,942,machiff.png,942.png,60,78,60,40,51,51,340,Dark,null,null,null,null,null,null,null,null,null,null,null
+Mabosstiff,943,mabosstiff.png,943.png,80,120,90,60,70,85,505,Dark,null,null,null,null,null,null,null,null,null,null,null
+Shroodle,944,shroodle.png,944.png,40,65,35,40,35,75,290,Poison,Normal,null,null,null,null,null,null,null,null,null,null
+Grafaiai,945,grafaiai.png,945.png,63,95,65,80,72,110,485,Poison,Normal,null,null,null,null,null,null,null,null,null,null
+Bramblin,946,bramblin.png,946.png,40,65,30,45,35,60,275,Grass,Ghost,null,null,null,null,null,null,null,null,null,null
+Brambleghast,947,brambleghast.png,947.png,55,115,70,80,70,90,480,Grass,Ghost,null,null,null,null,null,null,null,null,null,null
+Toedscool,948,toedscool.png,948.png,40,40,35,50,100,70,335,Ground,Grass,null,null,null,null,null,null,null,null,null,null
+Toedscruel,949,toedscruel.png,949.png,80,70,65,80,120,100,515,Ground,Grass,null,null,null,null,null,null,null,null,null,null
+Klawf,950,klawf.png,950.png,70,100,115,35,55,75,450,Rock,null,null,null,null,null,null,null,null,null,null,null
+Capsakid,951,capsakid.png,951.png,50,62,40,62,40,50,304,Grass,null,null,null,null,null,null,null,null,null,null,null
+Scovillain,952,scovillain.png,952.png,65,108,65,108,65,75,486,Grass,Fire,null,null,null,null,null,null,null,null,null,null
+Rellor,953,rellor.png,953.png,41,50,60,31,58,30,270,Bug,null,null,null,null,null,null,null,null,null,null,null
+Rabsca,954,rabsca.png,954.png,75,50,85,115,100,45,470,Bug,Psychic,null,null,null,null,null,null,null,null,null,null
+Flittle,955,flittle.png,955.png,30,35,30,55,30,75,255,Psychic,null,null,null,null,null,null,null,null,null,null,null
+Espathra,956,espathra.png,956.png,95,60,60,101,60,105,481,Psychic,null,null,null,null,null,null,null,null,null,null,null
+Tinkatink,957,tinkatink.png,957.png,50,45,45,35,64,58,297,Fairy,Steel,null,null,null,null,null,null,null,null,null,null
+Tinkatuff,958,tinkatuff.png,958.png,65,55,55,45,82,78,380,Fairy,Steel,null,null,null,null,null,null,null,null,null,null
+Tinkaton,959,tinkaton.png,959.png,85,75,77,70,105,94,506,Fairy,Steel,null,null,null,null,null,null,null,null,null,null
+Wiglett,960,wiglett.png,960.png,10,55,25,35,25,95,245,Water,null,null,null,null,null,null,null,null,null,null,null
+Wugtrio,961,wugtrio.png,961.png,35,100,50,50,70,120,425,Water,null,null,null,null,null,null,null,null,null,null,null
+Bombirdier,962,bombirdier.png,962.png,70,103,85,60,85,82,485,Flying,Dark,null,null,null,null,null,null,null,null,null,null
+Finizen,963,finizen.png,963.png,70,45,40,45,40,75,315,Water,null,null,null,null,null,null,null,null,null,null,null
+Palafin,964,palafin.png,964.png,100,70,72,53,62,100,457,Water,null,null,null,null,null,null,null,null,null,null,null
+Varoom,965,varoom.png,965.png,45,70,63,30,45,47,300,Steel,Poison,null,null,null,null,null,null,null,null,null,null
+Revavroom,966,revavroom.png,966.png,80,119,90,54,67,90,500,Steel,Poison,null,null,null,null,null,null,null,null,null,null
+Cyclizar,967,cyclizar.png,967.png,70,95,65,85,65,121,501,Dragon,Normal,null,null,null,null,null,null,null,null,null,null
+Orthworm,968,orthworm.png,968.png,70,85,145,60,55,65,480,Steel,null,null,null,null,null,null,null,null,null,null,null
+Glimmet,969,glimmet.png,969.png,48,35,42,105,60,60,350,Rock,Poison,null,null,null,null,null,null,null,null,null,null
+Glimmora,970,glimmora.png,970.png,83,55,90,130,81,86,525,Rock,Poison,null,null,null,null,null,null,null,null,null,null
+Greavard,971,greavard.png,971.png,50,61,60,30,55,34,290,Ghost,null,null,null,null,null,null,null,null,null,null,null
+Houndstone,972,houndstone.png,972.png,72,101,100,50,97,68,488,Ghost,null,null,null,null,null,null,null,null,null,null,null
+Flamigo,973,flamigo.png,973.png,82,115,74,75,64,90,500,Flying,Fighting,null,null,null,null,null,null,null,null,null,null
+Cetoddle,974,cetoddle.png,974.png,108,68,45,30,40,43,334,Ice,null,null,null,null,null,null,null,null,null,null,null
+Cetitan,975,cetitan.png,975.png,170,113,65,45,55,73,521,Ice,null,null,null,null,null,null,null,null,null,null,null
+Veluza,976,veluza.png,976.png,90,102,73,78,65,70,478,Water,Psychic,null,null,null,null,null,null,null,null,null,null
+Dondozo,977,dondozo.png,977.png,150,100,115,65,65,35,530,Water,null,null,null,null,null,null,null,null,null,null,null
+Tatsugiri,978,tatsugiri.png,978.png,68,50,60,120,95,82,475,Dragon,Water,null,null,null,null,null,null,null,null,null,null
+Annihilape,979,annihilape.png,979.png,110,115,80,50,90,90,535,Fighting,Ghost,null,null,null,null,null,null,null,null,null,null
+Clodsire,980,clodsire.png,980.png,130,75,60,45,100,20,430,Poison,Ground,null,null,null,null,null,null,null,null,null,null
+Farigiraf,981,farigiraf.png,981.png,120,90,70,110,70,60,520,Normal,Psychic,null,null,null,null,null,null,null,null,null,null
+Dudunsparce,982,dudunsparce.png,982.png,125,100,80,85,75,55,520,Normal,null,null,null,null,null,null,null,null,null,null,null
+Kingambit,983,kingambit.png,983.png,100,135,120,60,85,50,550,Dark,Steel,null,null,null,null,null,null,null,null,null,null
+Great Tusk,984,great tusk.png,984.png,115,131,131,53,53,87,570,Ground,Fighting,null,null,null,null,null,null,null,null,null,null
+Scream Tail,985,scream tail.png,985.png,115,65,99,65,115,111,570,Fairy,Psychic,null,null,null,null,null,null,null,null,null,null
+Brute Bonnet,986,brute bonnet.png,986.png,111,127,99,79,99,55,570,Grass,Dark,null,null,null,null,null,null,null,null,null,null
+Flutter Mane,987,flutter mane.png,987.png,55,55,55,135,135,135,570,Ghost,Fairy,null,null,null,null,null,null,null,null,null,null
+Slither Wing,988,slither wing.png,988.png,85,135,79,85,105,81,570,Bug,Fighting,null,null,null,null,null,null,null,null,null,null
+Sandy Shocks,989,sandy shocks.png,989.png,85,81,97,121,85,101,570,Electric,Ground,null,null,null,null,null,null,null,null,null,null
+Iron Treads,990,iron treads.png,990.png,90,112,120,72,70,106,570,Ground,Steel,null,null,null,null,null,null,null,null,null,null
+Iron Bundle,991,iron bundle.png,991.png,56,80,114,124,60,136,570,Ice,Water,null,null,null,null,null,null,null,null,null,null
+Iron Hands,992,iron hands.png,992.png,154,140,108,50,68,50,570,Fighting,Electric,null,null,null,null,null,null,null,null,null,null
+Iron Jugulis,993,iron jugulis.png,993.png,94,80,86,122,80,108,570,Dark,Flying,null,null,null,null,null,null,null,null,null,null
+Iron Moth,994,iron moth.png,994.png,80,70,60,140,110,110,570,Fire,Poison,null,null,null,null,null,null,null,null,null,null
+Iron Thorns,995,iron thorns.png,995.png,100,134,110,70,84,72,570,Rock,Electric,null,null,null,null,null,null,null,null,null,null
+Frigibax,996,frigibax.png,996.png,65,75,45,35,45,55,320,Dragon,Ice,null,null,null,null,null,null,null,null,null,null
+Arctibax,997,arctibax.png,997.png,90,95,66,45,65,62,423,Dragon,Ice,null,null,null,null,null,null,null,null,null,null
+Baxcalibur,998,baxcalibur.png,998.png,115,145,92,75,86,87,600,Dragon,Ice,null,null,null,null,null,null,null,null,null,null
+Gimmighoul,999,gimmighoul.png,999.png,45,30,70,75,70,10,300,Ghost,null,null,null,null,null,null,null,null,null,null,null
+Gholdengo,1000,gholdengo.png,1000.png,87,60,95,133,91,84,550,Steel,Ghost,null,null,null,null,null,null,null,null,null,null
+Wo-Chien,1001,wo-chien.png,1001.png,85,85,100,95,135,70,570,Dark,Grass,null,null,null,null,null,null,null,null,null,null
+Chien-Pao,1002,chien-pao.png,1002.png,80,120,80,90,65,135,570,Dark,Ice,null,null,null,null,null,null,null,null,null,null
+Ting-Lu,1003,ting-lu.png,1003.png,155,110,125,55,80,45,570,Dark,Ground,null,null,null,null,null,null,null,null,null,null
+Chi-Yu,1004,chi-yu.png,1004.png,55,80,80,135,120,100,570,Dark,Fire,null,null,null,null,null,null,null,null,null,null
+Roaring Moon,1005,roaring moon.png,1005.png,105,139,71,55,101,119,590,Dragon,Dark,null,null,null,null,null,null,null,null,null,null
+Iron Valiant,1006,iron valiant.png,1006.png,74,130,90,120,60,116,590,Fairy,Fighting,null,null,null,null,null,null,null,null,null,null
+Koraidon,1007,koraidon.png,1007.png,100,135,115,85,100,135,670,Fighting,Dragon,null,null,null,null,null,null,null,null,null,null
+Miraidon,1008,miraidon.png,1008.png,100,85,100,135,115,135,670,Electric,Dragon,null,null,null,null,null,null,null,null,null,null
