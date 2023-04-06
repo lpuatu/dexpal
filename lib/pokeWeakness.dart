@@ -16,7 +16,7 @@ class PokeWeakState extends State<PokeWeak> {
   bool isLoading = true;
 
   bool hastype2 = true;
-  Map<String, double> typeMap = {};
+  Map<String, dynamic> typeMap = {};
   List<String> superEffective = [];
   List<String> normalEffective = [];
   List<String> resist = [];
@@ -73,14 +73,14 @@ class PokeWeakState extends State<PokeWeak> {
     return Scaffold(
       appBar: PreferredSize(
         preferredSize:
-            Size.fromHeight(MediaQuery.of(context).size.height * 0.09),
+            Size.fromHeight(MediaQuery.of(context).size.height * 0.07),
         // The title text which will be shown on the action bar
         child: AppBar(
           backgroundColor: Theme.of(context).primaryColor,
           automaticallyImplyLeading: true,
-          title: hastype2
+          /*title: hastype2
               ? Text(widget.detailPoke.type1 + '/' + widget.detailPoke.type2)
-              : Text(widget.detailPoke.type1),
+              : Text(widget.detailPoke.type1),*/
           actions: const [],
           centerTitle: true,
           elevation: 4,
