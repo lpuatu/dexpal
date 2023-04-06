@@ -13,7 +13,13 @@ class PokeWeak extends StatefulWidget {
 }
 
 class PokeWeakState extends State<PokeWeak> {
+  bool isLoading = true;
+
   bool hastype2 = true;
+  Map<String, double> typeMap = {};
+  List<String> superEffective = [];
+  List<String> normalEffective = [];
+  List<String> resist = [];
 
   @override
   void initState() {
@@ -23,29 +29,47 @@ class PokeWeakState extends State<PokeWeak> {
   }
 
   void getWeakness() async {
-    final myData = await rootBundle.loadString("typeWeak.csv");
-    List<List<dynamic>> weakCsv = const CsvToListConverter().convert(myData);
+    setState(() {
+      isLoading = true;
+    });
 
-    int type1index = 1;
+    final myData = await rootBundle.loadString("assets/typeWeak.csv");
+    List<List<dynamic>> weakCsv = const CsvToListConverter().convert(myData);
     int type2index = 1;
 
-    Map<String, int> typeMap = {"null": 0};
-
-    for (int i = 1; i < weakCsv[0].length; i++) {
-      if (weakCsv[0][i] == widget.detailPoke.type1) i = type1index;
-      if (weakCsv[0][i] == widget.detailPoke.type2) i = type2index;
+    int type1index = weakCsv[0].indexOf(widget.detailPoke.type1);
+    if (hastype2) {
+      type2index = weakCsv[0].indexOf(widget.detailPoke.type2);
     }
 
-    for (int j = 1; j < weakCsv.length; j++) {
+    for (int j = 1; j < weakCsv[0].length; j++) {
       typeMap[weakCsv[j][0]] = weakCsv[j][type1index] * weakCsv[j][type2index];
     }
+
+    superEffective = typeMap.entries
+        .where((entry) => entry.value >= 2)
+        .map((entry) => entry.key)
+        .toList();
+
+    normalEffective = typeMap.entries
+        .where((entry) => entry.value == 1)
+        .map((entry) => entry.key)
+        .toList();
+
+    resist = typeMap.entries
+        .where((entry) => entry.value < 1)
+        .map((entry) => entry.key)
+        .toList();
+
+    setState(() {
+      isLoading = false;
+    });
   }
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
+  @override
   Widget build(BuildContext context) {
-    key:
-    scaffoldKey;
     return Scaffold(
       appBar: PreferredSize(
         preferredSize:
@@ -54,19 +78,125 @@ class PokeWeakState extends State<PokeWeak> {
         child: AppBar(
           backgroundColor: Theme.of(context).primaryColor,
           automaticallyImplyLeading: true,
-          title: Text(widget.detailPoke.type1 + '/' + widget.detailPoke.type2),
-          actions: [],
+          title: hastype2
+              ? Text(widget.detailPoke.type1 + '/' + widget.detailPoke.type2)
+              : Text(widget.detailPoke.type1),
+          actions: const [],
           centerTitle: true,
           elevation: 4,
         ),
       ),
-      body: Column(
-        children: [
-          Container(
-            child: Text(''),
-          ),
-        ],
-      ),
+      body: isLoading
+          ? const Center(child: CircularProgressIndicator())
+          : Column(
+              children: [
+                Container(
+                  width: double.infinity,
+                  color: Colors.grey,
+                  child: const Padding(
+                    padding:
+                        EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+                    child: Center(
+                      child: Text(
+                        'Super Effective!',
+                        style: TextStyle(
+                          fontSize: 18.0,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: GridView.builder(
+                    gridDelegate:
+                        const SliverGridDelegateWithFixedCrossAxisCount(
+                      crossAxisCount: 3,
+                      childAspectRatio: (1 / .4),
+                    ), // 3 buttons in a row
+                    itemCount: superEffective.length,
+                    itemBuilder: (BuildContext context, int index) {
+                      final key = superEffective[index];
+                      return Center(
+                        child: Image.asset(
+                          'pokeSprites/types/' + key + '.png',
+                        ),
+                      );
+                    },
+                  ),
+                ),
+                Container(
+                  width: double.infinity,
+                  color: Colors.grey,
+                  child: const Padding(
+                    padding:
+                        EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+                    child: Center(
+                      child: Text(
+                        'Normal Effective',
+                        style: TextStyle(
+                          fontSize: 18.0,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: GridView.builder(
+                    gridDelegate:
+                        const SliverGridDelegateWithFixedCrossAxisCount(
+                      crossAxisCount: 3,
+                      childAspectRatio: (1 / .4),
+                    ), // 3 buttons in a row
+                    itemCount: normalEffective.length,
+                    itemBuilder: (BuildContext context, int index) {
+                      final key = normalEffective[index];
+                      return Center(
+                        child: Image.asset(
+                          'pokeSprites/types/' + key + '.png',
+                        ),
+                      );
+                    },
+                  ),
+                ),
+                Container(
+                  width: double.infinity,
+                  color: Colors.grey,
+                  child: const Padding(
+                    padding:
+                        EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+                    child: Center(
+                      child: Text(
+                        'Not Very Effective',
+                        style: TextStyle(
+                          fontSize: 18.0,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: GridView.builder(
+                    gridDelegate:
+                        const SliverGridDelegateWithFixedCrossAxisCount(
+                      crossAxisCount: 3,
+                      childAspectRatio: (1 / .4),
+                    ), // 3 buttons in a row
+                    itemCount: resist.length,
+                    itemBuilder: (BuildContext context, int index) {
+                      final key = resist[index];
+                      return Center(
+                        child: Image.asset(
+                          'pokeSprites/types/' + key + '.png',
+                        ),
+                      );
+                    },
+                  ),
+                ),
+              ],
+            ),
     );
   }
 }
