@@ -57,8 +57,8 @@ class statChart extends StatelessWidget {
       series,
       animate: true,
       vertical: false,
-      barRendererDecorator: new charts.BarLabelDecorator<String>(),
-      primaryMeasureAxis: charts.NumericAxisSpec(
+      barRendererDecorator: charts.BarLabelDecorator<String>(),
+      primaryMeasureAxis: const charts.NumericAxisSpec(
         renderSpec: charts.NoneRenderSpec(),
         tickProviderSpec:
             charts.BasicNumericTickProviderSpec(desiredTickCount: 5),

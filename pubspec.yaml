@@ -23,6 +23,7 @@ dependencies:
   easy_debounce: ^2.0.3
   sqflite: ^2.0.3
   charts_flutter_new: ^0.12.0
+  google_fonts: ^4.0.3
 
 dev_dependencies:
   flutter_test:
@@ -47,7 +48,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/missingno.png
-    - assets/mariadex.csv
+    - assets/dexdex.csv
     - assets/typeWeak.csv
     - pokeSprites/teamSprite/
     - pokeSprites/types/
