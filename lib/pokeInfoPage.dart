@@ -19,9 +19,9 @@ class PokeInfoState extends State<PokeInfo> {
   bool hasHidden = true;
 
   void checkType() async {
-    if (widget.detailPoke.type2 == 'Null') hastype2 = false;
-    if (widget.detailPoke.ability2 == 'Null') hasAB2 = false;
-    if (widget.detailPoke.hability == 'Null') hasHidden = false;
+    if (widget.detailPoke.type2.toLowerCase() == 'null') hastype2 = false;
+    if (widget.detailPoke.ability2.toLowerCase() == 'null') hasAB2 = false;
+    if (widget.detailPoke.hability.toLowerCase() == 'null') hasHidden = false;
   }
 
   @override
@@ -73,7 +73,8 @@ class PokeInfoState extends State<PokeInfo> {
                   child: Align(
                     alignment: AlignmentDirectional(0, 0),
                     child: Image.asset(
-                      'pokeSprites/homeSprite/' + widget.detailPoke.homeSprite,
+                      'pokeSprites/homeSprite/' +
+                          widget.detailPoke.homeSprite.toLowerCase(),
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -109,9 +110,10 @@ class PokeInfoState extends State<PokeInfo> {
                   },
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisSize: MainAxisSize.max,
                     children: [
-                      Container(
+                      SizedBox(
                         width: MediaQuery.of(context).size.width * 0.15,
                         height: MediaQuery.of(context).size.height * 0.03,
                         child: Image.asset(
@@ -122,7 +124,7 @@ class PokeInfoState extends State<PokeInfo> {
                         ),
                       ),
                       hastype2
-                          ? Container(
+                          ? SizedBox(
                               width: MediaQuery.of(context).size.width * 0.15,
                               height: MediaQuery.of(context).size.height * 0.03,
                               child: Image.asset(
@@ -143,32 +145,62 @@ class PokeInfoState extends State<PokeInfo> {
                     Padding(
                       padding:
                           const EdgeInsetsDirectional.fromSTEB(10, 0, 10, 0),
-                      child: Container(
-                        width: MediaQuery.of(context).size.width * 0.4,
-                        height: MediaQuery.of(context).size.height * 0.25,
-                        child: statChart(pokeStat: widget.detailPoke),
+                      child: SizedBox(
+                        width: MediaQuery.of(context).size.width * 0.5,
+                        height: MediaQuery.of(context).size.height * 0.3,
+                        child: statChart(
+                          pokeStat: widget.detailPoke,
+                        ),
                       ),
                     ),
-                    Container(
-                      width: MediaQuery.of(context).size.width * 0.5,
-                      height: MediaQuery.of(context).size.height * 0.25,
+                    SizedBox(
+                      width: MediaQuery.of(context).size.width * 0.4,
+                      height: MediaQuery.of(context).size.height * 0.30,
                       child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.center,
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Text('Abilities:'),
-                            ],
+                          const Padding(
+                            padding:
+                                EdgeInsetsDirectional.fromSTEB(10, 10, 10, 10),
+                            child: Text(
+                              'Abilities',
+                              style: TextStyle(
+                                decoration: TextDecoration.underline,
+                                fontSize: 20,
+                              ),
+                            ),
                           ),
-                          const Text(' '),
-                          Text('1: ' + widget.detailPoke.ability1),
+                          Padding(
+                            padding: const EdgeInsetsDirectional.fromSTEB(
+                                10, 10, 10, 10),
+                            child: ElevatedButton(
+                              onPressed: () {},
+                              child: Text(widget.detailPoke.ability1),
+                            ),
+                          ),
                           hasAB2
-                              ? Text('2: ' + widget.detailPoke.ability2)
+                              ? Padding(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
+                                      10, 10, 10, 10),
+                                  child: ElevatedButton(
+                                    onPressed: () {},
+                                    child: Text(widget.detailPoke.ability2),
+                                  ),
+                                )
                               : Container(),
                           hasHidden
-                              ? Text('Hidden: ' + widget.detailPoke.hability)
+                              ? Padding(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
+                                      10, 10, 10, 10),
+                                  child: ElevatedButton(
+                                    onPressed: () {},
+                                    style: ElevatedButton.styleFrom(
+                                      backgroundColor: Colors.blue,
+                                    ),
+                                    child: Text(widget.detailPoke.hability),
+                                  ),
+                                )
                               : Container(),
                         ],
                       ),

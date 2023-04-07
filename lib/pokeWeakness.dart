@@ -23,7 +23,7 @@ class PokeWeakState extends State<PokeWeak> {
 
   @override
   void initState() {
-    if (widget.detailPoke.type2 == 'Null') hastype2 = false;
+    if (widget.detailPoke.type2.toLowerCase() == 'null') hastype2 = false;
     getWeakness();
     super.initState();
   }
@@ -43,7 +43,12 @@ class PokeWeakState extends State<PokeWeak> {
     }
 
     for (int j = 1; j < weakCsv[0].length; j++) {
-      typeMap[weakCsv[j][0]] = weakCsv[j][type1index] * weakCsv[j][type2index];
+      if (hastype2) {
+        typeMap[weakCsv[j][0]] =
+            weakCsv[j][type1index] * weakCsv[j][type2index];
+      } else {
+        typeMap[weakCsv[j][0]] = weakCsv[j][type1index];
+      }
     }
 
     superEffective = typeMap.entries
