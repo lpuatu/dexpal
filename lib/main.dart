@@ -6,7 +6,7 @@ void main() {
     MaterialApp(
       title: 'DexPal',
       theme: ThemeData(
-        fontFamily: 'Oxygen',
+        //fontFamily: GoogleFonts.comfortaa(),
         primarySwatch: Colors.red,
         primaryColor: Colors.red,
       ),

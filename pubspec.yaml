@@ -50,6 +50,7 @@ flutter:
     - assets/missingno.png
     - assets/dexdex.csv
     - assets/typeWeak.csv
+    - assets/ability.csv
     - pokeSprites/teamSprite/
     - pokeSprites/types/
     - pokeSprites/homeSprite/
