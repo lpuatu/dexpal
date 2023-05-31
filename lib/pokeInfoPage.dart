@@ -1,6 +1,7 @@
 import 'package:DexPal/pokeMon.dart';
 import 'package:DexPal/statChart.dart';
 import 'package:DexPal/pokeWeakness.dart';
+import 'package:DexPal/pokeAbility.dart';
 import 'package:flutter/material.dart';
 
 class PokeInfo extends StatefulWidget {
@@ -39,9 +40,6 @@ class PokeInfoState extends State<PokeInfo> {
   }
 
   Widget build(BuildContext context) {
-    key:
-    scaffoldKey;
-
     return Scaffold(
       appBar: PreferredSize(
         preferredSize:
@@ -71,7 +69,7 @@ class PokeInfoState extends State<PokeInfo> {
                   width: MediaQuery.of(context).size.width * 0.6,
                   height: MediaQuery.of(context).size.height * 0.3,
                   child: Align(
-                    alignment: AlignmentDirectional(0, 0),
+                    alignment: const AlignmentDirectional(0, 0),
                     child: Image.asset(
                       'pokeSprites/homeSprite/' +
                           widget.detailPoke.homeSprite.toLowerCase(),
@@ -175,7 +173,17 @@ class PokeInfoState extends State<PokeInfo> {
                             padding: const EdgeInsetsDirectional.fromSTEB(
                                 10, 10, 10, 10),
                             child: ElevatedButton(
-                              onPressed: () {},
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (BuildContext context) =>
+                                        PokeAbility(
+                                            abilityName:
+                                                widget.detailPoke.ability1),
+                                  ),
+                                );
+                              },
                               child: Text(widget.detailPoke.ability1),
                             ),
                           ),
@@ -184,7 +192,17 @@ class PokeInfoState extends State<PokeInfo> {
                                   padding: const EdgeInsetsDirectional.fromSTEB(
                                       10, 10, 10, 10),
                                   child: ElevatedButton(
-                                    onPressed: () {},
+                                    onPressed: () {
+                                      Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                          builder: (BuildContext context) =>
+                                              PokeAbility(
+                                                  abilityName: widget
+                                                      .detailPoke.ability2),
+                                        ),
+                                      );
+                                    },
                                     child: Text(widget.detailPoke.ability2),
                                   ),
                                 )
@@ -194,7 +212,17 @@ class PokeInfoState extends State<PokeInfo> {
                                   padding: const EdgeInsetsDirectional.fromSTEB(
                                       10, 10, 10, 10),
                                   child: ElevatedButton(
-                                    onPressed: () {},
+                                    onPressed: () {
+                                      Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                          builder: (BuildContext context) =>
+                                              PokeAbility(
+                                                  abilityName: widget
+                                                      .detailPoke.hability),
+                                        ),
+                                      );
+                                    },
                                     style: ElevatedButton.styleFrom(
                                       backgroundColor: Colors.blue,
                                     ),

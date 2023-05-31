@@ -91,9 +91,7 @@ keen-eye,51,"Keen eyes prevent other Pokemon from lowering this
 Pokemon's accuracy."
 hyper-cutter,52,"The Pokemon's proud of its powerful pincers. They
 prevent other Pokemon from lowering its Attack stat."
-pickup,53,"The Pokemon may pick up the item an opposing
-Pokemon used during a battle. It may pick up items
-outside of battle, too."
+pickup,53,"The Pokemon may pick up the item an opposing Pokemon used during a battle. It may pick up items outside of battle, too."
 truant,54,"The Pokemon can't use a move if it had used a move
 on the previous turn."
 hustle,55,"Boosts the Attack stat, but lowers accuracy."
@@ -114,8 +112,7 @@ marvel-scale,63,"The Pokemon's marvelous scales boost the Defense
 stat if it has a status condition."
 liquid-ooze,64,"The oozed liquid has a strong stench, which damages
 attackers using any draining move."
-overgrow,65,"Powers up Grass-type moves when the Pokemon's
-HP is low."
+overgrow,65,"Powers up Grass-type moves when the Pokemon's HP is low."
 blaze,66,"Powers up Fire-type moves when the Pokemon's HP
 is low."
 torrent,67,"Powers up Water-type moves when the Pokemon's

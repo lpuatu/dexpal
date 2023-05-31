@@ -1,1 +1,2 @@
 Add sort buttons
+Fix issue that involbes displaying ability desc with abilities that have spaces
