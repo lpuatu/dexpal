@@ -44,9 +44,7 @@ class PokeAbilityState extends State<PokeAbility> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('PokeAbility'),
-      ),
+      appBar: AppBar(),
       body: Container(
         padding: const EdgeInsets.all(16.0),
         child: Column(
