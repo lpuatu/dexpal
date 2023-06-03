@@ -1,6 +1,7 @@
 import 'package:DexPal/pokeInfoPage.dart';
 import 'package:DexPal/pokeMon.dart';
 import 'package:DexPal/dataload.dart';
+import 'package:DexPal/navBar.dart';
 import 'package:flutter/material.dart';
 
 class DexPage extends StatefulWidget {
@@ -150,24 +151,7 @@ class DexPageState extends State<DexPage> {
           elevation: 2,
         ),
       ),
-      /*bottomNavigationBar: SizedBox(
-        height: MediaQuery.of(context).size.height * 0.06,
-        child: BottomNavigationBar(
-          items: const <BottomNavigationBarItem>[
-            BottomNavigationBarItem(
-              icon: Icon(
-                Icons.list,
-                size: 10,
-              ),
-              label: 'PokeDex',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.camera),
-              label: 'Camera',
-            ),
-          ],
-        ),
-      ),*/
+      bottomNavigationBar: navBar(),
       endDrawer: Drawer(
         backgroundColor: Colors.grey[200],
         child: Column(
@@ -280,7 +264,7 @@ class DexPageState extends State<DexPage> {
                   children: <Widget>[
                     SizedBox(
                       width: MediaQuery.of(context).size.width,
-                      height: MediaQuery.of(context).size.height * 0.8,
+                      height: MediaQuery.of(context).size.height * 0.78,
                       child: ListView.builder(
                           physics: const AlwaysScrollableScrollPhysics(),
                           padding: const EdgeInsets.all(3),
