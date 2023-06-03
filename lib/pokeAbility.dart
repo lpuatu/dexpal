@@ -25,7 +25,8 @@ class PokeAbilityState extends State<PokeAbility> {
         const CsvToListConverter().convert(ability);
 
     for (int i = 1; i < abilityCsv.length; i++) {
-      if (abilityCsv[i][0] == widget.abilityName.toLowerCase()) {
+      if (abilityCsv[i][0] ==
+          widget.abilityName.toLowerCase().replaceAll(' ', '-')) {
         abilityDesc = abilityCsv[i][2];
       }
     }
