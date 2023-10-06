@@ -19,6 +19,8 @@ class PokeInfoState extends State<PokeInfo> {
   bool hasAB2 = true;
   bool hasHidden = true;
 
+  bool showAbility = false;
+
   void checkType() async {
     if (widget.detailPoke.type2.toLowerCase() == 'null') hastype2 = false;
     if (widget.detailPoke.ability2.toLowerCase() == 'null') hasAB2 = false;
