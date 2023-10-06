@@ -151,7 +151,7 @@ class DexPageState extends State<DexPage> {
           elevation: 2,
         ),
       ),
-      bottomNavigationBar: navBar(),
+      //bottomNavigationBar: navBar(),
       endDrawer: Drawer(
         backgroundColor: Colors.grey[200],
         child: Column(
